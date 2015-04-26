@@ -128,8 +128,10 @@ public class CityBench {
 				File[] queryFiles = queryDirectory.listFiles();
 				if (queryFiles != null) {
 					for (File queryFile : queryFiles) {
-						this.queryMap.put(queryFile.getName().split("\\.")[0],
-								new String(Files.readAllBytes(java.nio.file.Paths.get(queryFile.getName()))));
+						this.queryMap.put(
+								queryFile.getName().split("\\.")[0],
+								new String(Files.readAllBytes(java.nio.file.Paths.get(queryDirectory + File.separator
+										+ queryFile.getName()))));
 					}
 				} else
 					throw new Exception("Cannot find query files.");

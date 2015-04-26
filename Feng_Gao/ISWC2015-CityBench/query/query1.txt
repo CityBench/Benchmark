@@ -1,5 +1,1 @@
-dataset = /dataset
-ontology = /ontology
-streams = /streams
-query = /query
-engine = csparql
+select * where {?s ?p ?o}
