@@ -36,3 +36,13 @@
 2015-04-26 21:54:35 INFO  CityBench:59 - {}
 2015-04-26 21:55:13 INFO  CityBench:58 - {engine=csparql, ontology=/ontology, query=query, dataset=/dataset, streams=/streams}
 2015-04-26 21:55:13 INFO  CityBench:59 - {}
+2015-04-26 22:26:39 INFO  CityBench:58 - {engine=csparql, ontology=/ontology, query=query, dataset=/dataset, streams=/streams}
+2015-04-26 22:26:39 INFO  CityBench:59 - {}
+2015-04-26 22:27:32 INFO  CityBench:58 - {engine=csparql, ontology=/ontology, query=query, dataset=/dataset, streams=/streams}
+2015-04-26 22:27:32 INFO  CityBench:59 - {}
+2015-04-26 22:27:37 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2015-04-26 22:27:37 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2015-04-26 22:28:36 INFO  CityBench:58 - {engine=csparql, ontology=/ontology, query=query, dataset=/dataset, streams=/streams}
+2015-04-26 22:28:36 INFO  CityBench:59 - {}
+2015-04-26 22:28:37 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2015-04-26 22:28:37 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
