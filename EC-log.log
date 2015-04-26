@@ -1,0 +1,6 @@
+2015-04-26 19:16:18 INFO  CityBench:22 - {ontology=/ontology, query=query/q.txt, dataset=/dataset, streams=/streams}
+2015-04-26 19:16:18 INFO  CityBench:23 - {}
+2015-04-26 19:17:17 INFO  CityBench:22 - {engine=csparql, ontology=/ontology, query=query/q.txt, dataset=/dataset, streams=/streams}
+2015-04-26 19:17:17 INFO  CityBench:23 - {}
+2015-04-26 19:19:18 INFO  CityBench:22 - {engine=csparql, ontology=/ontology, query=query/q.txt, dataset=/dataset, streams=/streams}
+2015-04-26 19:19:18 INFO  CityBench:23 - {-rate=3, -duration=3m}
