@@ -117,16 +117,25 @@ public class CityBench {
 	}
 
 	private List<String> LoadQueries() throws Exception {
-		String qd = this.prop.getProperty("queryDirectory");
+		String qd = this.prop.getProperty("query");
 		if (qd != null) {
 			File queryDirectory = new File(qd);
-			File[] queryFiles = queryDirectory.listFiles();
-			for (File queryFile : queryFiles) {
-				this.queryMap.put(queryFile.getName().split("\\.")[0],
-						new String(Files.readAllBytes(java.nio.file.Paths.get(queryFile.getName()))));
+			if (!queryDirectory.exists())
+				throw new Exception("Query directory not exist. " + qd);
+			else if (!queryDirectory.isDirectory())
+				throw new Exception("Query path specified is not a directory.");
+			else {
+				File[] queryFiles = queryDirectory.listFiles();
+				if (queryFiles != null) {
+					for (File queryFile : queryFiles) {
+						this.queryMap.put(queryFile.getName().split("\\.")[0],
+								new String(Files.readAllBytes(java.nio.file.Paths.get(queryFile.getName()))));
+					}
+				} else
+					throw new Exception("Cannot find query files.");
 			}
 		} else
-			throw new Exception("Query directory not specified");
+			throw new Exception("Query directory not specified;");
 		return null;
 	}
 

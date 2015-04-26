@@ -4,3 +4,35 @@
 2015-04-26 19:17:17 INFO  CityBench:23 - {}
 2015-04-26 19:19:18 INFO  CityBench:22 - {engine=csparql, ontology=/ontology, query=query/q.txt, dataset=/dataset, streams=/streams}
 2015-04-26 19:19:18 INFO  CityBench:23 - {-rate=3, -duration=3m}
+2015-04-26 21:40:45 INFO  CityBench:58 - {engine=csparql, ontology=/ontology, query=/query/, dataset=/dataset, streams=/streams}
+2015-04-26 21:40:45 INFO  CityBench:59 - {}
+2015-04-26 21:41:36 INFO  CityBench:58 - {engine=csparql, ontology=/ontology, query=/query/, dataset=/dataset, streams=/streams}
+2015-04-26 21:41:36 INFO  CityBench:59 - {}
+2015-04-26 21:42:06 INFO  CityBench:58 - {engine=csparql, ontology=/ontology, query=/query/, dataset=/dataset, streams=/streams}
+2015-04-26 21:42:07 INFO  CityBench:59 - {}
+2015-04-26 21:43:00 INFO  CityBench:58 - {engine=csparql, ontology=/ontology, query=/query/, dataset=/dataset, streams=/streams}
+2015-04-26 21:43:00 INFO  CityBench:59 - {}
+2015-04-26 21:43:14 INFO  CityBench:58 - {engine=csparql, ontology=/ontology, query=/query/, dataset=/dataset, streams=/streams}
+2015-04-26 21:43:14 INFO  CityBench:59 - {}
+2015-04-26 21:44:17 INFO  CityBench:58 - {engine=csparql, ontology=/ontology, query=/query, dataset=/dataset, streams=/streams}
+2015-04-26 21:44:17 INFO  CityBench:59 - {}
+2015-04-26 21:44:54 INFO  CityBench:58 - {engine=csparql, ontology=/ontology, query=/query, dataset=/dataset, streams=/streams}
+2015-04-26 21:44:54 INFO  CityBench:59 - {}
+2015-04-26 21:49:05 INFO  CityBench:58 - {engine=csparql, ontology=/ontology, query=/query/, dataset=/dataset, streams=/streams}
+2015-04-26 21:49:05 INFO  CityBench:59 - {}
+2015-04-26 21:49:31 INFO  CityBench:58 - {engine=csparql, ontology=/ontology, query=/query/, dataset=/dataset, streams=/streams}
+2015-04-26 21:49:31 INFO  CityBench:59 - {}
+2015-04-26 21:52:17 INFO  CityBench:58 - {engine=csparql, ontology=/ontology, query=/query/, dataset=/dataset, streams=/streams}
+2015-04-26 21:52:17 INFO  CityBench:59 - {}
+2015-04-26 21:52:36 INFO  CityBench:58 - {engine=csparql, ontology=/ontology, query=query/, dataset=/dataset, streams=/streams}
+2015-04-26 21:52:36 INFO  CityBench:59 - {}
+2015-04-26 21:52:52 INFO  CityBench:58 - {engine=csparql, ontology=/ontology, query=query, dataset=/dataset, streams=/streams}
+2015-04-26 21:52:52 INFO  CityBench:59 - {}
+2015-04-26 21:53:26 INFO  CityBench:58 - {engine=csparql, ontology=/ontology, query=query, dataset=/dataset, streams=/streams}
+2015-04-26 21:53:26 INFO  CityBench:59 - {}
+2015-04-26 21:54:18 INFO  CityBench:58 - {engine=csparql, ontology=/ontology, query=query, dataset=/dataset, streams=/streams}
+2015-04-26 21:54:18 INFO  CityBench:59 - {}
+2015-04-26 21:54:35 INFO  CityBench:58 - {engine=csparql, ontology=/ontology, query=query, dataset=/dataset, streams=/streams}
+2015-04-26 21:54:35 INFO  CityBench:59 - {}
+2015-04-26 21:55:13 INFO  CityBench:58 - {engine=csparql, ontology=/ontology, query=query, dataset=/dataset, streams=/streams}
+2015-04-26 21:55:13 INFO  CityBench:59 - {}
