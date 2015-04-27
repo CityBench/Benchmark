@@ -1,0 +1,242 @@
+@prefix : <http://www.insight-centre.org/citytraffic#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.insight-centre.org/citytraffic> .
+
+
+
+#################################################################
+#
+#    Datatypes
+#
+#################################################################
+
+
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.insight-centre.org/citytraffic#hasFirstNode
+
+:hasFirstNode rdf:type owl:ObjectProperty ;
+              
+              rdfs:range :Node ;
+              
+              rdfs:subPropertyOf :hasPlace .
+
+
+
+###  http://www.insight-centre.org/citytraffic#hasPlace
+
+:hasPlace rdf:type owl:ObjectProperty ;
+          
+          rdfs:range :Place .
+
+
+
+###  http://www.insight-centre.org/citytraffic#hasSecondNode
+
+:hasSecondNode rdf:type owl:ObjectProperty ;
+               
+               rdfs:range :Node ;
+               
+               rdfs:subPropertyOf :hasPlace .
+
+
+
+###  http://www.insight-centre.org/citytraffic#locatesIn
+
+:locatesIn rdf:type owl:ObjectProperty ,
+                    owl:TransitiveProperty ;
+           
+           rdfs:domain :Place ;
+           
+           rdfs:range :Place .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://www.insight-centre.org/citytraffic#hasAvgSpeed
+
+:hasAvgSpeed rdf:type owl:DatatypeProperty ;
+             
+             rdfs:domain :AvgSpeed ;
+             
+             rdfs:range xsd:integer .
+
+
+
+###  http://www.insight-centre.org/citytraffic#hasLat
+
+:hasLat rdf:type owl:DatatypeProperty ;
+        
+        rdfs:domain :Node ;
+        
+        rdfs:range xsd:double .
+
+
+
+###  http://www.insight-centre.org/citytraffic#hasLon
+
+:hasLon rdf:type owl:DatatypeProperty ;
+        
+        rdfs:domain :Node ;
+        
+        rdfs:range xsd:double .
+
+
+
+###  http://www.insight-centre.org/citytraffic#hasMeasureTime
+
+:hasMeasureTime rdf:type owl:DatatypeProperty ;
+                
+                rdfs:domain :MeasureTime ;
+                
+                rdfs:range xsd:integer .
+
+
+
+###  http://www.insight-centre.org/citytraffic#hasTRID
+
+:hasTRID rdf:type owl:DatatypeProperty ;
+         
+         rdfs:domain <http://www.insight-centre.org/ces#EventProfile> ;
+         
+         rdfs:range xsd:string .
+
+
+
+###  http://www.insight-centre.org/citytraffic#hasVehicleCount
+
+:hasVehicleCount rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :VehicleCount ;
+                 
+                 rdfs:range xsd:integer .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.insight-centre.org/citytraffic#AvgSpeed
+
+:AvgSpeed rdf:type owl:Class .
+
+
+
+###  http://www.insight-centre.org/citytraffic#City
+
+:City rdf:type owl:Class ;
+      
+      rdfs:subClassOf :Place .
+
+
+
+###  http://www.insight-centre.org/citytraffic#CongestionFactor
+
+:CongestionFactor rdf:type owl:Class .
+
+
+
+###  http://www.insight-centre.org/citytraffic#Distance
+
+:Distance rdf:type owl:Class ;
+          
+          rdfs:subClassOf <http://www.insight-centre.org/ces#Context> .
+
+
+
+###  http://www.insight-centre.org/citytraffic#District
+
+:District rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Place .
+
+
+
+###  http://www.insight-centre.org/citytraffic#DistrictTrafficReportService
+
+:DistrictTrafficReportService rdf:type owl:Class ;
+                              
+                              rdfs:subClassOf <http://www.insight-centre.org/ces#ComplexEventService> .
+
+
+
+###  http://www.insight-centre.org/citytraffic#MeasureTime
+
+:MeasureTime rdf:type owl:Class .
+
+
+
+###  http://www.insight-centre.org/citytraffic#Node
+
+:Node rdf:type owl:Class ;
+      
+      rdfs:subClassOf :Place .
+
+
+
+###  http://www.insight-centre.org/citytraffic#Place
+
+:Place rdf:type owl:Class ;
+       
+       rdfs:subClassOf <http://www.insight-centre.org/ces#Context> .
+
+
+
+###  http://www.insight-centre.org/citytraffic#SegTrafficReportService
+
+:SegTrafficReportService rdf:type owl:Class ;
+                         
+                         rdfs:subClassOf <http://www.insight-centre.org/ces#PrimitiveEventService> .
+
+
+
+###  http://www.insight-centre.org/citytraffic#Street
+
+:Street rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Place .
+
+
+
+###  http://www.insight-centre.org/citytraffic#StreetTrafficReportService
+
+:StreetTrafficReportService rdf:type owl:Class ;
+                            
+                            rdfs:subClassOf <http://www.insight-centre.org/ces#ComplexEventService> .
+
+
+
+###  http://www.insight-centre.org/citytraffic#VehicleCount
+
+:VehicleCount rdf:type owl:Class .
+
+
+
+
+###  Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net
+

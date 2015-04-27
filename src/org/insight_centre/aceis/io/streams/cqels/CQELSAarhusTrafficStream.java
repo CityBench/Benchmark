@@ -20,6 +20,7 @@ import org.deri.cqels.engine.ExecContext;
 import org.deri.cqels.engine.RDFStream;
 import org.insight_centre.aceis.eventmodel.EventDeclaration;
 import org.insight_centre.aceis.io.rdf.RDFFileManager;
+import org.insight_centre.aceis.io.streams.DataWrapper;
 import org.insight_centre.aceis.observations.AarhusTrafficObservation;
 import org.insight_centre.aceis.observations.SensorObservation;
 import org.slf4j.Logger;
@@ -62,7 +63,8 @@ public class CQELSAarhusTrafficStream extends CQELSSensorStream implements Runna
 	// this.messageCnt = messageCnt;
 	// }
 
-	public CQELSAarhusTrafficStream(ExecContext context, String uri, String txtFile, EventDeclaration ed) throws IOException {
+	public CQELSAarhusTrafficStream(ExecContext context, String uri, String txtFile, EventDeclaration ed)
+			throws IOException {
 		super(context, uri);
 		String fileName = "";
 		if (this.getURI().split("#").length > 1)
@@ -151,124 +153,17 @@ public class CQELSAarhusTrafficStream extends CQELSSensorStream implements Runna
 		}
 	}
 
-	private void annotateFoI(Model m, Resource observation, AarhusTrafficObservation data) {
-		Resource foi = m.createResource("FoI-" + UUID.randomUUID());
-		foi.addProperty(m.createProperty(RDFFileManager.ctPrefix + "hasFirstNode"), this.annotateNode(m, 1, data));
-		foi.addProperty(m.createProperty(RDFFileManager.ctPrefix + "hasFirstNode"), this.annotateNode(m, 2, data));
-		observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "featureOfInterest"), foi);
-
-	}
-
-	private Resource annotateNode(Model m, int index, AarhusTrafficObservation data) {
-		Resource node;
-		String city, street;
-		Double lat, lon;
-		if (index == 1) {
-			city = data.getCity_1();
-			street = data.getStreet1();
-			lat = data.getLatitude1();
-			lon = data.getLongtitude1();
-		} else {
-			city = data.getCity_2();
-			street = data.getStreet2();
-			lat = data.getLatitude2();
-			lon = data.getLongtitude2();
-		}
-		node = m.createResource().addProperty(RDF.type, m.createResource(RDFFileManager.ctPrefix + "Node"));
-		node.addLiteral(m.createProperty(RDFFileManager.ctPrefix + "hasStreet"), street);
-		node.addLiteral(m.createProperty(RDFFileManager.ctPrefix + "hasCity"), city);
-		node.addLiteral(m.createProperty(RDFFileManager.ctPrefix + "hasLatitude"), lat);
-		node.addLiteral(m.createProperty(RDFFileManager.ctPrefix + "hasLongtitude"), lon);
-		return node;
-
-	}
-
-	// public ExecContext getContext() {
-	// return this.
-	// }
-	private void annotateObservation(Model m, String pStr, AarhusTrafficObservation data) {
-		Resource observation = m.createResource("Observation-" + UUID.randomUUID());
-		// System.out.println("OB: " + observation.toString());
-		observation.addProperty(RDF.type, m.createResource(RDFFileManager.ssnPrefix + "Observation"));
-		// observation.addProperty(RDF.type, m.createResource(RDFFileManager.saoPrefix + "StreamData"));
-		annotateSensor(m, observation, data);
-		annotateProperty(m, observation, pStr);
-		// annotateFoI(m, observation, data);
-		annotateValue(m, observation, pStr, data);
-
-	}
-
-	private void annotateProperty(Model m, Resource observation, String observedProperty) {
-		// Resource property = m.createResource(observedProperty.split("\\|")[2]);
-		// property.addProperty(RDF.type, m.createResource(observedProperty.split("\\|")[0]));
-		observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedProperty"),
-				m.createResource(observedProperty.split("\\|")[0]));
-
-	}
-
-	private void annotateSensor(Model m, Resource observation, AarhusTrafficObservation data) {
-		Resource serviceID = m.createResource(this.getURI());
-		observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedBy"), serviceID);
-
-	}
-
-	private void annotateValue(Model m, Resource observation, String observedProperty, AarhusTrafficObservation data) {
-		// Resource value = m.createResource();
-		// observation.addProperty(m.createProperty(RDFFileManager.saoPrefix + "value"), value);
-		Property hasValue = m.createProperty(RDFFileManager.saoPrefix + "hasValue");
-		// Literal l;
-		// System.out.println("Annotating: " + observedProperty.toString());
-		if (observedProperty.contains("AvgSpeed"))
-			observation.addLiteral(hasValue, data.getAverageSpeed());
-		else if (observedProperty.toString().contains("VehicleCount"))
-			observation.addLiteral(hasValue, data.getVehicle_count());
-		else if (observedProperty.toString().contains("MeasuredTime"))
-			observation.addLiteral(hasValue, data.getAvgMeasuredTime());
-		else if (observedProperty.toString().contains("EstimatedTime"))
-			observation.addLiteral(hasValue, data.getEstimatedTime());
-		else if (observedProperty.toString().contains("CongestionLevel"))
-			observation.addLiteral(hasValue, data.getCongestionLevel());
-	}
-
 	@Override
 	protected SensorObservation createObservation(Object objData) {
-		try {
-			CsvReader streamData = (CsvReader) objData;
-			AarhusTrafficObservation data = new AarhusTrafficObservation(
-					Double.parseDouble(streamData.get("REPORT_ID")), Double.parseDouble(streamData.get("avgSpeed")),
-					Double.parseDouble(streamData.get("vehicleCount")), Double.parseDouble(streamData
-							.get("avgMeasuredTime")), 0, 0, null, null, 0.0, 0.0, null, null, 0.0, 0.0, null, null,
-					streamData.get("TIMESTAMP"));
-			logger.debug(this.getURI() + ": streaming record @" + data.getObTimeStamp());
-			// data.setObTimeStamp(Date.parse(data.getTimestamp()));
-			Double distance = Double.parseDouble(this.distance);
-			data.setEstimatedTime(distance / data.getAverageSpeed());
-			data.setCongestionLevel(data.getVehicle_count() / distance);
-			this.currentObservation = data;
-			return data;
-		} catch (NumberFormatException | IOException e) {
-			e.printStackTrace();
-		}
-		return null;
+		SensorObservation so = DataWrapper.getAarhusTrafficObservation((CsvReader) objData, ed);
+		DataWrapper.waitForInterval(currentObservation, so, startDate, getRate());
+		this.currentObservation = so;
+		return so;
 	}
 
 	@Override
 	protected List<Statement> getStatements(SensorObservation data) throws NumberFormatException, IOException {
-		// StreamData data = ReadDocument.getStreamData(file);
-		Model m = ModelFactory.createDefaultModel();
-		if (ed != null)
-			for (String s : ed.getPayloads()) {
-				// if (s.contains("EstimatedTime")) {
-				// Resource observedProperty = m.createResource(s);
-				this.annotateObservation(m, s, (AarhusTrafficObservation) data);
-				// break;
-				// }
-			}
-		else
-			// test purposes only
-			this.annotateObservation(m, m.createResource(RDFFileManager.ctPrefix + "EstimatedTime").toString(),
-					(AarhusTrafficObservation) data);
-		return m.listStatements().toList();
+		return DataWrapper.getAarhusTrafficStatements((AarhusTrafficObservation) data, ed);
 	}
 
 	public void run() {
@@ -286,10 +181,6 @@ public class CQELSAarhusTrafficStream extends CQELSSensorStream implements Runna
 					}
 				}
 				AarhusTrafficObservation data = (AarhusTrafficObservation) this.createObservation(streamData);
-				// stream(n(RDFFileManager.defaultPrefix + id), n(RDFFileManager.ctPrefix + "hasETA"),
-				// n(data.getEstimatedTime() + ""));
-				// System.out.println("Streaming: " + RDFFileManager.defaultPrefix
-				// + streamData.get("REPORT_ID"));
 				List<Statement> stmts = this.getStatements(data);
 				long messageByte = 0;
 				for (Statement st : stmts) {
@@ -300,16 +191,10 @@ public class CQELSAarhusTrafficStream extends CQELSSensorStream implements Runna
 				this.messageCnt += 1;
 				this.byteCnt += messageByte;
 				logger.info("Messages streamed to CQELS successfully.");
-				// cw.write(new SimpleDateFormat("hh:mm:ss").format(new Date()));
-				// cw.write(this.messageCnt + "");
-				// cw.write(this.byteCnt + "");
-				// cw.endRecord();
-				// cw.flush();
-				// 2914
-				// metaData.close();
 				if (sleep > 0) {
 					try {
-						Thread.sleep(sleep);
+						if (this.getRate() != 1.0)
+							Thread.sleep(sleep);
 					} catch (InterruptedException e) {
 
 						e.printStackTrace();

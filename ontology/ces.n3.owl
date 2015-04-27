@@ -1,0 +1,739 @@
+@prefix : <http://www.insight-centre.org/ces#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ssn: <http://purl.oclc.org/NET/ssnx/ssn> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.insight-centre.org/ces> .
+
+
+
+#################################################################
+#
+#    Annotation properties
+#
+#################################################################
+
+
+
+
+#################################################################
+#
+#    Datatypes
+#
+#################################################################
+
+
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.insight-centre.org/ces#hasAccuracy
+
+:hasAccuracy rdf:type owl:ObjectProperty ;
+             
+             rdfs:range :Accuracy ;
+             
+             rdfs:domain :EventProfile ;
+             
+             rdfs:subPropertyOf :hasNFP .
+
+
+
+###  http://www.insight-centre.org/ces#hasAggregation
+
+:hasAggregation rdf:type owl:ObjectProperty ;
+                
+                rdfs:range :Aggregation ;
+                
+                rdfs:domain :EventPattern ;
+                
+                rdfs:subPropertyOf :hasPattern .
+
+
+
+###  http://www.insight-centre.org/ces#hasAvailability
+
+:hasAvailability rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:range :Availability ;
+                 
+                 rdfs:domain :EventProfile ;
+                 
+                 rdfs:subPropertyOf :hasNFP .
+
+
+
+###  http://www.insight-centre.org/ces#hasBandWidthConsumption
+
+:hasBandWidthConsumption rdf:type owl:ObjectProperty ;
+                         
+                         rdfs:range :BandWidthConsumption ;
+                         
+                         rdfs:domain :EventProfile ;
+                         
+                         rdfs:subPropertyOf :hasNFP .
+
+
+
+###  http://www.insight-centre.org/ces#hasConstraint
+
+:hasConstraint rdf:type owl:ObjectProperty ;
+               
+               rdfs:range :Constraint ;
+               
+               rdfs:domain :EventProfile .
+
+
+
+###  http://www.insight-centre.org/ces#hasEnergyConsumption
+
+:hasEnergyConsumption rdf:type owl:ObjectProperty ;
+                      
+                      rdfs:range :EnergyConsumption ;
+                      
+                      rdfs:domain :EventProfile ;
+                      
+                      rdfs:subPropertyOf :hasNFP .
+
+
+
+###  http://www.insight-centre.org/ces#hasEventPayload
+
+:hasEventPayload rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:range :EventPayload ;
+                 
+                 rdfs:domain :EventProfile .
+
+
+
+###  http://www.insight-centre.org/ces#hasExpression
+
+:hasExpression rdf:type owl:ObjectProperty ;
+               
+               rdfs:domain :Constraint .
+
+
+
+###  http://www.insight-centre.org/ces#hasFilter
+
+:hasFilter rdf:type owl:ObjectProperty ;
+           
+           rdfs:domain :EventPattern ;
+           
+           rdfs:range :Filter ;
+           
+           rdfs:subPropertyOf :hasPattern .
+
+
+
+###  http://www.insight-centre.org/ces#hasFrequency
+
+:hasFrequency rdf:type owl:ObjectProperty ;
+              
+              rdfs:subPropertyOf :hasNFP .
+
+
+
+###  http://www.insight-centre.org/ces#hasLatency
+
+:hasLatency rdf:type owl:ObjectProperty ;
+            
+            rdfs:domain :EventProfile ;
+            
+            rdfs:range :Latency ;
+            
+            rdfs:subPropertyOf :hasNFP .
+
+
+
+###  http://www.insight-centre.org/ces#hasNFP
+
+:hasNFP rdf:type owl:ObjectProperty ;
+        
+        rdfs:subPropertyOf <http://www.daml.org/services/owl-s/1.2/ServiceParameter.owl#serviceParameter> ;
+        
+        rdfs:domain :EventProfile ;
+        
+        rdfs:range :NFP .
+
+
+
+###  http://www.insight-centre.org/ces#hasPattern
+
+:hasPattern rdf:type owl:ObjectProperty ;
+            
+            rdfs:range :EventPattern ;
+            
+            rdfs:domain :EventPattern ,
+                        :EventProfile .
+
+
+
+###  http://www.insight-centre.org/ces#hasPreference
+
+:hasPreference rdf:type owl:ObjectProperty ;
+               
+               rdfs:domain :EventProfile ;
+               
+               rdfs:range :Preference .
+
+
+
+###  http://www.insight-centre.org/ces#hasPrice
+
+:hasPrice rdf:type owl:ObjectProperty ;
+          
+          rdfs:domain :EventProfile ;
+          
+          rdfs:range :Price ;
+          
+          rdfs:subPropertyOf :hasNFP .
+
+
+
+###  http://www.insight-centre.org/ces#hasReliability
+
+:hasReliability rdf:type owl:ObjectProperty ;
+                
+                rdfs:domain :EventProfile ;
+                
+                rdfs:range :Reliability ;
+                
+                rdfs:subPropertyOf :hasNFP .
+
+
+
+###  http://www.insight-centre.org/ces#hasSecurity
+
+:hasSecurity rdf:type owl:ObjectProperty ;
+             
+             rdfs:domain :EventProfile ;
+             
+             rdfs:range :Security ;
+             
+             rdfs:subPropertyOf :hasNFP .
+
+
+
+###  http://www.insight-centre.org/ces#hasSelection
+
+:hasSelection rdf:type owl:ObjectProperty ;
+              
+              rdfs:range :Selection ;
+              
+              rdfs:subPropertyOf :hasPattern .
+
+
+
+###  http://www.insight-centre.org/ces#hasService
+
+:hasService rdf:type owl:ObjectProperty ;
+            
+            rdfs:range :EventService ;
+            
+            rdfs:domain :ServiceNode .
+
+
+
+###  http://www.insight-centre.org/ces#hasSubPattern
+
+:hasSubPattern rdf:type owl:ObjectProperty ;
+               
+               rdfs:range :EventPattern ;
+               
+               rdfs:domain :EventPattern ;
+               
+               rdfs:range :EventService .
+
+
+
+###  http://www.insight-centre.org/ces#hasWindow
+
+:hasWindow rdf:type owl:ObjectProperty ;
+           
+           rdfs:domain :EventPattern ;
+           
+           rdfs:range :SlidingWindow ;
+           
+           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+
+###  http://www.insight-centre.org/ces#onEvent
+
+:onEvent rdf:type owl:ObjectProperty ;
+         
+         rdfs:range :EventService ;
+         
+         rdfs:domain :Filter .
+
+
+
+###  http://www.insight-centre.org/ces#onPayload
+
+:onPayload rdf:type owl:ObjectProperty ;
+           
+           rdfs:range :EventPayload ;
+           
+           rdfs:domain :Filter .
+
+
+
+###  http://www.insight-centre.org/ces#onProperty
+
+:onProperty rdf:type owl:ObjectProperty ;
+            
+            rdfs:range <http://www.daml.org/services/owl-s/1.2/ServiceParameter.owl#ServiceParameter> ;
+            
+            rdfs:domain :Constraint .
+
+
+
+###  http://www.insight-centre.org/ces#selectedProperty
+
+:selectedProperty rdf:type owl:ObjectProperty ;
+                  
+                  rdfs:range <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+                  
+                  rdfs:domain :Selection .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://www.insight-centre.org/ces#OWLDataProperty_00000000000000000000
+
+:OWLDataProperty_00000000000000000000 rdf:type owl:DatatypeProperty ;
+                                      
+                                      rdfs:label "hasNodeId"@en ;
+                                      
+                                      rdfs:range xsd:string .
+
+
+
+###  http://www.insight-centre.org/ces#accuracyWeight
+
+:accuracyWeight rdf:type owl:DatatypeProperty ;
+                
+                rdfs:subPropertyOf :weight .
+
+
+
+###  http://www.insight-centre.org/ces#availabilityWeight
+
+:availabilityWeight rdf:type owl:DatatypeProperty ;
+                    
+                    rdfs:subPropertyOf :weight .
+
+
+
+###  http://www.insight-centre.org/ces#bandwidthConsumptionWeight
+
+:bandwidthConsumptionWeight rdf:type owl:DatatypeProperty ;
+                            
+                            rdfs:subPropertyOf :weight .
+
+
+
+###  http://www.insight-centre.org/ces#energyConsumptionWeight
+
+:energyConsumptionWeight rdf:type owl:DatatypeProperty ;
+                         
+                         rdfs:subPropertyOf :weight .
+
+
+
+###  http://www.insight-centre.org/ces#hasCardinality
+
+:hasCardinality rdf:type owl:DatatypeProperty ;
+                
+                rdfs:domain :Repetition ;
+                
+                rdfs:range xsd:integer .
+
+
+
+###  http://www.insight-centre.org/ces#hasInternalNodeID
+
+:hasInternalNodeID rdf:type owl:DatatypeProperty ;
+                   
+                   rdfs:domain :ServiceNode ;
+                   
+                   rdfs:range xsd:string .
+
+
+
+###  http://www.insight-centre.org/ces#jmsService
+
+:jmsService rdf:type owl:DatatypeProperty ;
+            
+            rdfs:domain :JmsGrounding ;
+            
+            rdfs:range xsd:anyURI .
+
+
+
+###  http://www.insight-centre.org/ces#latencyWeight
+
+:latencyWeight rdf:type owl:DatatypeProperty ;
+               
+               rdfs:subPropertyOf :weight .
+
+
+
+###  http://www.insight-centre.org/ces#priceWeight
+
+:priceWeight rdf:type owl:DatatypeProperty ;
+             
+             rdfs:subPropertyOf :weight .
+
+
+
+###  http://www.insight-centre.org/ces#reliabilityWeight
+
+:reliabilityWeight rdf:type owl:DatatypeProperty ;
+                   
+                   rdfs:subPropertyOf :weight .
+
+
+
+###  http://www.insight-centre.org/ces#securityWeight
+
+:securityWeight rdf:type owl:DatatypeProperty ;
+                
+                rdfs:subPropertyOf :weight .
+
+
+
+###  http://www.insight-centre.org/ces#weight
+
+:weight rdf:type owl:DatatypeProperty ;
+        
+        rdfs:domain :QosWeightPreference ;
+        
+        rdfs:range xsd:double .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://purl.oclc.org/NET/ssnx/ssn#Property
+
+<http://purl.oclc.org/NET/ssnx/ssn#Property> rdf:type owl:Class .
+
+
+
+###  http://www.insight-centre.org/ces#Accessiblity
+
+:Accessiblity rdf:type owl:Class ;
+              
+              rdfs:subClassOf :QoS .
+
+
+
+###  http://www.insight-centre.org/ces#Accuracy
+
+:Accuracy rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Believability .
+
+
+
+###  http://www.insight-centre.org/ces#Aggregation
+
+:Aggregation rdf:type owl:Class ;
+             
+             rdfs:subClassOf :EventPattern .
+
+
+
+###  http://www.insight-centre.org/ces#And
+
+:And rdf:type owl:Class ;
+     
+     rdfs:subClassOf :EventPattern ,
+                     rdfs:Bag .
+
+
+
+###  http://www.insight-centre.org/ces#Availability
+
+:Availability rdf:type owl:Class ;
+              
+              rdfs:subClassOf :Accessiblity .
+
+
+
+###  http://www.insight-centre.org/ces#BandWidthConsumption
+
+:BandWidthConsumption rdf:type owl:Class ;
+                      
+                      rdfs:subClassOf :Cost .
+
+
+
+###  http://www.insight-centre.org/ces#Believability
+
+:Believability rdf:type owl:Class ;
+               
+               rdfs:subClassOf :QoS .
+
+
+
+###  http://www.insight-centre.org/ces#ComplexEventService
+
+:ComplexEventService rdf:type owl:Class ;
+                     
+                     rdfs:subClassOf :EventService .
+
+
+
+###  http://www.insight-centre.org/ces#Constraint
+
+:Constraint rdf:type owl:Class .
+
+
+
+###  http://www.insight-centre.org/ces#Context
+
+:Context rdf:type owl:Class ;
+         
+         rdfs:subClassOf :NFP .
+
+
+
+###  http://www.insight-centre.org/ces#Cost
+
+:Cost rdf:type owl:Class ;
+      
+      rdfs:subClassOf :QoS .
+
+
+
+###  http://www.insight-centre.org/ces#EnergyConsumption
+
+:EnergyConsumption rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf :Cost .
+
+
+
+###  http://www.insight-centre.org/ces#EventPattern
+
+:EventPattern rdf:type owl:Class .
+
+
+
+###  http://www.insight-centre.org/ces#EventPayload
+
+:EventPayload rdf:type owl:Class ;
+              
+              rdfs:seeAlso """ssn:Observation
+""" .
+
+
+
+###  http://www.insight-centre.org/ces#EventProfile
+
+:EventProfile rdf:type owl:Class ;
+              
+              rdfs:subClassOf <http://www.daml.org/services/owl-s/1.2/Profile.owl#Profile> .
+
+
+
+###  http://www.insight-centre.org/ces#EventRequest
+
+:EventRequest rdf:type owl:Class ;
+              
+              rdfs:subClassOf :EventService .
+
+
+
+###  http://www.insight-centre.org/ces#EventService
+
+:EventService rdf:type owl:Class ;
+              
+              rdfs:subClassOf <http://www.daml.org/services/owl-s/1.2/Service.owl#Service> .
+
+
+
+###  http://www.insight-centre.org/ces#Filter
+
+:Filter rdf:type owl:Class ;
+        
+        rdfs:subClassOf :EventPattern .
+
+
+
+###  http://www.insight-centre.org/ces#JmsGrounding
+
+:JmsGrounding rdf:type owl:Class ;
+              
+              rdfs:subClassOf <http://www.daml.org/services/owl-s/1.2/Grounding.owl#Grounding> .
+
+
+
+###  http://www.insight-centre.org/ces#Latency
+
+:Latency rdf:type owl:Class ;
+         
+         rdfs:subClassOf :Timeliness .
+
+
+
+###  http://www.insight-centre.org/ces#NFP
+
+:NFP rdf:type owl:Class ;
+     
+     rdfs:subClassOf <http://www.daml.org/services/owl-s/1.2/ServiceParameter.owl#ServiceParameter> .
+
+
+
+###  http://www.insight-centre.org/ces#Or
+
+:Or rdf:type owl:Class ;
+    
+    rdfs:subClassOf :EventPattern ,
+                    rdfs:Bag .
+
+
+
+###  http://www.insight-centre.org/ces#Preference
+
+:Preference rdf:type owl:Class .
+
+
+
+###  http://www.insight-centre.org/ces#Price
+
+:Price rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Cost .
+
+
+
+###  http://www.insight-centre.org/ces#PrimitiveEventService
+
+:PrimitiveEventService rdf:type owl:Class ;
+                       
+                       rdfs:subClassOf :EventService .
+
+
+
+###  http://www.insight-centre.org/ces#QoS
+
+:QoS rdf:type owl:Class ;
+     
+     rdfs:subClassOf :NFP .
+
+
+
+###  http://www.insight-centre.org/ces#QosWeightPreference
+
+:QosWeightPreference rdf:type owl:Class ;
+                     
+                     rdfs:subClassOf :Preference .
+
+
+
+###  http://www.insight-centre.org/ces#Reliability
+
+:Reliability rdf:type owl:Class ;
+             
+             rdfs:subClassOf :Believability .
+
+
+
+###  http://www.insight-centre.org/ces#Repetition
+
+:Repetition rdf:type owl:Class ;
+            
+            rdfs:subClassOf :EventPattern ,
+                            rdfs:Seq .
+
+
+
+###  http://www.insight-centre.org/ces#Security
+
+:Security rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Believability .
+
+
+
+###  http://www.insight-centre.org/ces#Selection
+
+:Selection rdf:type owl:Class ;
+           
+           rdfs:subClassOf :EventPattern .
+
+
+
+###  http://www.insight-centre.org/ces#Sequence
+
+:Sequence rdf:type owl:Class ;
+          
+          rdfs:subClassOf :EventPattern ,
+                          rdfs:Seq .
+
+
+
+###  http://www.insight-centre.org/ces#ServiceNode
+
+:ServiceNode rdf:type owl:Class ;
+             
+             rdfs:subClassOf :EventPattern .
+
+
+
+###  http://www.insight-centre.org/ces#SlidingWindow
+
+:SlidingWindow rdf:type owl:Class .
+
+
+
+###  http://www.insight-centre.org/ces#Timeliness
+
+:Timeliness rdf:type owl:Class ;
+            
+            rdfs:subClassOf :QoS .
+
+
+
+###  http://www.w3.org/2000/01/rdf-schema#Bag
+
+rdfs:Bag rdf:type owl:Class .
+
+
+
+###  http://www.w3.org/2000/01/rdf-schema#Seq
+
+rdfs:Seq rdf:type owl:Class .
+
+
+
+
+###  Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net
+

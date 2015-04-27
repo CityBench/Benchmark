@@ -1,0 +1,731 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY ssn "http://purl.oclc.org/NET/ssnx/ssn" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.insight-centre.org/ces#"
+     xml:base="http://www.insight-centre.org/ces"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ssn="http://purl.oclc.org/NET/ssnx/ssn">
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daml.org/services/owl-s/1.2/ServiceParameter.owl#serviceParameter -->
+
+    <owl:ObjectProperty rdf:about="http://www.daml.org/services/owl-s/1.2/ServiceParameter.owl#serviceParameter"/>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasAccuracy -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#hasAccuracy">
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#Accuracy"/>
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#EventProfile"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.insight-centre.org/ces#hasNFP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasAggregation -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#hasAggregation">
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#Aggregation"/>
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#EventPattern"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.insight-centre.org/ces#hasPattern"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasAvailability -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#hasAvailability">
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#Availability"/>
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#EventProfile"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.insight-centre.org/ces#hasNFP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasBandWidthConsumption -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#hasBandWidthConsumption">
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#BandWidthConsumption"/>
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#EventProfile"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.insight-centre.org/ces#hasNFP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasConstraint -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#hasConstraint">
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#Constraint"/>
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#EventProfile"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasEnergyConsumption -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#hasEnergyConsumption">
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#EnergyConsumption"/>
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#EventProfile"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.insight-centre.org/ces#hasNFP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasEventPayload -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#hasEventPayload">
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#EventPayload"/>
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#EventProfile"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasExpression -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#hasExpression">
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#Constraint"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasFilter -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#hasFilter">
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#EventPattern"/>
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#Filter"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.insight-centre.org/ces#hasPattern"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasFrequency -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#hasFrequency">
+        <rdfs:subPropertyOf rdf:resource="http://www.insight-centre.org/ces#hasNFP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasLatency -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#hasLatency">
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#EventProfile"/>
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#Latency"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.insight-centre.org/ces#hasNFP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasNFP -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#hasNFP">
+        <rdfs:subPropertyOf rdf:resource="http://www.daml.org/services/owl-s/1.2/ServiceParameter.owl#serviceParameter"/>
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#EventProfile"/>
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#NFP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasPattern -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#hasPattern">
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#EventPattern"/>
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#EventPattern"/>
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#EventProfile"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasPreference -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#hasPreference">
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#EventProfile"/>
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#Preference"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasPrice -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#hasPrice">
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#EventProfile"/>
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#Price"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.insight-centre.org/ces#hasNFP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasReliability -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#hasReliability">
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#EventProfile"/>
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#Reliability"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.insight-centre.org/ces#hasNFP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasSecurity -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#hasSecurity">
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#EventProfile"/>
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#Security"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.insight-centre.org/ces#hasNFP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasSelection -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#hasSelection">
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#Selection"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.insight-centre.org/ces#hasPattern"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasService -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#hasService">
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#EventService"/>
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#ServiceNode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasSubPattern -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#hasSubPattern">
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#EventPattern"/>
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#EventPattern"/>
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#EventService"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasWindow -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#hasWindow">
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#EventPattern"/>
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#SlidingWindow"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#onEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#onEvent">
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#EventService"/>
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#Filter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#onPayload -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#onPayload">
+        <rdfs:range rdf:resource="http://www.insight-centre.org/ces#EventPayload"/>
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#Filter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#onProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#onProperty">
+        <rdfs:range rdf:resource="http://www.daml.org/services/owl-s/1.2/ServiceParameter.owl#ServiceParameter"/>
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#Constraint"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#selectedProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.insight-centre.org/ces#selectedProperty">
+        <rdfs:range rdf:resource="&ssn;#Property"/>
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#Selection"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.insight-centre.org/ces#OWLDataProperty_00000000000000000000 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.insight-centre.org/ces#OWLDataProperty_00000000000000000000">
+        <rdfs:label xml:lang="en">hasNodeId</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#accuracyWeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.insight-centre.org/ces#accuracyWeight">
+        <rdfs:subPropertyOf rdf:resource="http://www.insight-centre.org/ces#weight"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#availabilityWeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.insight-centre.org/ces#availabilityWeight">
+        <rdfs:subPropertyOf rdf:resource="http://www.insight-centre.org/ces#weight"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#bandwidthConsumptionWeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.insight-centre.org/ces#bandwidthConsumptionWeight">
+        <rdfs:subPropertyOf rdf:resource="http://www.insight-centre.org/ces#weight"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#energyConsumptionWeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.insight-centre.org/ces#energyConsumptionWeight">
+        <rdfs:subPropertyOf rdf:resource="http://www.insight-centre.org/ces#weight"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasCardinality -->
+
+    <owl:DatatypeProperty rdf:about="http://www.insight-centre.org/ces#hasCardinality">
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#Repetition"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#hasInternalNodeID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.insight-centre.org/ces#hasInternalNodeID">
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#ServiceNode"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#jmsService -->
+
+    <owl:DatatypeProperty rdf:about="http://www.insight-centre.org/ces#jmsService">
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#JmsGrounding"/>
+        <rdfs:range rdf:resource="&xsd;anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#latencyWeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.insight-centre.org/ces#latencyWeight">
+        <rdfs:subPropertyOf rdf:resource="http://www.insight-centre.org/ces#weight"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#priceWeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.insight-centre.org/ces#priceWeight">
+        <rdfs:subPropertyOf rdf:resource="http://www.insight-centre.org/ces#weight"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#reliabilityWeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.insight-centre.org/ces#reliabilityWeight">
+        <rdfs:subPropertyOf rdf:resource="http://www.insight-centre.org/ces#weight"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#securityWeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.insight-centre.org/ces#securityWeight">
+        <rdfs:subPropertyOf rdf:resource="http://www.insight-centre.org/ces#weight"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#weight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.insight-centre.org/ces#weight">
+        <rdfs:domain rdf:resource="http://www.insight-centre.org/ces#QosWeightPreference"/>
+        <rdfs:range rdf:resource="&xsd;double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#Property -->
+
+    <owl:Class rdf:about="&ssn;#Property"/>
+    
+
+
+    <!-- http://www.daml.org/services/owl-s/1.2/Grounding.owl#Grounding -->
+
+    <owl:Class rdf:about="http://www.daml.org/services/owl-s/1.2/Grounding.owl#Grounding"/>
+    
+
+
+    <!-- http://www.daml.org/services/owl-s/1.2/Profile.owl#Profile -->
+
+    <owl:Class rdf:about="http://www.daml.org/services/owl-s/1.2/Profile.owl#Profile"/>
+    
+
+
+    <!-- http://www.daml.org/services/owl-s/1.2/Service.owl#Service -->
+
+    <owl:Class rdf:about="http://www.daml.org/services/owl-s/1.2/Service.owl#Service"/>
+    
+
+
+    <!-- http://www.daml.org/services/owl-s/1.2/ServiceParameter.owl#ServiceParameter -->
+
+    <owl:Class rdf:about="http://www.daml.org/services/owl-s/1.2/ServiceParameter.owl#ServiceParameter"/>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#Accessiblity -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#Accessiblity">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#QoS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#Accuracy -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#Accuracy">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#Believability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#Aggregation -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#Aggregation">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#EventPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#And -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#And">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#EventPattern"/>
+        <rdfs:subClassOf rdf:resource="&rdfs;Bag"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#Availability -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#Availability">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#Accessiblity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#BandWidthConsumption -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#BandWidthConsumption">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#Cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#Believability -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#Believability">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#QoS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#ComplexEventService -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#ComplexEventService">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#EventService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#Constraint -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#Constraint"/>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#Context -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#Context">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#NFP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#Cost -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#Cost">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#QoS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#EnergyConsumption -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#EnergyConsumption">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#Cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#EventPattern -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#EventPattern"/>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#EventPayload -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#EventPayload">
+        <rdfs:seeAlso>ssn:Observation
+</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#EventProfile -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#EventProfile">
+        <rdfs:subClassOf rdf:resource="http://www.daml.org/services/owl-s/1.2/Profile.owl#Profile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#EventRequest -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#EventRequest">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#EventService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#EventService -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#EventService">
+        <rdfs:subClassOf rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#Filter -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#Filter">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#EventPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#JmsGrounding -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#JmsGrounding">
+        <rdfs:subClassOf rdf:resource="http://www.daml.org/services/owl-s/1.2/Grounding.owl#Grounding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#Latency -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#Latency">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#Timeliness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#NFP -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#NFP">
+        <rdfs:subClassOf rdf:resource="http://www.daml.org/services/owl-s/1.2/ServiceParameter.owl#ServiceParameter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#Or -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#Or">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#EventPattern"/>
+        <rdfs:subClassOf rdf:resource="&rdfs;Bag"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#Preference -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#Preference"/>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#Price -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#Price">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#Cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#PrimitiveEventService -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#PrimitiveEventService">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#EventService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#QoS -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#QoS">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#NFP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#QosWeightPreference -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#QosWeightPreference">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#Preference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#Reliability -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#Reliability">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#Believability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#Repetition -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#Repetition">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#EventPattern"/>
+        <rdfs:subClassOf rdf:resource="&rdfs;Seq"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#Security -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#Security">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#Believability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#Selection -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#Selection">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#EventPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#Sequence -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#Sequence">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#EventPattern"/>
+        <rdfs:subClassOf rdf:resource="&rdfs;Seq"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#ServiceNode -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#ServiceNode">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#EventPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#SlidingWindow -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#SlidingWindow"/>
+    
+
+
+    <!-- http://www.insight-centre.org/ces#Timeliness -->
+
+    <owl:Class rdf:about="http://www.insight-centre.org/ces#Timeliness">
+        <rdfs:subClassOf rdf:resource="http://www.insight-centre.org/ces#QoS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Bag -->
+
+    <owl:Class rdf:about="&rdfs;Bag"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Seq -->
+
+    <owl:Class rdf:about="&rdfs;Seq"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

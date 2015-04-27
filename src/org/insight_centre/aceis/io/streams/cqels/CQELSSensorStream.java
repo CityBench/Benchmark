@@ -20,6 +20,7 @@ public abstract class CQELSSensorStream extends RDFStream implements Runnable {
 		super(context, uri);
 	}
 
+	protected double rate = 1.0;
 	// private int sleep = 1000;
 	protected int sleep = 1000;
 	protected boolean stop = false;
@@ -35,6 +36,15 @@ public abstract class CQELSSensorStream extends RDFStream implements Runnable {
 	}
 
 	public void setRate(Double rate) {
+		this.rate = rate;
+		logger.info("Streamming acceleration rate set to: " + rate);
+	}
+
+	public double getRate() {
+		return rate;
+	}
+
+	public void setFreq(Double freq) {
 		sleep = (int) (sleep / rate);
 		logger.info("Streamming interval set to: " + sleep + " ms");
 	}

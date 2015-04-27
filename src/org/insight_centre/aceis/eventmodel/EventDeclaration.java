@@ -35,6 +35,7 @@ public class EventDeclaration implements Cloneable {
 
 	private String serviceId;
 	private String src;
+	private String distance;
 
 	public EventDeclaration(String iD, String src, String eventType, EventPattern ep, List<String> payloads,
 			Double frequency) {
@@ -224,4 +225,13 @@ public class EventDeclaration implements Cloneable {
 		this.externalQos = currentExternalQos;
 
 	}
+
+	// public void setDistance(String distance) {
+	// this.distance = distance;
+	//
+	// }
+	//
+	// public String getDistance() {
+	// return this.distance;
+	// }
 }
