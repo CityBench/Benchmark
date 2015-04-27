@@ -567,7 +567,10 @@ public class RDFFileManager {
 		// extractTrafficLocation(ed, dataset);
 		// } else {
 		String foiStr = extractFoIById(dataset, foiId);
-		ed.setFoi(foiStr);
+		if (foiStr != null)
+			ed.setFoi(foiStr);
+		else
+			extractEventFoIAsResource(ed, dataset, foiId);
 		// for (String payload : ed.getPayloads())
 		// payload = payload.replace(foiId, foiStr);
 	}
@@ -1008,7 +1011,7 @@ public class RDFFileManager {
 	public static ExecContext initializeCQELSContext(String serviceDesc, Reasoner r) {
 		ExecContext context;
 		if (r != null)
-			context = new ReasonerContext(cqelsHome, true, ReasonerRegistry.getRDFSReasoner());
+			context = new ReasonerContext(cqelsHome, true, r);
 		else
 			context = new ExecContext(cqelsHome, true);
 		context.loadDefaultDataset(datasetDirectory + serviceDesc);

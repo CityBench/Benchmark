@@ -10,6 +10,7 @@ import java.util.UUID;
 
 import org.insight_centre.aceis.eventmodel.EventDeclaration;
 import org.insight_centre.aceis.io.rdf.RDFFileManager;
+import org.insight_centre.aceis.io.streams.DataWrapper;
 import org.insight_centre.aceis.observations.AarhusParkingObservation;
 import org.insight_centre.aceis.observations.PollutionObservation;
 import org.insight_centre.aceis.observations.SensorObservation;
@@ -85,7 +86,7 @@ public class CSPARQLAarhusParkingStream extends CSPARQLSensorStream implements R
 						continue;
 					}
 				}
-				logger.info("Reading data: " + streamData.toString());
+				// logger.debug("Reading data: " + streamData.toString());
 				AarhusParkingObservation po = (AarhusParkingObservation) this.createObservation(streamData);
 				// logger.debug("Reading data: " + new Gson().toJson(po));
 				List<Statement> stmts = this.getStatements(po);
@@ -104,9 +105,10 @@ public class CSPARQLAarhusParkingStream extends CSPARQLSensorStream implements R
 					}
 					// messageByte += st.toString().getBytes().length;
 				}
-				logger.info("Messages streamed to CSPARQL successfully.");
+				logger.debug("Messages streamed to CSPARQL successfully.");
 				try {
-					Thread.sleep(sleep);
+					if (this.getRate() != 1.0)
+						Thread.sleep(sleep);
 				} catch (Exception e) {
 
 					e.printStackTrace();
@@ -127,48 +129,16 @@ public class CSPARQLAarhusParkingStream extends CSPARQLSensorStream implements R
 
 	@Override
 	protected List<Statement> getStatements(SensorObservation so) throws NumberFormatException, IOException {
-		Model m = ModelFactory.createDefaultModel();
-		Resource observation = m.createResource(so.getObId());
-		// so.setObId(observation.toString());
-		// System.out.println("OB: " + observation.toString());
-		observation.addProperty(RDF.type, m.createResource(RDFFileManager.ssnPrefix + "Observation"));
-		// observation.addProperty(RDF.type,
-		// m.createResource(RDFFileManager.saoPrefix + "StreamData"));
-		Resource serviceID = m.createResource(this.getIRI());
-		observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedBy"), serviceID);
-		// Resource property = m.createResource(s.split("\\|")[2]);
-		// property.addProperty(RDF.type, m.createResource(s.split("\\|")[0]));
-		observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedProperty"),
-				m.createResource(this.ed.getPayloads().get(0).split("\\|")[0]));
-		Property hasValue = m.createProperty(RDFFileManager.saoPrefix + "hasValue");
-		// Literal l;
-		// System.out.println("Annotating: " + observedProperty.toString());
-		// if (observedProperty.contains("AvgSpeed"))
-		observation.addLiteral(hasValue, ((AarhusParkingObservation) so).getVacancies());
-		observation.addLiteral(m.createProperty(RDFFileManager.ssnPrefix + "featureOfInterest"),
-				((AarhusParkingObservation) so).getGarageCode());
-		return m.listStatements().toList();
+		return DataWrapper.getAarhusParkingStatements(so, ed);
 	}
 
 	@Override
 	protected SensorObservation createObservation(Object data) {
-		try {
-			CsvReader streamData = (CsvReader) data;
-			int vehicleCnt = Integer.parseInt(streamData.get("vehiclecount")), id = Integer.parseInt(streamData
-					.get("_id")), total_spaces = Integer.parseInt(streamData.get("totalspaces"));
-			String garagecode = streamData.get("garagecode");
-			Date obTime = sdf.parse(streamData.get("updatetime"));
-			AarhusParkingObservation apo = new AarhusParkingObservation(total_spaces - vehicleCnt, garagecode, "", 0.0,
-					0.0);
-			apo.setObTimeStamp(obTime);
-			apo.setObId(RDFFileManager.defaultPrefix + "AarhusParkingObservation-" + id);
-			logger.debug(this.getIRI() + ": streaming record @" + apo.getObTimeStamp());
-			this.currentObservation = apo;
-			return apo;
-		} catch (NumberFormatException | IOException | ParseException e) {
-			e.printStackTrace();
-		}
-		return null;
+		AarhusParkingObservation apo = (AarhusParkingObservation) DataWrapper.getAarhusParkingObservation(
+				(CsvReader) data, ed);
+		DataWrapper.waitForInterval(currentObservation, apo, startDate, getRate());
+		this.currentObservation = apo;
+		return apo;
 
 	}
 

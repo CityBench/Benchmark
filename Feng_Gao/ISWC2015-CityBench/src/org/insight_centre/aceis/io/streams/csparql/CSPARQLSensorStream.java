@@ -23,6 +23,7 @@ public abstract class CSPARQLSensorStream extends RdfStream implements Runnable 
 	protected boolean stop = false;
 	protected SensorObservation currentObservation;
 	protected List<String> requestedProperties = new ArrayList<String>();
+	protected Double rate = 1.0;
 	private static final Logger logger = LoggerFactory.getLogger(CSPARQLSensorStream.class);
 
 	// private List<String> subscribers = new ArrayList<String>();
@@ -36,6 +37,15 @@ public abstract class CSPARQLSensorStream extends RdfStream implements Runnable 
 	}
 
 	public void setRate(Double rate) {
+		this.rate = rate;
+		logger.info("Streamming accleration rate to: " + rate);
+	}
+
+	public double getRate() {
+		return rate;
+	}
+
+	public void setFreq(Double freq) {
 		sleep = (int) (sleep / rate);
 		logger.info("Streamming interval set to: " + sleep + " ms");
 	}

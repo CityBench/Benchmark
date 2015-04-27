@@ -12,6 +12,7 @@ import java.util.UUID;
 import org.deri.cqels.engine.ExecContext;
 import org.insight_centre.aceis.eventmodel.EventDeclaration;
 import org.insight_centre.aceis.io.rdf.RDFFileManager;
+import org.insight_centre.aceis.io.streams.DataWrapper;
 import org.insight_centre.aceis.observations.AarhusTrafficObservation;
 import org.insight_centre.aceis.observations.PollutionObservation;
 import org.insight_centre.aceis.observations.SensorObservation;
@@ -94,7 +95,7 @@ public class CQELSAarhusPollutionStream extends CQELSSensorStream implements Run
 					try {
 						logger.debug(this.getURI() + " Streaming: " + st.toString());
 						stream(st.getSubject().asNode(), st.getPredicate().asNode(), st.getObject().asNode());
-						logger.info("Messages streamed to CQELS successfully.");
+						logger.debug("Messages streamed to CQELS successfully.");
 
 					} catch (Exception e) {
 						e.printStackTrace();
@@ -104,7 +105,8 @@ public class CQELSAarhusPollutionStream extends CQELSSensorStream implements Run
 				}
 				// logger.info("Messages streamed to CQELS successfully.");
 				try {
-					Thread.sleep(sleep);
+					if (this.getRate() != 1.0)
+						Thread.sleep(sleep);
 				} catch (Exception e) {
 
 					e.printStackTrace();
@@ -124,51 +126,14 @@ public class CQELSAarhusPollutionStream extends CQELSSensorStream implements Run
 
 	@Override
 	protected List<Statement> getStatements(SensorObservation so) {
-		Model m = ModelFactory.createDefaultModel();
-		if (ed != null)
-			for (String s : ed.getPayloads()) {
-				this.annotateObservation(m, s, (PollutionObservation) so);
-			}
-		return m.listStatements().toList();
-	}
-
-	private void annotateObservation(Model m, String s, PollutionObservation so) {
-		Resource observation = m.createResource("Observation-" + UUID.randomUUID());
-		// System.out.println("OB: " + observation.toString());
-		observation.addProperty(RDF.type, m.createResource(RDFFileManager.ssnPrefix + "Observation"));
-		// observation.addProperty(RDF.type,
-		// m.createResource(RDFFileManager.saoPrefix + "StreamData"));
-		Resource serviceID = m.createResource(this.getURI());
-		observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedBy"), serviceID);
-		// Resource property = m.createResource(s.split("\\|")[2]);
-		// property.addProperty(RDF.type, m.createResource(s.split("\\|")[0]));
-		observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedProperty"),
-				m.createResource(s.split("\\|")[0]));
-		Property hasValue = m.createProperty(RDFFileManager.saoPrefix + "hasValue");
-		// Literal l;
-		// System.out.println("Annotating: " + observedProperty.toString());
-		// if (observedProperty.contains("AvgSpeed"))
-		observation.addLiteral(hasValue, so.getApi());
-
+		return DataWrapper.getAarhusPollutionStatement(so, ed);
 	}
 
 	@Override
 	protected SensorObservation createObservation(Object data) {
-		try {
-			CsvReader streamData = (CsvReader) data;
-			int ozone = Integer.parseInt(streamData.get("ozone")), particullate_matter = Integer.parseInt(streamData
-					.get("particullate_matter")), carbon_monoxide = Integer.parseInt(streamData.get("carbon_monoxide")), sulfure_dioxide = Integer
-					.parseInt(streamData.get("sulfure_dioxide")), nitrogen_dioxide = Integer.parseInt(streamData
-					.get("nitrogen_dioxide"));
-			Date obTime = sdf.parse(streamData.get("timestamp"));
-			PollutionObservation po = new PollutionObservation(0.0, 0.0, 0.0, ozone, particullate_matter,
-					carbon_monoxide, sulfure_dioxide, nitrogen_dioxide, obTime);
-			logger.debug(this.getURI() + ": streaming record @" + po.getObTimeStamp());
-			this.currentObservation = po;
-			return po;
-		} catch (NumberFormatException | IOException | ParseException e) {
-			e.printStackTrace();
-		}
-		return null;
+		SensorObservation po = DataWrapper.getAarhusPollutionObservation((CsvReader) data, ed);
+		DataWrapper.waitForInterval(currentObservation, po, startDate, getRate());
+		this.currentObservation = po;
+		return po;
 	}
 }

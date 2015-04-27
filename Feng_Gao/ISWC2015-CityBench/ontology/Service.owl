@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.daml.org/services/owl-s/1.2/Service.owl#"
+     xml:base="http://www.daml.org/services/owl-s/1.2/Service.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.daml.org/services/owl-s/1.2/Service.owl">
+        <rdfs:comment>
+    Top level of OWL ontology for services.
+    Part of the OWL-S ontology; see http://www.daml.org/services/.  
+  </rdfs:comment>
+        <owl:versionInfo>
+    $Id: Service.owl,v 1.25 2005/05/18 21:45:19 martin Exp $
+  </owl:versionInfo>
+        <owl:imports rdf:resource="http://www.daml.org/services/owl-s/1.2/Grounding.owl"/>
+        <owl:imports rdf:resource="http://www.daml.org/services/owl-s/1.2/Process.owl"/>
+        <owl:imports rdf:resource="http://www.daml.org/services/owl-s/1.2/Profile.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daml.org/services/owl-s/1.2/Service.owl#describedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.daml.org/services/owl-s/1.2/Service.owl#describedBy">
+        <rdfs:domain rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#Service"/>
+        <rdfs:range rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#ServiceModel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.daml.org/services/owl-s/1.2/Service.owl#describes -->
+
+    <owl:ObjectProperty rdf:about="http://www.daml.org/services/owl-s/1.2/Service.owl#describes">
+        <rdfs:comment> 
+    There are no cardinality restrictions on this property. That is,
+    the same service model can be used by many different services.
+  </rdfs:comment>
+        <rdfs:range rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#Service"/>
+        <rdfs:domain rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#ServiceModel"/>
+        <owl:inverseOf rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#describedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.daml.org/services/owl-s/1.2/Service.owl#presentedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.daml.org/services/owl-s/1.2/Service.owl#presentedBy">
+        <rdfs:comment> 
+    There are no cardinality restrictions on this property. 
+  </rdfs:comment>
+        <rdfs:range rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#Service"/>
+        <rdfs:domain rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#ServiceProfile"/>
+        <owl:inverseOf rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#presents"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.daml.org/services/owl-s/1.2/Service.owl#presents -->
+
+    <owl:ObjectProperty rdf:about="http://www.daml.org/services/owl-s/1.2/Service.owl#presents">
+        <rdfs:comment> 
+    There are no cardinality restrictions on this property. 
+  </rdfs:comment>
+        <rdfs:domain rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#Service"/>
+        <rdfs:range rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#ServiceProfile"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.daml.org/services/owl-s/1.2/Service.owl#providedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.daml.org/services/owl-s/1.2/Service.owl#providedBy">
+        <rdfs:domain rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#Service"/>
+        <owl:inverseOf rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#provides"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.daml.org/services/owl-s/1.2/Service.owl#provides -->
+
+    <owl:ObjectProperty rdf:about="http://www.daml.org/services/owl-s/1.2/Service.owl#provides">
+        <rdfs:comment>
+    OWL-S is completely agnostic at present about what kind of thing
+    provides a service (hence, no domain declared here).
+  </rdfs:comment>
+        <rdfs:range rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#Service"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.daml.org/services/owl-s/1.2/Service.owl#supportedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.daml.org/services/owl-s/1.2/Service.owl#supportedBy">
+        <rdfs:range rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#Service"/>
+        <rdfs:domain rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#ServiceGrounding"/>
+        <owl:inverseOf rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#supports"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.daml.org/services/owl-s/1.2/Service.owl#supports -->
+
+    <owl:ObjectProperty rdf:about="http://www.daml.org/services/owl-s/1.2/Service.owl#supports">
+        <rdfs:domain rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#Service"/>
+        <rdfs:range rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#ServiceGrounding"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daml.org/services/owl-s/1.2/Service.owl#Service -->
+
+    <owl:Class rdf:about="http://www.daml.org/services/owl-s/1.2/Service.owl#Service">
+        <rdfs:label>Service</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#describedBy"/>
+                <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>See comments above</rdfs:comment>
+        <rdfs:comment> 
+    A service has 0 or 1 models.  (But note that a service with 0 models 
+    does not provide automated online access; it exists only for
+    discovery purposes; that is, it exists so as to provide a Profile.)
+  </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.daml.org/services/owl-s/1.2/Service.owl#ServiceGrounding -->
+
+    <owl:Class rdf:about="http://www.daml.org/services/owl-s/1.2/Service.owl#ServiceGrounding">
+        <rdfs:label>ServiceGrounding</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#supportedBy"/>
+                <owl:cardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>See comments above</rdfs:comment>
+        <rdfs:comment> 
+    A Grounding must be associated with exactly one service.
+    (Also, that service must have a model - but that constraint
+    isn&apos;t expressed here.)
+  </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.daml.org/services/owl-s/1.2/Service.owl#ServiceModel -->
+
+    <owl:Class rdf:about="http://www.daml.org/services/owl-s/1.2/Service.owl#ServiceModel">
+        <rdfs:label>ServiceModel</rdfs:label>
+        <rdfs:comment>See comments above</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.daml.org/services/owl-s/1.2/Service.owl#ServiceProfile -->
+
+    <owl:Class rdf:about="http://www.daml.org/services/owl-s/1.2/Service.owl#ServiceProfile">
+        <rdfs:label>ServiceProfile</rdfs:label>
+        <rdfs:comment>See comments above</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+

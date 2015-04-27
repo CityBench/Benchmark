@@ -29,9 +29,11 @@ public class Main {
 			cb.startTest();
 		} catch (IOException e) {
 			e.printStackTrace();
+			System.exit(0);
 		} catch (Exception e) {
 			// logger.error(e.getMessage());
 			e.printStackTrace();
+			System.exit(0);
 		}
 	}
 }
