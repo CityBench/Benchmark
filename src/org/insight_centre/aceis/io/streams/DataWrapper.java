@@ -15,6 +15,7 @@ import org.insight_centre.aceis.observations.AarhusTrafficObservation;
 import org.insight_centre.aceis.observations.PollutionObservation;
 import org.insight_centre.aceis.observations.SensorObservation;
 import org.insight_centre.aceis.observations.WeatherObservation;
+import org.insight_centre.citybench.main.CityBench;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -43,7 +44,7 @@ public class DataWrapper {
 			try {
 				// logger.info("previous: " + previousTime + ", current: " + current.getObTimeStamp().getTime());
 				long ms = (long) ((current.getObTimeStamp().getTime() - previousTime));
-				logger.info("waiting..." + ms / rate);
+				// logger.info("waiting..." + ms / rate);
 				Thread.sleep((long) (ms / rate));
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -60,12 +61,14 @@ public class DataWrapper {
 					Double.parseDouble(streamData.get("avgSpeed")), Double.parseDouble(streamData.get("vehicleCount")),
 					Double.parseDouble(streamData.get("avgMeasuredTime")), 0, 0, null, null, 0.0, 0.0, null, null, 0.0,
 					0.0, null, null, streamData.get("TIMESTAMP"));
-			String obId = streamData.get("_id");
+			String obId = RDFFileManager.defaultPrefix + "Observation-" + streamData.get("_id") + "-"
+					+ UUID.randomUUID();
 			Double distance = Double.parseDouble(((TrafficReportService) ed).getDistance() + "");
 			data.setEstimatedTime(distance / data.getAverageSpeed());
 			data.setCongestionLevel(data.getVehicle_count() / distance);
 
-			data.setObId(RDFFileManager.defaultPrefix + "Observation-" + obId + "-" + UUID.randomUUID());
+			data.setObId(obId);
+			CityBench.obMap.put(obId, data);
 			// this.currentObservation = data;
 			return data;
 		} catch (NumberFormatException | IOException e) {
@@ -123,7 +126,7 @@ public class DataWrapper {
 			PollutionObservation po = new PollutionObservation(0.0, 0.0, 0.0, ozone, particullate_matter,
 					carbon_monoxide, sulfure_dioxide, nitrogen_dioxide, obTime);
 			// logger.debug(ed.getServiceId() + ": streaming record @" + po.getObTimeStamp());
-
+			CityBench.obMap.put(po.getObId(), po);
 			return po;
 		} catch (NumberFormatException | IOException | ParseException e) {
 			e.printStackTrace();
@@ -157,6 +160,7 @@ public class DataWrapper {
 			Date obTime = sdf2.parse(streamData.get("TIMESTAMP"));
 			WeatherObservation wo = new WeatherObservation(tempm, hum, wspdm, obTime);
 			logger.debug(ed.getServiceId() + ": streaming record @" + wo.getObTimeStamp());
+			CityBench.obMap.put(wo.getObId(), wo);
 			// this.currentObservation = wo;
 			return wo;
 		} catch (NumberFormatException | IOException | ParseException e) {
@@ -197,6 +201,7 @@ public class DataWrapper {
 		// so.setServiceId(this.getURI());
 		so.setValue(coordinatesStr);
 		so.setObTimeStamp(new Date());
+		CityBench.obMap.put(so.getObId(), so);
 		return so;
 	}
 
@@ -243,7 +248,7 @@ public class DataWrapper {
 			// logger.info("Annotating obTime: " + obTime + " in ms: " + obTime.getTime());
 			apo.setObId(RDFFileManager.defaultPrefix + "AarhusParkingObservation-" + id + "-" + UUID.randomUUID());
 			logger.debug(ed.getServiceId() + ": streaming record @" + apo.getObTimeStamp());
-
+			CityBench.obMap.put(apo.getObId(), apo);
 			return apo;
 		} catch (NumberFormatException | IOException | ParseException e) {
 			e.printStackTrace();

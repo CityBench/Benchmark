@@ -190,7 +190,6 @@ public class CQELSAarhusTrafficStream extends CQELSSensorStream implements Runna
 				}
 				this.messageCnt += 1;
 				this.byteCnt += messageByte;
-				logger.info("Messages streamed to CQELS successfully.");
 				if (sleep > 0) {
 					try {
 						if (this.getRate() != 1.0)

@@ -88,7 +88,6 @@ public class CSPARQLAarhusWeatherStream extends CSPARQLSensorStream implements R
 					}
 					// messageByte += st.toString().getBytes().length;
 				}
-				logger.debug("Messages streamed to CSPARQL successfully.");
 				try {
 					if (this.getRate() != 1.0)
 						Thread.sleep(sleep);

@@ -1,7 +1,15 @@
 package org.insight_centre.aceis.io.streams.cqels;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
 
 import org.deri.cqels.data.Mapping;
 import org.deri.cqels.engine.ContinuousListener;
@@ -11,9 +19,13 @@ import org.slf4j.LoggerFactory;
 
 import com.hp.hpl.jena.sparql.core.Var;
 
+import eu.larkc.csparql.common.RDFTuple;
+
 public class CQELSResultListener implements ContinuousListener {
 	private String uri;
 	private static final Logger logger = LoggerFactory.getLogger(CQELSResultListener.class);
+	public static Set<String> capturedObIds = Collections.newSetFromMap(new ConcurrentHashMap<String, Boolean>());
+	public static Set<String> capturedResults = Collections.newSetFromMap(new ConcurrentHashMap<String, Boolean>());
 
 	public CQELSResultListener(String string) {
 		setUri(string);
@@ -23,12 +35,33 @@ public class CQELSResultListener implements ContinuousListener {
 	public void update(Mapping mapping) {
 		String result = "";
 		try {
-			for (Iterator<Var> vars = mapping.vars(); vars.hasNext();)
-				result += " " + CityBench.cqelsContext.engine().decode(mapping.get(vars.next()));
+			Map<String, Long> latencies = new HashMap<String, Long>();
+			// int cnt = 0;
+			for (Iterator<Var> vars = mapping.vars(); vars.hasNext();) {
+				Var var = vars.next();
+				String varName = var.getName();
+				String varStr = CityBench.cqelsContext.engine().decode(mapping.get(var)).toString();
+				if (varName.contains("obId")) {
+					if (!this.capturedObIds.contains(varStr)) {
+						this.capturedObIds.add(varStr);
+						long initTime = CityBench.obMap.get(varStr).getSysTimestamp().getTime();
+						latencies.put(varStr, (System.currentTimeMillis() - initTime));
+					}
+				}
+				// logger.info("var name: " + varName + ", value: " + varStr);
+				result += " " + varStr;
+
+			}
+			// logger.info("CQELS result arrived: " + result);
+			if (!capturedResults.contains(result)) {
+				capturedResults.add(result);
+				CityBench.pm.addResults(getUri(), latencies, 1);
+			}
+
 		} catch (Exception e) {
 			logger.error("CQELS decoding error: " + e.getMessage());
+			e.printStackTrace();
 		}
-		logger.info("CQELS result arrived: " + result);
 
 	}
 

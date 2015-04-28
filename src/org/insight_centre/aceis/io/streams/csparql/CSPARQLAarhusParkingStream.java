@@ -96,8 +96,7 @@ public class CSPARQLAarhusParkingStream extends CSPARQLSensorStream implements R
 						final RdfQuadruple q = new RdfQuadruple(st.getSubject().toString(), st.getPredicate()
 								.toString(), st.getObject().toString(), System.currentTimeMillis());
 						this.put(q);
-						logger.info(this.getIRI() + " Streaming: " + q.toString());
-						logger.debug("Messages streamed to CSPARQL engine successfully.");
+						logger.debug(this.getIRI() + " Streaming: " + q.toString());
 
 					} catch (Exception e) {
 						e.printStackTrace();
@@ -105,7 +104,6 @@ public class CSPARQLAarhusParkingStream extends CSPARQLSensorStream implements R
 					}
 					// messageByte += st.toString().getBytes().length;
 				}
-				logger.debug("Messages streamed to CSPARQL successfully.");
 				try {
 					if (this.getRate() != 1.0)
 						Thread.sleep(sleep);
