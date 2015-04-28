@@ -62,7 +62,7 @@ public class CQELSLocationStream extends CQELSSensorStream implements Runnable {
 						if (st.getSubject().asNode() != null && st.getPredicate().asNode() != null
 								&& st.getObject().asNode() != null) {
 							stream(st.getSubject().asNode(), st.getPredicate().asNode(), st.getObject().asNode());
-							logger.info(this.getURI() + " Streaming: " + st.toString());
+							logger.debug(this.getURI() + " Streaming: " + st.toString());
 							messageByte += st.toString().getBytes().length;
 							// fw.write(st.toString())
 

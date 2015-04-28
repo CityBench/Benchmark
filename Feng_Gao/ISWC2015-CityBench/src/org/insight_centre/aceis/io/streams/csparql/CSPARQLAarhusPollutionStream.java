@@ -94,12 +94,10 @@ public class CSPARQLAarhusPollutionStream extends CSPARQLSensorStream implements
 				List<Statement> stmts = this.getStatements(po);
 				for (Statement st : stmts) {
 					try {
-						logger.debug(this.getIRI() + " Streaming: " + st.toString());
 						final RdfQuadruple q = new RdfQuadruple(st.getSubject().toString(), st.getPredicate()
 								.toString(), st.getObject().toString(), System.currentTimeMillis());
 						this.put(q);
 						logger.debug(this.getIRI() + " Streaming: " + q.toString());
-						logger.debug("Messages streamed to CSPARQL engine successfully.");
 
 					} catch (Exception e) {
 						e.printStackTrace();
@@ -107,7 +105,6 @@ public class CSPARQLAarhusPollutionStream extends CSPARQLSensorStream implements
 					}
 					// messageByte += st.toString().getBytes().length;
 				}
-				logger.info("Messages streamed to CSPARQL successfully.");
 				try {
 					if (this.getRate() != 1.0)
 						Thread.sleep(sleep);

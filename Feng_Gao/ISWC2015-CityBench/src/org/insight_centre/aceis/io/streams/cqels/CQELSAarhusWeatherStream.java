@@ -85,7 +85,6 @@ public class CQELSAarhusWeatherStream extends CQELSSensorStream implements Runna
 					}
 					// messageByte += st.toString().getBytes().length;
 				}
-				logger.debug("Messages streamed to CQELS successfully.");
 				try {
 					if (this.getRate() != 1.0)
 						Thread.sleep(sleep);

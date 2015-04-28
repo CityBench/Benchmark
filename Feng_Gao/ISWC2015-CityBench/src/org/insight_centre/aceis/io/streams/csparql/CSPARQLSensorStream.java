@@ -1,6 +1,7 @@
 package org.insight_centre.aceis.io.streams.csparql;
 
 import java.io.IOException;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -38,7 +39,8 @@ public abstract class CSPARQLSensorStream extends RdfStream implements Runnable 
 
 	public void setRate(Double rate) {
 		this.rate = rate;
-		logger.info("Streamming accleration rate to: " + rate);
+		if (this.rate != 1.0)
+			logger.info("Streamming accleration rate to: " + rate);
 	}
 
 	public double getRate() {
@@ -46,8 +48,9 @@ public abstract class CSPARQLSensorStream extends RdfStream implements Runnable 
 	}
 
 	public void setFreq(Double freq) {
-		sleep = (int) (sleep / rate);
-		logger.info("Streamming interval set to: " + sleep + " ms");
+		sleep = (int) (sleep / freq);
+		if (this.rate == 1.0)
+			logger.info("Streamming interval set to: " + sleep + " ms");
 	}
 
 	public void stop() {

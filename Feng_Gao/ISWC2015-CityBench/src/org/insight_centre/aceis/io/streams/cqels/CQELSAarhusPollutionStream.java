@@ -95,7 +95,6 @@ public class CQELSAarhusPollutionStream extends CQELSSensorStream implements Run
 					try {
 						logger.debug(this.getURI() + " Streaming: " + st.toString());
 						stream(st.getSubject().asNode(), st.getPredicate().asNode(), st.getObject().asNode());
-						logger.debug("Messages streamed to CQELS successfully.");
 
 					} catch (Exception e) {
 						e.printStackTrace();

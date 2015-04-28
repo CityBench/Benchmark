@@ -62,12 +62,10 @@ public class CSPARQLLocationStream extends CSPARQLSensorStream implements Runnab
 					long messageByte = 0;
 					for (Statement st : stmts) {
 						try {
-							logger.debug(this.getIRI() + " Streaming: " + st.toString());
 							final RdfQuadruple q = new RdfQuadruple(st.getSubject().toString(), st.getPredicate()
 									.toString(), st.getObject().toString(), System.currentTimeMillis());
 							this.put(q);
 							logger.debug(this.getIRI() + " Streaming: " + q.toString());
-							logger.debug("Messages streamed to CSPARQL engine successfully.");
 
 						} catch (Exception e) {
 							e.printStackTrace();

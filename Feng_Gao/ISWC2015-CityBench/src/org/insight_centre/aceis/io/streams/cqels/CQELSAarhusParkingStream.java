@@ -81,7 +81,6 @@ public class CQELSAarhusParkingStream extends CQELSSensorStream {
 					}
 				}
 
-				logger.debug("Reading data: " + streamData.toString());
 				AarhusParkingObservation po = (AarhusParkingObservation) this.createObservation(streamData);
 				// logger.debug("Reading data: " + new Gson().toJson(po));
 				List<Statement> stmts = this.getStatements(po);
@@ -90,7 +89,6 @@ public class CQELSAarhusParkingStream extends CQELSSensorStream {
 					try {
 						logger.debug(this.getURI() + " Streaming: " + st.toString());
 						stream(st.getSubject().asNode(), st.getPredicate().asNode(), st.getObject().asNode());
-						logger.debug("Messages streamed to CQELS successfully.");
 
 					} catch (Exception e) {
 						e.printStackTrace();

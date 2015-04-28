@@ -16,6 +16,7 @@ import java.util.Map.Entry;
 import java.util.Properties;
 import java.util.Set;
 import java.util.UUID;
+import java.util.concurrent.ConcurrentHashMap;
 
 import org.deri.cqels.engine.CQELSEngine;
 import org.deri.cqels.engine.ContinuousSelect;
@@ -38,6 +39,8 @@ import org.insight_centre.aceis.io.streams.csparql.CSPARQLAarhusWeatherStream;
 import org.insight_centre.aceis.io.streams.csparql.CSPARQLLocationStream;
 import org.insight_centre.aceis.io.streams.csparql.CSPARQLResultObserver;
 import org.insight_centre.aceis.io.streams.csparql.CSPARQLSensorStream;
+import org.insight_centre.aceis.observations.SensorObservation;
+import org.insight_centre.aceis.utils.test.PerformanceMonitor;
 //import org.insight_centre.aceis.io.streams.csparql.CSPARQLResultObserver;
 import org.slf4j.Logger;
 //import org.apache.log4j.Logger;
@@ -60,22 +63,56 @@ public class CityBench {
 	public static ExecContext cqelsContext, tempContext;
 	public static CsparqlEngineImpl csparqlEngine;
 	private static final Logger logger = LoggerFactory.getLogger(CityBench.class);
+	public static ConcurrentHashMap<String, SensorObservation> obMap = new ConcurrentHashMap<String, SensorObservation>();
+
 	// HashMap<String, String> parameters;
 	// Properties prop;
 
-	private Map<String, String> queryMap = new HashMap<String, String>();
-	private Set<String> registeredQueries = new HashSet<String>();
-	private Set<String> startedStreams = new HashSet<String>();
-	EventRepository er;
-	private double rate = 1.0; // stream rate factor
+	public static void main(String[] args) {
+		try {
+			Properties prop = new Properties();
+			// logger.info(Main.class.getClassLoader().);
+			File in = new File("citybench.properties");
+			FileInputStream fis = new FileInputStream(in);
+			prop.load(fis);
+			fis.close();
+			// Thread.
+			HashMap<String, String> parameters = new HashMap<String, String>();
+			for (String s : args) {
+				parameters.put(s.split("=")[0], s.split("=")[1]);
+			}
+			CityBench cb = new CityBench(prop, parameters);
+			cb.startTest();
+		} catch (IOException e) {
+			e.printStackTrace();
+			System.exit(0);
+		} catch (Exception e) {
+			// logger.error(e.getMessage());
+			e.printStackTrace();
+			System.exit(0);
+		}
+	}
+
+	private String dataset, ontology, cqels_query, csparql_query, streams;
 	private long duration = 0; // experiment time in milliseconds
+	private RSPEngine engine;
+	EventRepository er;
+	private double frequency = 1.0;
+	public static PerformanceMonitor pm;
+	private List<String> queries;
+	int queryDuplicates = 1;
+	private Map<String, String> queryMap = new HashMap<String, String>();
+
+	// public Map<String, String> getQueryMap() {
+	// return queryMap;
+	// }
+
+	private double rate = 1.0; // stream rate factor
+	public static Map<String, Object> registeredQueries = new HashMap<String, Object>();
+	private String resultName;
 	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
 	private Date start, end;
-	private double frequency = 1.0;
-	int queryDuplicates = 1;
-	private String dataset, ontology, cqels_query, csparql_query, streams;
-	private RSPEngine engine;
-	private List<String> queries;
+	private Set<String> startedStreams = new HashSet<String>();
 
 	// private double rate,frequency
 	// DatasetTDB
@@ -151,6 +188,10 @@ public class CityBench {
 		logger.info("Parameters loaded: engine - " + this.engine + ", queries - " + this.queries + ", rate - "
 				+ this.rate + ", frequency - " + this.frequency + ", duration - " + this.duration + ", duplicates - "
 				+ this.queryDuplicates + ", start - " + this.start + ", end - " + this.end);
+
+		this.resultName = UUID.randomUUID() + " r=" + this.rate + ",f=" + this.frequency + ",d=" + this.duration
+				+ ",dup=" + this.queryDuplicates + ",e=" + this.engine + ",q=" + this.queries + ",start="
+				+ this.sdf.format(start) + ",end=" + this.sdf.format(end);// + parameters.toString();
 		// initialize datasets
 		try {
 			tempContext = RDFFileManager.initializeCQELSContext(this.dataset, ReasonerRegistry.getRDFSReasoner());
@@ -178,6 +219,10 @@ public class CityBench {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+
+	public String getResultName() {
+		return resultName;
 	}
 
 	/**
@@ -293,33 +338,33 @@ public class CityBench {
 
 	private void registerCQELSQueries() {
 		for (Entry en : this.queryMap.entrySet()) {
-			String qid = "Query-" + en.getKey() + UUID.randomUUID();
+			String qid = en.getKey() + "-" + UUID.randomUUID();
 			String query = en.getValue() + "";
 			this.registerCQELSQuery(qid, query);
 		}
 	}
 
 	private void registerCQELSQuery(String qid, String query) {
-		if (!this.registeredQueries.contains(qid)) {
+		if (!this.registeredQueries.keySet().contains(qid)) {
 			CQELSResultListener crl = new CQELSResultListener(qid);
 			logger.info("Registering result observer: " + crl.getUri());
 			ContinuousSelect cs = cqelsContext.registerSelect(query);
 			cs.register(crl);
-			this.registeredQueries.add(qid);
+			this.registeredQueries.put(qid, crl);
 		}
 
 	}
 
 	private void registerCSPARQLQueries() throws ParseException {
 		for (Entry en : this.queryMap.entrySet()) {
-			String qid = "Query-" + en.getKey() + UUID.randomUUID();
+			String qid = en.getKey() + "-" + UUID.randomUUID();
 			String query = en.getValue() + "";
 			this.registerCSPARQLQuery(qid, query);
 		}
 	}
 
 	private void registerCSPARQLQuery(String qid, String query) throws ParseException {
-		if (!this.registeredQueries.contains(qid)) {
+		if (!this.registeredQueries.keySet().contains(qid)) {
 			CsparqlQueryResultProxy cqrp = csparqlEngine.registerQuery(query);
 			CSPARQLResultObserver cro = new CSPARQLResultObserver(qid);
 			logger.info("Registering result observer: " + cro.getIRI());
@@ -327,7 +372,7 @@ public class CityBench {
 
 			// RDFStreamFormatter cro = new RDFStreamFormatter(streamURI);
 			cqrp.addObserver(cro);
-			this.registeredQueries.add(qid);
+			this.registeredQueries.put(qid, cro);
 		}
 	}
 
@@ -407,36 +452,13 @@ public class CityBench {
 	protected void startTest() throws Exception {
 		// load queries from query directory, each file contains 1 query
 		this.loadQueries();
+		pm = new PerformanceMonitor(queryMap, duration, queryDuplicates, resultName);
+		new Thread(pm).start();
 		if (this.engine == RSPEngine.cqels)
 			// start cqels test
 			this.initCQELS();
 		else if (this.engine == RSPEngine.csparql)
 			this.initCSPARQL();
 
-	}
-
-	public static void main(String[] args) {
-		try {
-			Properties prop = new Properties();
-			// logger.info(Main.class.getClassLoader().);
-			File in = new File("citybench.properties");
-			FileInputStream fis = new FileInputStream(in);
-			prop.load(fis);
-			fis.close();
-			// Thread.
-			HashMap<String, String> parameters = new HashMap<String, String>();
-			for (String s : args) {
-				parameters.put(s.split("=")[0], s.split("=")[1]);
-			}
-			CityBench cb = new CityBench(prop, parameters);
-			cb.startTest();
-		} catch (IOException e) {
-			e.printStackTrace();
-			System.exit(0);
-		} catch (Exception e) {
-			// logger.error(e.getMessage());
-			e.printStackTrace();
-			System.exit(0);
-		}
 	}
 }

@@ -1,9 +1,10 @@
 package org.insight_centre.aceis.observations;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.Map;
 
-public class SensorObservation {
+public class SensorObservation implements Serializable {
 	protected String srvId, foi, pName, pType;
 	protected Object value;
 	protected Date sysTimestamp;
