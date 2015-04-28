@@ -61,14 +61,13 @@ public class DataWrapper {
 					Double.parseDouble(streamData.get("avgSpeed")), Double.parseDouble(streamData.get("vehicleCount")),
 					Double.parseDouble(streamData.get("avgMeasuredTime")), 0, 0, null, null, 0.0, 0.0, null, null, 0.0,
 					0.0, null, null, streamData.get("TIMESTAMP"));
-			String obId = RDFFileManager.defaultPrefix + "Observation-" + streamData.get("_id") + "-"
-					+ UUID.randomUUID();
+			String obId = "AarhusTrafficObservation-" + streamData.get("_id");
 			Double distance = Double.parseDouble(((TrafficReportService) ed).getDistance() + "");
 			data.setEstimatedTime(distance / data.getAverageSpeed());
 			data.setCongestionLevel(data.getVehicle_count() / distance);
 
 			data.setObId(obId);
-			CityBench.obMap.put(obId, data);
+			;
 			// this.currentObservation = data;
 			return data;
 		} catch (NumberFormatException | IOException e) {
@@ -84,8 +83,9 @@ public class DataWrapper {
 				// if (s.contains("EstimatedTime")) {
 				// Resource observedProperty = m.createResource(s);
 				String obId = data.getObId();
-				Resource observation = m.createResource(obId);
-				data.setObId(observation.toString());
+				Resource observation = m.createResource(RDFFileManager.defaultPrefix + obId + UUID.randomUUID());
+				CityBench.obMap.put(observation.toString(), data);
+				// data.setObId(observation.toString());
 				// System.out.println("OB: " + observation.toString());
 				observation.addProperty(RDF.type, m.createResource(RDFFileManager.ssnPrefix + "Observation"));
 
@@ -126,7 +126,7 @@ public class DataWrapper {
 			PollutionObservation po = new PollutionObservation(0.0, 0.0, 0.0, ozone, particullate_matter,
 					carbon_monoxide, sulfure_dioxide, nitrogen_dioxide, obTime);
 			// logger.debug(ed.getServiceId() + ": streaming record @" + po.getObTimeStamp());
-			CityBench.obMap.put(po.getObId(), po);
+			po.setObId("AarhusPollutionObservation-" + (int) Math.random() * 10000);
 			return po;
 		} catch (NumberFormatException | IOException | ParseException e) {
 			e.printStackTrace();
@@ -138,9 +138,12 @@ public class DataWrapper {
 		Model m = ModelFactory.createDefaultModel();
 		if (ed != null)
 			for (String s : ed.getPayloads()) {
-				Resource observation = m.createResource("Observation-" + UUID.randomUUID());
-				so.setObId(observation.toString());
+				Resource observation = m
+						.createResource(RDFFileManager.defaultPrefix + so.getObId() + UUID.randomUUID());
+				// so.setObId(RDFFileManager.defaultPrefix + observation.toString());
+				CityBench.obMap.put(observation.toString(), so);
 				observation.addProperty(RDF.type, m.createResource(RDFFileManager.ssnPrefix + "Observation"));
+
 				Resource serviceID = m.createResource(ed.getServiceId());
 				observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedBy"), serviceID);
 				observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedProperty"),
@@ -160,7 +163,7 @@ public class DataWrapper {
 			Date obTime = sdf2.parse(streamData.get("TIMESTAMP"));
 			WeatherObservation wo = new WeatherObservation(tempm, hum, wspdm, obTime);
 			logger.debug(ed.getServiceId() + ": streaming record @" + wo.getObTimeStamp());
-			CityBench.obMap.put(wo.getObId(), wo);
+			wo.setObId("AarhusWeatherObservation-" + (int) Math.random() * 1000);
 			// this.currentObservation = wo;
 			return wo;
 		} catch (NumberFormatException | IOException | ParseException e) {
@@ -174,8 +177,10 @@ public class DataWrapper {
 		Model m = ModelFactory.createDefaultModel();
 		if (ed != null)
 			for (String s : ed.getPayloads()) {
-				Resource observation = m.createResource("Observation-" + UUID.randomUUID());
-				wo.setObId(observation.toString());
+				Resource observation = m
+						.createResource(RDFFileManager.defaultPrefix + wo.getObId() + UUID.randomUUID());
+				// wo.setObId(observation.toString());
+				CityBench.obMap.put(observation.toString(), wo);
 				observation.addProperty(RDF.type, m.createResource(RDFFileManager.ssnPrefix + "Observation"));
 				Resource serviceID = m.createResource(ed.getServiceId());
 				observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedBy"), serviceID);
@@ -201,7 +206,7 @@ public class DataWrapper {
 		// so.setServiceId(this.getURI());
 		so.setValue(coordinatesStr);
 		so.setObTimeStamp(new Date());
-		CityBench.obMap.put(so.getObId(), so);
+		so.setObId("UserLocationObservation-" + (int) Math.random() * 10000);
 		return so;
 	}
 
@@ -215,7 +220,8 @@ public class DataWrapper {
 		//
 		// Resource user = m.createResource(userStr);
 
-		Resource observation = m.createResource(RDFFileManager.defaultPrefix + "Observation-" + UUID.randomUUID());
+		Resource observation = m.createResource(RDFFileManager.defaultPrefix + so.getObId() + UUID.randomUUID());
+		CityBench.obMap.put(observation.toString(), so);
 		observation.addProperty(RDF.type, m.createResource(RDFFileManager.ssnPrefix + "Observation"));
 		// observation.addProperty(RDF.type, m.createResource(RDFFileManager.saoPrefix + "StreamData"));
 
@@ -246,9 +252,9 @@ public class DataWrapper {
 					0.0);
 			apo.setObTimeStamp(obTime);
 			// logger.info("Annotating obTime: " + obTime + " in ms: " + obTime.getTime());
-			apo.setObId(RDFFileManager.defaultPrefix + "AarhusParkingObservation-" + id + "-" + UUID.randomUUID());
+			apo.setObId("AarhusParkingObservation-" + id);
 			logger.debug(ed.getServiceId() + ": streaming record @" + apo.getObTimeStamp());
-			CityBench.obMap.put(apo.getObId(), apo);
+
 			return apo;
 		} catch (NumberFormatException | IOException | ParseException e) {
 			e.printStackTrace();
@@ -258,9 +264,8 @@ public class DataWrapper {
 
 	public static List<Statement> getAarhusParkingStatements(SensorObservation so, EventDeclaration ed) {
 		Model m = ModelFactory.createDefaultModel();
-		Resource observation = m.createResource(so.getObId());
-		// so.setObId(observation.toString());
-		// System.out.println("OB: " + observation.toString());
+		Resource observation = m.createResource(RDFFileManager.defaultPrefix + so.getObId() + UUID.randomUUID());
+		CityBench.obMap.put(observation.toString(), so);
 		observation.addProperty(RDF.type, m.createResource(RDFFileManager.ssnPrefix + "Observation"));
 		// observation.addProperty(RDF.type,
 		// m.createResource(RDFFileManager.saoPrefix + "StreamData"));

@@ -104,7 +104,7 @@ public class CQELSAarhusPollutionStream extends CQELSSensorStream implements Run
 				}
 				// logger.info("Messages streamed to CQELS successfully.");
 				try {
-					if (this.getRate() != 1.0)
+					if (this.getRate() == 1.0)
 						Thread.sleep(sleep);
 				} catch (Exception e) {
 
@@ -115,7 +115,7 @@ public class CQELSAarhusPollutionStream extends CQELSSensorStream implements Run
 			}
 		} catch (Exception e) {
 			logger.error("Unexpected thread termination");
-
+			e.printStackTrace();
 		} finally {
 			logger.info("Stream Terminated: " + this.getURI());
 			this.stop();
