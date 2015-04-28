@@ -106,7 +106,7 @@ public class CSPARQLAarhusPollutionStream extends CSPARQLSensorStream implements
 					// messageByte += st.toString().getBytes().length;
 				}
 				try {
-					if (this.getRate() != 1.0)
+					if (this.getRate() == 1.0)
 						Thread.sleep(sleep);
 				} catch (Exception e) {
 

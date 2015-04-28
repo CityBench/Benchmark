@@ -192,7 +192,7 @@ public class CQELSAarhusTrafficStream extends CQELSSensorStream implements Runna
 				this.byteCnt += messageByte;
 				if (sleep > 0) {
 					try {
-						if (this.getRate() != 1.0)
+						if (this.getRate() == 1.0)
 							Thread.sleep(sleep);
 					} catch (InterruptedException e) {
 
