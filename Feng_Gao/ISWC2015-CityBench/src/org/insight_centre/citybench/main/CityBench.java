@@ -1,10 +1,12 @@
 package org.insight_centre.citybench.main;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -51,12 +53,16 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class CityBench {
+	public enum RSPEngine {
+		cqels, csparql
+	}
+
 	public static ExecContext cqelsContext, tempContext;
 	public static CsparqlEngineImpl csparqlEngine;
 	private static final Logger logger = LoggerFactory.getLogger(CityBench.class);
-	HashMap<String, String> parameters;
-	Properties prop;
-	int queryDuplicates = 1;
+	// HashMap<String, String> parameters;
+	// Properties prop;
+
 	private Map<String, String> queryMap = new HashMap<String, String>();
 	private Set<String> registeredQueries = new HashSet<String>();
 	private Set<String> startedStreams = new HashSet<String>();
@@ -66,7 +72,12 @@ public class CityBench {
 	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
 	private Date start, end;
 	private double frequency = 1.0;
+	int queryDuplicates = 1;
+	private String dataset, ontology, cqels_query, csparql_query, streams;
+	private RSPEngine engine;
+	private List<String> queries;
 
+	// private double rate,frequency
 	// DatasetTDB
 	/**
 	 * @param prop
@@ -77,19 +88,45 @@ public class CityBench {
 	 * @throws Exception
 	 */
 	public CityBench(Properties prop, HashMap<String, String> parameters) throws Exception {
-		this.prop = prop;
-		this.parameters = parameters;
-		if (this.prop.get("dataset") != null) {
-			tempContext = RDFFileManager.initializeCQELSContext(this.prop.get("dataset") + "",
-					ReasonerRegistry.getRDFSReasoner());
-			er = RDFFileManager.buildRepoFromFile(0);
-		} else
-			throw new Exception("Cannot load dataset.");
-		if (this.parameters.containsKey("rate")) {
-			this.rate = Double.parseDouble(this.parameters.get("rate"));
+		// parse configuration file
+		// this.parameters = parameters;
+		try {
+			this.dataset = prop.getProperty("dataset");
+			this.ontology = prop.getProperty("ontology");
+			this.cqels_query = prop.getProperty("cqels_query");
+			this.csparql_query = prop.getProperty("csparql_query");
+			this.streams = prop.getProperty("streams");
+			if (this.dataset == null || this.ontology == null || this.cqels_query == null || this.csparql_query == null
+					|| this.streams == null)
+				throw new Exception("Configuration properties incomplete.");
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.exit(0);
+
 		}
-		if (this.parameters.containsKey("duration")) {
-			String durationStr = this.parameters.get("duration");
+
+		// parse parameters
+		if (parameters.containsKey("query")) {
+			this.queries = Arrays.asList(parameters.get("query").split(","));
+		}
+		if (parameters.get("queryDuplicates") != null) {
+			queryDuplicates = Integer.parseInt(parameters.get("queryDuplicates"));
+		}
+		if (parameters.containsKey("engine")) {
+			if (parameters.get("engine").equals("cqels"))
+				this.engine = RSPEngine.cqels;
+			else if (parameters.get("engine").equals("csparql"))
+				this.engine = RSPEngine.csparql;
+			else
+				throw new Exception("RSP Engine not supported.");
+		} else
+			throw new Exception("RSP Engine not specified.");
+
+		if (parameters.containsKey("rate")) {
+			this.rate = Double.parseDouble(parameters.get("rate"));
+		}
+		if (parameters.containsKey("duration")) {
+			String durationStr = parameters.get("duration");
 			String valueStr = durationStr.substring(0, durationStr.length() - 1);
 			if (durationStr.contains("s"))
 				duration = Integer.parseInt(valueStr) * 1000;
@@ -98,23 +135,30 @@ public class CityBench {
 			else
 				throw new Exception("Duration specification invalid.");
 		}
-		if (this.parameters.containsKey("queryDuplicates"))
-			this.queryDuplicates = Integer.parseInt(this.parameters.get("queryDuplicates"));
-		if (this.parameters.containsKey("startDate"))
-			this.start = sdf.parse(this.parameters.get("startDate"));
+		if (parameters.containsKey("queryDuplicates"))
+			this.queryDuplicates = Integer.parseInt(parameters.get("queryDuplicates"));
+		if (parameters.containsKey("startDate"))
+			this.start = sdf.parse(parameters.get("startDate"));
 		else
 			throw new Exception("Start date not specified");
-		if (this.parameters.containsKey("endDate"))
-			this.end = sdf.parse(this.parameters.get("endDate"));
+		if (parameters.containsKey("endDate"))
+			this.end = sdf.parse(parameters.get("endDate"));
 		else
 			throw new Exception("End date not specified");
-		if (this.parameters.containsKey("frequency"))
-			this.frequency = Double.parseDouble(this.parameters.get("frequency"));
+		if (parameters.containsKey("frequency"))
+			this.frequency = Double.parseDouble(parameters.get("frequency"));
 
-		logger.info("Parameters loaded: rate - " + this.rate + ", duration - " + this.duration + ", duplicates - "
-				+ this.queryDuplicates);
-
-		// this.startTest();
+		logger.info("Parameters loaded: engine - " + this.engine + ", queries - " + this.queries + ", rate - "
+				+ this.rate + ", frequency - " + this.frequency + ", duration - " + this.duration + ", duplicates - "
+				+ this.queryDuplicates + ", start - " + this.start + ", end - " + this.end);
+		// initialize datasets
+		try {
+			tempContext = RDFFileManager.initializeCQELSContext(this.dataset, ReasonerRegistry.getRDFSReasoner());
+			er = RDFFileManager.buildRepoFromFile(0);
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.exit(0);
+		}
 	}
 
 	public void deployQuery(String qid, String query) {
@@ -202,8 +246,12 @@ public class CityBench {
 	}
 
 	private List<String> loadQueries() throws Exception {
-		String qd = this.prop.getProperty("query");
-		if (qd != null) {
+		String qd;
+		if (this.engine == RSPEngine.cqels)
+			qd = this.cqels_query;
+		else
+			qd = this.csparql_query;
+		if (this.queries == null) {
 			File queryDirectory = new File(qd);
 			if (!queryDirectory.exists())
 				throw new Exception("Query directory not exist. " + qd);
@@ -216,15 +264,30 @@ public class CityBench {
 						String qid = queryFile.getName().split("\\.")[0];
 						String qStr = new String(Files.readAllBytes(java.nio.file.Paths.get(queryDirectory
 								+ File.separator + queryFile.getName())));
-						if (this.prop.get("engine") != null && this.prop.get("engine").equals("csparql"))
+						if (this.engine != null && this.engine == RSPEngine.csparql)
 							qStr = "REGISTER QUERY " + qid + " AS " + qStr;
 						this.queryMap.put(qid, qStr);
 					}
 				} else
 					throw new Exception("Cannot find query files.");
 			}
-		} else
-			throw new Exception("Query directory not specified;");
+		} else {
+			for (String qid : this.queries) {
+				try {
+
+					File queryFile = new File(qd + File.separator + qid);
+					String qStr = new String(Files.readAllBytes(queryFile.toPath()));
+					qid = qid.split("\\.")[0];
+					if (this.engine != null && this.engine == RSPEngine.csparql)
+						qStr = "REGISTER QUERY " + qid + " AS " + qStr;
+					this.queryMap.put(qid, qStr);
+				} catch (Exception e) {
+					logger.error("Could not load query file.");
+					e.printStackTrace();
+				}
+			}
+		}
+		// throw new Exception("Query directory not specified;");
 		return null;
 	}
 
@@ -279,7 +342,7 @@ public class CityBench {
 		List<String> streamNames = this.getStreamFileNamesFromQuery(query);
 		for (String sn : streamNames) {
 			String uri = RDFFileManager.defaultPrefix + sn.split("\\.")[0];
-			String path = this.prop.getProperty("streams") + "/" + sn;
+			String path = this.streams + "/" + sn;
 			if (!this.startedStreams.contains(uri)) {
 				this.startedStreams.add(uri);
 				CQELSSensorStream css;
@@ -315,7 +378,7 @@ public class CityBench {
 		List<String> streamNames = this.getStreamFileNamesFromQuery(query);
 		for (String sn : streamNames) {
 			String uri = RDFFileManager.defaultPrefix + sn.split("\\.")[0];
-			String path = this.prop.getProperty("streams") + "/" + sn;
+			String path = this.streams + "/" + sn;
 			if (!this.startedStreams.contains(uri)) {
 				this.startedStreams.add(uri);
 				CSPARQLSensorStream css;
@@ -342,23 +405,38 @@ public class CityBench {
 	}
 
 	protected void startTest() throws Exception {
-		logger.info(prop + "");
-		logger.info(parameters + "");
-		if (this.parameters.get("queryDuplicates") != null) {
-			queryDuplicates = Integer.parseInt(this.parameters.get("queryDuplicates"));
-		}
-		if (prop.getProperty("engine") != null) {
-			// load queries from query directory, each file contains 1 query
-			this.loadQueries();
-			if (prop.getProperty("engine").equals("cqels"))
-				// start cqels test
-				this.initCQELS();
-			else if (prop.getProperty("engine").equals("csparql"))
-				this.initCSPARQL();
-			else
-				throw new Exception("RSP engine not supported.");
-		} else
-			throw new Exception("RSP engine not specified.");
+		// load queries from query directory, each file contains 1 query
+		this.loadQueries();
+		if (this.engine == RSPEngine.cqels)
+			// start cqels test
+			this.initCQELS();
+		else if (this.engine == RSPEngine.csparql)
+			this.initCSPARQL();
 
+	}
+
+	public static void main(String[] args) {
+		try {
+			Properties prop = new Properties();
+			// logger.info(Main.class.getClassLoader().);
+			File in = new File("citybench.properties");
+			FileInputStream fis = new FileInputStream(in);
+			prop.load(fis);
+			fis.close();
+			// Thread.
+			HashMap<String, String> parameters = new HashMap<String, String>();
+			for (String s : args) {
+				parameters.put(s.split("=")[0], s.split("=")[1]);
+			}
+			CityBench cb = new CityBench(prop, parameters);
+			cb.startTest();
+		} catch (IOException e) {
+			e.printStackTrace();
+			System.exit(0);
+		} catch (Exception e) {
+			// logger.error(e.getMessage());
+			e.printStackTrace();
+			System.exit(0);
+		}
 	}
 }
