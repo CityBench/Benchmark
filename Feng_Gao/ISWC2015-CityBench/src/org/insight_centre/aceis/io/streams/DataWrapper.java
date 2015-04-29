@@ -241,10 +241,10 @@ public class DataWrapper {
 				m.createResource(ed.getPayloads().get(0).split("\\|")[2]));
 		observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedBy"), serviceID);
 		// fake fixed foi
-		// observation
-		// .addProperty(
-		// m.createProperty(RDFFileManager.ssnPrefix + "featureOfInterest"),
-		// m.createResource("http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_do63jk2t8c3bjkfb119ojgkhs7"));
+		observation
+				.addProperty(
+						m.createProperty(RDFFileManager.ssnPrefix + "featureOfInterest"),
+						m.createResource("http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_do63jk2t8c3bjkfb119ojgkhs7"));
 
 		observation.addProperty(m.createProperty(RDFFileManager.saoPrefix + "hasValue"), coordinates);
 		// System.out.println("transformed: " + m.listStatements().toList().size());s

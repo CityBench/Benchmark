@@ -15,123 +15,24 @@
 		tl:end "2014-05-06T19:30:00"^^xsd:dateTime;
 		tl:start "2014-05-06T19:30:00"^^xsd:dateTime;
 	] ;
-	prov:used <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_45upffrauupgm1chg5v0anftfp> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_2kh6si4jjim7tf91kku69jloiv> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_br9vkchn8j650r3labc8jgnhbc> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_a1uoek3dbb7juk4kkn97cen1tm> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_v6uemv3i9mgut50s0rdvo7fghn> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_sq6ihi9e5ulhc0gtnahhif6v5v> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_i4uv775c78f19o4368mo586hq2> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_gep70o5fsv4rrsejca9oql71cd> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_bla3n3l58m4elghtlpj1hj240o> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_qhscmob3uftig8v7iv2bjd2vm7> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ipnee6umn5ba8cmrkg4ivu1ubc> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_rvkgrhf7pdk4psve3q1dffnlde> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_k28nge120jv0o1q36pt28g9tf7> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uavkcb0mk5gotm1pqn9qicp126> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_terkncn9evv30igivtu4njm91r> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_42j1ql6lqf16179rpgq4nbqrmb> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ds60pfg0p28ia02lgnli2jcjcr> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_cm8u7fblk0p4mruo9c5e6l9jdi> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_aqsjvfsen6nee1hg3baqo1mnuu> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_vfjg78h0vtn2kotiklj7vtknnu> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_i9b7ps6mq27nm9oiqgkrjrpddf> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_4o6sjrgsq0crn2smc76nbn4i3> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_drta43mu43nrmtb06nb0brap69> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_7et1ojpg0fof146rtalhvia0qt> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uqp58p3elh3kjis9j5v0els1ig> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_b0ntmkbfgor8ofn0hbi144t82l> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_3b6acm2tkqqpgcp0j5l6fptm3p> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_c1tnh48vi4kmlqfajidmsk31ah> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h8e6e512ld6nd9ni3lj40rq05c> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_g36ta8uu07hr8a7fu9eq27nq9m> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hsriljskvrtt700f2doc2smudh> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_8812rfv11pb5tjqd4tqqnmgfce> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kqhc2pinrv631l1ph74tvi2hfe> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_m2rni55mi1eadjvlppelftval9> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_372nr2lh09eljd1d5ch4neukls> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hkn7paq3si6ddde05kk46mm48a> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_b1mf4och0595nidcsnlp5lik5r> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_m7eoh9f5o3ssv0ih601cqigtle> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_oenhesb881ejnpg8m02i8u65vm> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_q0bhfmhv797r1sud5dsp1lgj8o> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_jgol1omlslcit9tc4oj57vq9g5> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uct8j70r84u9540dnch2un93b5> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kb56cuvg4d8c05imqkk3ls2jnf> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ugpfatb2oqqco8c1b2musili50> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_8pkoqdeda3i10m7safaavmpnpi> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_taufvr8dogin2fqtljafiuqv9> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_mlhim3k8kgqd0e5d4f8c46ikpr> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_r955cor54lojlqvb65v3oopl0r> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_mojlie98deg3oksdgd2s5fhe47> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_fbd5cqd2kmgv6cm075so8eu91g> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ginj64i10hk76g6rsol7s6om1o> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_29goijph66londljiaqch4jtv3> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hi9gb5kkfc7rir7uda5tg02uqi> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_gahp22l4lk3sjhp3hne6hoenq5> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_p8fc0idofdqjit1i8tvto40ab> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_a1fek8kp5mk8k7pbc9j2ubbr8h> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_jbdm35p9rvrfpaejtgufitmb5h> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_3cd5iprdbvg77rss8k43o4851b> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_qjcdpqdcptqggp3cj3un8n3m2v> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_oktoqf0ckv54tp0ia73obrna4s> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_7hn9ggrgmfcj4m4bgkuickgsvo> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_vdriq63vpj17uqnja8uopc7p0p> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_iq3lpqm6l4dm95sm2t7q4sd385> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kf8qlmlri73ks18islf6jso60h> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_qr73nfd27ctjm1a85mufg24ih5> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_9ta98f7iurtivn4v5u0q94h7tt> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_sh6qiu1l8ej0q2lgiukipe1kf3> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_psode7v4hpr6v6545akksl82j6> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_25vm2ep5j0l8c597mg4kg6qpcc> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uppj3pgrqhn8qc1dj52tssj3s5> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ev41kuqfcu0j781ffda4u3ii00> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kg13ifd6hhr81foqpnvnkoggqe> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_55qvppp6stdps5k7cnhl5uup3f> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_snals3fvvg7dsa3r1usk6as2pd> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_s2f6nh41pfo6l0o0ghbn47v1b6> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_7jsi6n3dincckcb0d8mjbc834u> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_vlm1f09idhm0qgsc50vupsuudv> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kle23lmptb3280u65s7tdu65r0> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_2stem5l7inhujj7apekn1dbe3o> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_jd4hal155pova10b5d08sekt3> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_thv29632p0isoaafdpatsav3u7> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_u26sd6j1ip8c29g9aidov145mj> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_2ondqu11ou7nprcnv6jp8mlcmo> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_r5q7os4i1js064kht52gaqppm9> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_j8qklmccg6177cds0ajs94sg3n> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_fedahaags8hbjk7tpi780lut5> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h4igcf4mhqjfmlh1m51jpo74q2> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_fn8jjbmlpfhii19hcchb8mpv5r> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h3rh2ipgrfp857lqr6quic4acp> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kmoghhq9ogflqq7t6qk2snprpd> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hqbffl188kbv9gl9dtpv7l91kt> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ni07h7bltqpd52828ml9elpie2> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_e593g3msjtlp4f4f4402qtd7dh> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_68bg2cqdcgjk02hgk0a50bhquh> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_5v2mu77mun0gcairf28h97k9gb> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_43715au9a6lm3e9a2l1avdsl10> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h65nnvas79rv8dkvh4grd1sbns> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_g172en00k6rl6siqklg8vjbu0o> ,
-		 <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_lo6qtqacmf7a1288m1sqgsp7cu> .
+	prov:used <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#ob1> .
 
 
 
 
-
-<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_lo6qtqacmf7a1288m1sqgsp7cu> a sao:Point ;
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#ob1> a sao:Point, ns1:Observation ;
 	sao:hasUnitOfMeasurement unit0:eventData ;
-	ns1:featureOfInterest <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_do63jk2t8c3bjkfb119ojgkhs7> ;
+	ns1:featureOfInterest <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#foi1> ;
 	sao:time [a tl:Instant; 
 		tl:at "2014-05-06T19:30:00"^^xsd:dateTime ];
-	sao:value "Title: Martin Fr?st og Den Danske Kvartet Price: 320.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/31278/41800/" .
+	sao:value "sample title" .
 
 
 
 
-<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_do63jk2t8c3bjkfb119ojgkhs7> a sao:FeatureOfInterest ;
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#foi1> a sao:FeatureOfInterest ;
 	ct:hasFirstNode [ a ct:Node ;
 		ct:hasLatitude 56.1519158 ;
 		ct:hasLongitude 10.19887 ;
-		ct:hasNodeName "Lille Sal" ] .
+		ct:hasNodeName "samplenode" ] .
 

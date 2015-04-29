@@ -1,14 +1,10 @@
 ### cannot get results on cqels
-select ?obId1 ?obId2 ?obId3 ?obId4 ?v1 ?v2 ?v3 ?v4 
+select ?obId1  ?obId3  ?v1  ?v3    ### not supported in cqels (((?v1+?v3)/2) as ?avgCongest)
   
 where {
-###  bind((?v1+?v3)/2) as ?avgCongest
-###  bind((?v2+?v4)/2) as ?avgEstimatedTime
 
-?p1   a <http://www.insight-centre.org/citytraffic#CongestionLevel>.
-?p2   a <http://www.insight-centre.org/citytraffic#EstimatedTime>.
+?p1   a <http://www.insight-centre.org/citytraffic#CongestionLevel>. 
 ?p3   a <http://www.insight-centre.org/citytraffic#CongestionLevel>.
-?p4   a <http://www.insight-centre.org/citytraffic#EstimatedTime>.
 
 stream <http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData182955> [now] 
 {?obId1 a ?ob.
@@ -16,10 +12,6 @@ stream <http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficDa
 ?obId1 <http://purl.oclc.org/NET/sao/hasValue> ?v1.
 ?obId1 <http://purl.oclc.org/NET/ssnx/ssn#observedBy> <http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData182955>.
 
-?obId2 a ?ob.
-?obId2 <http://purl.oclc.org/NET/ssnx/ssn#observedProperty> ?p2.
-?obId2 <http://purl.oclc.org/NET/sao/hasValue> ?v2.
-?obId2 <http://purl.oclc.org/NET/ssnx/ssn#observedBy> <http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData182955>.
 
 
 }
@@ -29,9 +21,5 @@ stream <http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficDa
 ?obId3 <http://purl.oclc.org/NET/sao/hasValue> ?v3.
 ?obId3 <http://purl.oclc.org/NET/ssnx/ssn#observedBy> <http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505>.
 
-?obId4 a ?ob.
-?obId4 <http://purl.oclc.org/NET/ssnx/ssn#observedProperty> ?p4.
-?obId4 <http://purl.oclc.org/NET/sao/hasValue> ?v4.
-?obId4 <http://purl.oclc.org/NET/ssnx/ssn#observedBy> <http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505>.
 
 }}

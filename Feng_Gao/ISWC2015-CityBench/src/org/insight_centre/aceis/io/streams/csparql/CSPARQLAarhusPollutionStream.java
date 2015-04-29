@@ -34,7 +34,7 @@ public class CSPARQLAarhusPollutionStream extends CSPARQLSensorStream implements
 	private final Logger logger = LoggerFactory.getLogger(getClass());
 	CsvReader streamData;
 	EventDeclaration ed;
-
+	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd' 'HH:mm:ss");
 	private Date startDate = null;
 	private Date endDate = null;
 
@@ -81,7 +81,7 @@ public class CSPARQLAarhusPollutionStream extends CSPARQLSensorStream implements
 		logger.info("Starting sensor stream: " + this.getIRI());
 		try {
 			while (streamData.readRecord() && !stop) {
-				Date obTime = DataWrapper.sdf.parse(streamData.get("timestamp"));
+				Date obTime = sdf.parse(streamData.get("timestamp"));
 				if (this.startDate != null && this.endDate != null) {
 					if (obTime.before(this.startDate) || obTime.after(this.endDate)) {
 						logger.debug(this.getIRI() + ": Disgarded observation @" + obTime);
@@ -117,6 +117,7 @@ public class CSPARQLAarhusPollutionStream extends CSPARQLSensorStream implements
 			}
 		} catch (Exception e) {
 			logger.error("Unexpected thread termination");
+			e.printStackTrace();
 
 		} finally {
 			logger.info("Stream Terminated: " + this.getIRI());

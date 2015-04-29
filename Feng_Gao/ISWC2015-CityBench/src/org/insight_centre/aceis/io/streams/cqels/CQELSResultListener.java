@@ -32,7 +32,7 @@ public class CQELSResultListener implements ContinuousListener {
 	}
 
 	@Override
-	public void update(Mapping mapping) {
+	public synchronized void update(Mapping mapping) {
 		String result = "";
 		try {
 			Map<String, Long> latencies = new HashMap<String, Long>();
@@ -42,8 +42,8 @@ public class CQELSResultListener implements ContinuousListener {
 				String varName = var.getName();
 				String varStr = CityBench.cqelsContext.engine().decode(mapping.get(var)).toString();
 				if (varName.contains("obId")) {
-					if (!this.capturedObIds.contains(varStr)) {
-						this.capturedObIds.add(varStr);
+					if (!capturedObIds.contains(varStr)) {
+						capturedObIds.add(varStr);
 						long initTime = CityBench.obMap.get(varStr).getSysTimestamp().getTime();
 						latencies.put(varStr, (System.currentTimeMillis() - initTime));
 					}
