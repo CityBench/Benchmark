@@ -1,0 +1,2294 @@
+<rdf:RDF
+    xmlns:j.0="http://www.insight-centre.org/citytraffic#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.1="http://purl.org/NET/provenance.owl#"
+    xmlns:j.2="http://purl.oclc.org/NET/sao/"
+    xmlns:j.3="http://purl.org/NET/c4dm/timeline.owl#"
+    xmlns:j.4="http://purl.oclc.org/NET/ssnx/ssn#" > 
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Symfonisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_8qfn1v815ldnu3s0qgnr9d8hj3">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_n3m2uug4tiqbv439f4f015l8mn">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h8e6e512ld6nd9ni3lj40rq05c">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A3"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e97b0b34-83fb-4281-9fbd-eeac05ac1511</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1vbe5kfokqctat35i9pf6ja4ht"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Symfonisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-01T00:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ovecpduk7468kis19poagir901">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-11T10:15:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_c33of3d1pct3eqn651e5c4lh1b">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A10"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A11">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-18T14:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A12">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-23T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A13">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-24T20:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1k02seb63n18p0udtt612e0vf0">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9uehc3sr2pvpq3mt99fc74aqgd">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_m8o7re7djqhlk9nsau9b5tt0dp">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A16"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A17">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-16T20:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A18">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Symfonisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A19">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-17T13:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_mlhim3k8kgqd0e5d4f8c46ikpr">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A20"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4183edd2-6a9d-48d1-b1e1-b2d8b9f1847e</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_89806hfk8tm3b0ikc4kmha8v0p"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A21">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-06T13:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A22">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-01T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3k42ohsl7m1psuiv7kq9nj753i">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hqbffl188kbv9gl9dtpv7l91kt">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A24"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b40b13f6-757b-4baa-9870-97ba728cf548</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_q3n4fp74useraocqvkl2as458r"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A25">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-27T15:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_aqsjvfsen6nee1hg3baqo1mnuu">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A17"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dc7c423b-b26d-4e2e-a45e-68daa051da59</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_v4i16r00ebdrd60ngp884a7fdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uavkcb0mk5gotm1pqn9qicp126">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A7"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4d162599-b677-4164-9eb8-f2c182915028</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_degc0e0an4db02ddn8nlp5pfi0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_degc0e0an4db02ddn8nlp5pfi0">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A26"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A27">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Caf?en</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A28">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Rytmisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A29">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-22T16:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_45upffrauupgm1chg5v0anftfp">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A30"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d8eebe26-500f-4fa5-ab45-1309d3e43c4f</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ak29pgnpjls8ett4q9bt6e2bil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A31">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Kammermusiksalen</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A30">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-23T15:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_mu7cefcg3b52sg1n284s0fnfo1">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A32"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A33">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-20T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A34">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Symfonisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_7jsi6n3dincckcb0d8mjbc834u">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A35"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fa7d84d0-b486-435c-97d1-280ee11d26e1</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_7sg0fau72m0536pvfirg79rnn5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A36">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-31T20:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A37">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-08T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A38">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Symfonisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kf8qlmlri73ks18islf6jso60h">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A39"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e44ed596-8a69-4eee-a29b-19586141a851</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_cqbm97slk7p4stno5j8qq3pr89"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A40">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-26T20:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_k28nge120jv0o1q36pt28g9tf7">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A41"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23588a1b-4e0e-41e7-861a-69066ab688d3</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_slllpqckbsul250sfuqrg9qo31"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A42">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_q2k01neucja28ued1c4f39t0j8">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A43"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_snals3fvvg7dsa3r1usk6as2pd">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A44"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15c26354-4564-4301-a091-b339793ac6f0</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_m8o7re7djqhlk9nsau9b5tt0dp"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A45">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-23T19:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A26">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Musikhuset Aarhus</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A46">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-26T14:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_honfkcklsgolkt54dvcsl2vrri">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A47"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A48">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-30T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_8812rfv11pb5tjqd4tqqnmgfce">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A49"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1a40db75-f020-40e2-9861-56a36f0ba59a</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_n67dv0pqsfrkg3jd2sacpg2ad6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_oktoqf0ckv54tp0ia73obrna4s">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A50"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d15c0a8f-8f25-498b-8361-79211838fb95</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_a5uu0d2938p14buru47ie0bolp"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A51">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Kammermusiksalen</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_cavl4jme7c0bbq2lhb54ilpvf4">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tspqn9rbn74h8h8kd3uria4oli">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A51"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A20">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-11T15:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A53">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-06T20:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A54">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Symfonisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_8pkoqdeda3i10m7safaavmpnpi">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A37"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">465ac308-0029-42c1-a55d-3f0390aa1ed1</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3bbqkp7k35nqsbsc3ri4orjs3t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_46llf9lg7dl797sji44ndbf7cc">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A27"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_fbd5cqd2kmgv6cm075so8eu91g">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A12"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44a66504-8afc-4d24-b38e-f774f2ab75d9</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9uehc3sr2pvpq3mt99fc74aqgd"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A55">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-04T20:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_hiu9heulh03ipad9utctklg8ob">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A56"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A57">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-01T11:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A58">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-30T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_7et1ojpg0fof146rtalhvia0qt">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A59"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e06540e9-89ed-4ce2-9f96-f8500bb4558f</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_hch2r3arb5s5ojd3452sb1n6ku"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A60">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Caf?en</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uppj3pgrqhn8qc1dj52tssj3s5">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A61"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d08722ac-60ab-4814-9c1d-935eef6fa852</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_76aer6dhgev7e0d9enea6r3nkf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A62">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-27T19:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_bla3n3l58m4elghtlpj1hj240o">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A63"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">f60c53c2-300d-404d-9d20-8400144efc24</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9jgjkm4mv4q7jc7c33928feh7j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_g2lfuhg2r8lgtnhelpn62l1flk">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A64"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_5v2mu77mun0gcairf28h97k9gb">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A65"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">838f2d87-4855-4bcd-9fcf-a5ce1acf1909</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_dneunngjbpdpsnnd1u045rlal5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_d0f5922au6952u6dtn3ljudcfd">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A66"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A16">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_7vv849s5e9f1o2kevq0q3tndb9">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A67"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A68">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-04T20:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A69">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Balkongalleriet</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A61">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-17T13:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_b1mf4och0595nidcsnlp5lik5r">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A70"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b90972f5-611b-486c-839c-a873d082099e</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9mipji6tsejvsoffdjud0hjtn6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_5ovrips3m0gln3iscvufcgo875">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A71"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A72">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Kammermusiksalen</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A73">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-19T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A74">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A24">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-10T18:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_7sg0fau72m0536pvfirg79rnn5">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A75"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_r77aki1kd2pbc7kvf6duqkrjrs">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A76"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A77">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Caf?en</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A59">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-17T15:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A78">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Foyer Syd</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A79">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Symfonisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_jbdm35p9rvrfpaejtgufitmb5h">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A80"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">65638926-9261-4522-a8e1-94b28cd51f84</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tspqn9rbn74h8h8kd3uria4oli"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9jgjkm4mv4q7jc7c33928feh7j">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A81"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_g36ta8uu07hr8a7fu9eq27nq9m">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A22"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27bc72f9-0ad9-4b1b-b24b-0b3d1e9ebccb</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_nt4rr0hf5fiq5k2sm756kst9bs"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A23">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Rytmisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A82">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Caf?en</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A83">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-28T16:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A84">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-06T10:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A56">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A85">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A86">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-03T10:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h65nnvas79rv8dkvh4grd1sbns">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A9"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2805d544-d5b2-4495-b85c-7a5f8f6de5fd</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_horiq654au5a8gdl9bqpj07mcb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_iq3lpqm6l4dm95sm2t7q4sd385">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A48"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">168c4087-fe07-4a2c-9079-785addb0e9b8</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_7vv849s5e9f1o2kevq0q3tndb9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_jvmm866qhosrbofm1njafjk9if">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A34"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ev41kuqfcu0j781ffda4u3ii00">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A73"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6579ea12-5675-482f-bcf5-4f2998e0d51a</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_jqeb0mll7gt20fc41l67m2ku20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_2b8ehb6k2ujecs35oq74h4ehaa">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3pi2aqgmjptuegbjmb3koh9dnb">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A88"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A89">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-13T20:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uct8j70r84u9540dnch2un93b5">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A90"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">68ebaba7-99c6-4ecf-89ec-0ea0e6a0611e</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_honfkcklsgolkt54dvcsl2vrri"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A91">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-03T10:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A92">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Symfonisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ahbdc3vnug01kv22lv9f80162e">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A93"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_do63jk2t8c3bjkfb119ojgkhs7">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A94"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A95">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Kammermusiksalen</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9mipji6tsejvsoffdjud0hjtn6">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A96"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A97">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-22T21:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hi9gb5kkfc7rir7uda5tg02uqi">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A98"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8e81d378-5384-4df2-a5be-a10236893470</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_u7cssi4btd7h8upso4lu8mq741"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A99">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-30T20:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_r5q7os4i1js064kht52gaqppm9">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A100"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20fe4704-583c-4a21-9524-29c5f7e9dad6</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_hiu9heulh03ipad9utctklg8ob"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A101">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-25T15:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_t6fd2a6hl3h4cit1l6hn7bmk83">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_5adc77s9pcg7a8ogds6e7hkgje">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A103"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_vfjg78h0vtn2kotiklj7vtknnu">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A104"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cb122f39-ec2d-409d-abf4-7e9c13c1d33f</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tpkaqnmnq2jfg86htq4595kmqm"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A71">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A15">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Kammermusiksalen</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A105">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-30T15:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_i9b7ps6mq27nm9oiqgkrjrpddf">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A106"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3807d7d7-3e8c-477d-8048-590abfbd0a9d</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_5ushtb2bjvt82kbnth33v62ht4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_e593g3msjtlp4f4f4402qtd7dh">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A107"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b7136221-8bdc-4346-abbe-5168b8ab9a60</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3pi2aqgmjptuegbjmb3koh9dnb"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A108">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ugpfatb2oqqco8c1b2musili50">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A109"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c72c3dcd-7ade-41a2-b2f9-40cc80afb52d</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ptojg6hmiahjg575l6qok9h2g6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_u26sd6j1ip8c29g9aidov145mj">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A110"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d9623b0a-3176-47e5-81f4-d5964f1bcea9</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_rgl48reikh5v14vsdcbj2j4j6m"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A111">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Musikhuset Aarhus</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_fs9739b7234pada1ovuear3l8e">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A112"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_qhscmob3uftig8v7iv2bjd2vm7">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A19"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d4838ed3-ebcb-4db6-bdc2-1a8afd66a2ec</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_h5p331nt29i7bgv4dsrplc5hfp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_r74vldd0vsah9hd4lc7gesvdhn">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_7hn9ggrgmfcj4m4bgkuickgsvo">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A46"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d356b428-c991-45db-b7d8-684f35197eeb</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9o7kk87kur5vuoq2grmc27un79"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_l0834nd12c1sl4eb2f4r70fq6l">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A28"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_gg2o614q7h78jo776783c34f3i">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A113"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A114">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Lille Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A115">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Rytmisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A116">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Kammermusiksalen</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_jd4hal155pova10b5d08sekt3">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A117"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8d1491a3-80a0-4982-998d-984432041599</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_emv0o0blbeqopprlk869u0bpp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_oenhesb881ejnpg8m02i8u65vm">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A86"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">07d21cbb-a959-4b8e-af67-71a5d55a308f</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_uv2sve23aqn7klli2k40h67s2a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_fn8jjbmlpfhii19hcchb8mpv5r">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A118"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4a656a8e-c2eb-4161-9cf0-791090605338</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3k42ohsl7m1psuiv7kq9nj753i"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A119">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Kammermusiksalen</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A76">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Lille Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A120">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-19T13:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus">
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uavkcb0mk5gotm1pqn9qicp126"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kg13ifd6hhr81foqpnvnkoggqe"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_j8qklmccg6177cds0ajs94sg3n"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_r5q7os4i1js064kht52gaqppm9"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_c1tnh48vi4kmlqfajidmsk31ah"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hkn7paq3si6ddde05kk46mm48a"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_m7eoh9f5o3ssv0ih601cqigtle"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_oktoqf0ckv54tp0ia73obrna4s"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_vlm1f09idhm0qgsc50vupsuudv"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_e593g3msjtlp4f4f4402qtd7dh"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ev41kuqfcu0j781ffda4u3ii00"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_lo6qtqacmf7a1288m1sqgsp7cu"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_u26sd6j1ip8c29g9aidov145mj"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_qr73nfd27ctjm1a85mufg24ih5"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h3rh2ipgrfp857lqr6quic4acp"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_fedahaags8hbjk7tpi780lut5"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uppj3pgrqhn8qc1dj52tssj3s5"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_2stem5l7inhujj7apekn1dbe3o"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_thv29632p0isoaafdpatsav3u7"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_cm8u7fblk0p4mruo9c5e6l9jdi"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_b0ntmkbfgor8ofn0hbi144t82l"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hsriljskvrtt700f2doc2smudh"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_snals3fvvg7dsa3r1usk6as2pd"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kle23lmptb3280u65s7tdu65r0"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_sh6qiu1l8ej0q2lgiukipe1kf3"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_p8fc0idofdqjit1i8tvto40ab"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_jgol1omlslcit9tc4oj57vq9g5"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_jd4hal155pova10b5d08sekt3"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_29goijph66londljiaqch4jtv3"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_s2f6nh41pfo6l0o0ghbn47v1b6"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_a1fek8kp5mk8k7pbc9j2ubbr8h"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h4igcf4mhqjfmlh1m51jpo74q2"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kf8qlmlri73ks18islf6jso60h"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_br9vkchn8j650r3labc8jgnhbc"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_gep70o5fsv4rrsejca9oql71cd"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h8e6e512ld6nd9ni3lj40rq05c"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hqbffl188kbv9gl9dtpv7l91kt"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_55qvppp6stdps5k7cnhl5uup3f"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_mlhim3k8kgqd0e5d4f8c46ikpr"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_iq3lpqm6l4dm95sm2t7q4sd385"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uqp58p3elh3kjis9j5v0els1ig"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_2ondqu11ou7nprcnv6jp8mlcmo"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_terkncn9evv30igivtu4njm91r"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_4o6sjrgsq0crn2smc76nbn4i3"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_8pkoqdeda3i10m7safaavmpnpi"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_qjcdpqdcptqggp3cj3un8n3m2v"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_vfjg78h0vtn2kotiklj7vtknnu"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_r955cor54lojlqvb65v3oopl0r"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ipnee6umn5ba8cmrkg4ivu1ubc"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_372nr2lh09eljd1d5ch4neukls"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_g172en00k6rl6siqklg8vjbu0o"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_68bg2cqdcgjk02hgk0a50bhquh"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_drta43mu43nrmtb06nb0brap69"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_gahp22l4lk3sjhp3hne6hoenq5"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_jbdm35p9rvrfpaejtgufitmb5h"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kmoghhq9ogflqq7t6qk2snprpd"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_3cd5iprdbvg77rss8k43o4851b"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_v6uemv3i9mgut50s0rdvo7fghn"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_i9b7ps6mq27nm9oiqgkrjrpddf"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_7jsi6n3dincckcb0d8mjbc834u"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kb56cuvg4d8c05imqkk3ls2jnf"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_7hn9ggrgmfcj4m4bgkuickgsvo"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_bla3n3l58m4elghtlpj1hj240o"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_42j1ql6lqf16179rpgq4nbqrmb"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_9ta98f7iurtivn4v5u0q94h7tt"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_rvkgrhf7pdk4psve3q1dffnlde"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_q0bhfmhv797r1sud5dsp1lgj8o"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_43715au9a6lm3e9a2l1avdsl10"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h65nnvas79rv8dkvh4grd1sbns"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_vdriq63vpj17uqnja8uopc7p0p"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_2kh6si4jjim7tf91kku69jloiv"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_i4uv775c78f19o4368mo586hq2"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_taufvr8dogin2fqtljafiuqv9"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_mojlie98deg3oksdgd2s5fhe47"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_g36ta8uu07hr8a7fu9eq27nq9m"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ni07h7bltqpd52828ml9elpie2"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_b1mf4och0595nidcsnlp5lik5r"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_fbd5cqd2kmgv6cm075so8eu91g"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_5v2mu77mun0gcairf28h97k9gb"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_qhscmob3uftig8v7iv2bjd2vm7"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ugpfatb2oqqco8c1b2musili50"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_sq6ihi9e5ulhc0gtnahhif6v5v"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/streamEvent"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_aqsjvfsen6nee1hg3baqo1mnuu"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_8812rfv11pb5tjqd4tqqnmgfce"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_k28nge120jv0o1q36pt28g9tf7"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ds60pfg0p28ia02lgnli2jcjcr"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_45upffrauupgm1chg5v0anftfp"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kqhc2pinrv631l1ph74tvi2hfe"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_oenhesb881ejnpg8m02i8u65vm"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_psode7v4hpr6v6545akksl82j6"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hi9gb5kkfc7rir7uda5tg02uqi"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_25vm2ep5j0l8c597mg4kg6qpcc"/>
+    <j.2:time rdf:nodeID="A121"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_m2rni55mi1eadjvlppelftval9"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ginj64i10hk76g6rsol7s6om1o"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_7et1ojpg0fof146rtalhvia0qt"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uct8j70r84u9540dnch2un93b5"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_a1uoek3dbb7juk4kkn97cen1tm"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_3b6acm2tkqqpgcp0j5l6fptm3p"/>
+    <j.1:used rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_fn8jjbmlpfhii19hcchb8mpv5r"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A52">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Lille Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9jog53br0epov848dh4qg1gb8n">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A122"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_pmcttnkeqh8qmq240rsl8gchgb">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A123"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A124">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-12T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A125">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_h5p331nt29i7bgv4dsrplc5hfp">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A126"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h4igcf4mhqjfmlh1m51jpo74q2">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A127"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5ef92974-db94-4b45-a996-8191cdddc31c</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_l0834nd12c1sl4eb2f4r70fq6l"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A128">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-11T16:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A117">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-22T15:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A129">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-16T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_8kqsq2h4p0fj1ti1uoh72o0pku">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A130"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A131">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-13T16:15:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A132">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Rytmisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kg13ifd6hhr81foqpnvnkoggqe">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A133"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3a6a459e-d50d-4637-962b-c0c39fb5e0e6</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_6rrkqhuduspfopjegbsvpvm8ng"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A75">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Symfonisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A134">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A135">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-06T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A50">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-06T10:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A136">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_q0bhfmhv797r1sud5dsp1lgj8o">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A137"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">694bdf4f-8197-4e40-b45a-507e72f4a4b0</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ahbdc3vnug01kv22lv9f80162e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A138">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-04T17:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_a5uu0d2938p14buru47ie0bolp">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A69"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A113">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Kammermusiksalen</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_m2rni55mi1eadjvlppelftval9">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A55"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">331fc772-21bf-45cd-9d66-b128924275b6</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_dm80lihdln051j2d1adhtdafrm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_g172en00k6rl6siqklg8vjbu0o">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A40"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eef13007-10da-4a4e-aa97-e92dc211c9eb</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_td314nje3hcec0mikl59kjo7qq"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A139">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_i4uv775c78f19o4368mo586hq2">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A29"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2c44bee2-8a11-40e7-869e-550b6a27e662</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tdcvok8d3knb7nrt7b4179q0k"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_nt4rr0hf5fiq5k2sm756kst9bs">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A18"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A140">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-26T15:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1vbe5kfokqctat35i9pf6ja4ht">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_j8qklmccg6177cds0ajs94sg3n">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A129"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2db0e030-7b0e-402a-9c3e-ae085700b3b1</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_lr416cbe4q1sm3s1dpk2qp7mlm"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A14">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Caf?en</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A81">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Kammermusiksalen</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A49">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-25T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_s2f6nh41pfo6l0o0ghbn47v1b6">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A141"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02f75ca5-65c9-4c5c-ae97-e4a5fd3fdf4f</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_66jkt6v5cpf4m394kh62og4irj"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A142">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-16T20:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A143">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-10T15:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A144">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_vdriq63vpj17uqnja8uopc7p0p">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A142"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">570f00db-1a2b-40d5-8c61-505bce25c8a5</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1flmfkunv5vnr93i7muncv0e4e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_79jiluh06td1gr1eq5laumutrf">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A145"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A80">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-29T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_lm52aelfu2s27piqvlu6nid8lf">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A146"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A147">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-26T15:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_sh6qiu1l8ej0q2lgiukipe1kf3">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A148"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de8f491a-8282-4d21-9948-22104bc5db1d</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_c92den661vv0qcfre4ohs8ltt8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h3rh2ipgrfp857lqr6quic4acp">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A149"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">af20c5ad-da54-4808-95db-231d0e90f573</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_8lt7stfuogmdg6sl9h4ssg16jc"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A150">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-09T17:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A10">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Musikhuset Aarhus</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_b0ntmkbfgor8ofn0hbi144t82l">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A151"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">784c7975-a778-4b3c-b574-f4f2769a8a34</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_2b8ehb6k2ujecs35oq74h4ehaa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_6nl8goflbi9j1b5fhnrlhcbr4r">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A152"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A141">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-05T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_3b6acm2tkqqpgcp0j5l6fptm3p">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A153"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">f0ad9d79-e2a4-47a4-8cf5-4571720bd2a8</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_t6fd2a6hl3h4cit1l6hn7bmk83"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A154">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ginj64i10hk76g6rsol7s6om1o">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A33"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d90cfc0e-f5f1-424b-a0d6-dd44278942fa</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9d16k2489h751nm8qkr8am1eb5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_rgl48reikh5v14vsdcbj2j4j6m">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A72"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A145">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Kammermusiksalen</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_5ushtb2bjvt82kbnth33v62ht4">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A60"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A90">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-28T15:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A65">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-02T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_v4i16r00ebdrd60ngp884a7fdf">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A85"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-21T12:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A155">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Filursalen</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A156">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_mqmntcf8m4jovlse2niehn3r2a">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A74"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A41">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-03T00:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A103">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Kammermusiksalen</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A130">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Lille Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_a1fek8kp5mk8k7pbc9j2ubbr8h">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A99"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">67be18fc-14d6-4b87-8409-6f317b2be7f5</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_kh8jgu0mel6clcmlucgphqliso"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_gahp22l4lk3sjhp3hne6hoenq5">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A128"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a741a7d9-fc3c-4da1-997d-a3fa74a379a7</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_nhbcjdhg3albhse80lqd3tsoud"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A146">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Musikhuset Aarhus</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A93">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Symfonisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1bpv9l3r0f5pfd10reoaqiggel">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A115"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A66">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_p8fc0idofdqjit1i8tvto40ab">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A105"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b27dd481-bd9a-4a7a-b8b3-58d44dd0ca7d</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_5adc77s9pcg7a8ogds6e7hkgje"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A8">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Kammermusiksalen</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A157">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-16T13:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_lr416cbe4q1sm3s1dpk2qp7mlm">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A95"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ds60pfg0p28ia02lgnli2jcjcr">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A89"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7d637559-7f6e-43f7-9427-f374d8e99d20</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_r74vldd0vsah9hd4lc7gesvdhn"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A158">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Rytmisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A104">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-11T20:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A43">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Lille Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A133">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-27T20:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A94">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Lille Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A148">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-05T17:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A63">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-16T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_89806hfk8tm3b0ikc4kmha8v0p">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A154"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A159">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_vii9i233omjv6hb3kh8vv9o0rh">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A144"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_td314nje3hcec0mikl59kjo7qq">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A139"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_8lt7stfuogmdg6sl9h4ssg16jc">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A134"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A126">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Caf?en</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Symfonisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A160">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-22T15:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A106">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-30T16:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ipnee6umn5ba8cmrkg4ivu1ubc">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A120"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fb288756-9bec-45cd-9523-c7eb05bab9fb</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ekcb4mr4u4uoj0u682uoe0lm6s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ptojg6hmiahjg575l6qok9h2g6">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A38"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ni07h7bltqpd52828ml9elpie2">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A25"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3e88b155-769d-4a85-b9ab-a41113b2098e</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_gg2o614q7h78jo776783c34f3i"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_43715au9a6lm3e9a2l1avdsl10">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A11"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33dd093d-d20d-4f07-b1fe-62985c30d4db</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_nr6pgm1pjkosa00ona7q118un1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_fedahaags8hbjk7tpi780lut5">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A84"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9a86e1ac-29ad-406c-b362-3fdeaaf5811f</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ovecpduk7468kis19poagir901"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A161">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Lok 222</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A44">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-26T20:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_horiq654au5a8gdl9bqpj07mcb">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A78"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A96">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Lille Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A149">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-10T20:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hsriljskvrtt700f2doc2smudh">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A68"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53e95ea1-0906-405c-8635-15ba419d301c</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1bpv9l3r0f5pfd10reoaqiggel"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A162">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Symfonisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A64">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Symfonisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_uslcl8sj3c2iprn6aaqofk6drf">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A163"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A107">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-11T13:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A164">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Symfonisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Caf?en</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A127">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-05T15:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_v6mkjh5vogvat0q6sb138njku">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A165"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_drta43mu43nrmtb06nb0brap69">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A166"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8f89081e-a341-4e45-a80d-efec9d7588b6</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_j54n4pio1njakh87iufrsgjtn6"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A47">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A167">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-12T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_v6uemv3i9mgut50s0rdvo7fghn">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A101"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">87694918-3aeb-4ee6-8f0a-66a6a90f026e</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_g2lfuhg2r8lgtnhelpn62l1flk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3v73d7tn3qec145dnkma7ifmnh">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A92"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A151">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-24T16:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_u7cssi4btd7h8upso4lu8mq741">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A116"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_thv29632p0isoaafdpatsav3u7">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A108"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9c7dde44-ab0f-4afa-966a-e116aee38f48</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1j6epq41n4gje73r415a9d54ub"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_qr73nfd27ctjm1a85mufg24ih5">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A138"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cac18fa2-7d4d-4e56-9e2e-5c380634a561</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_jvmm866qhosrbofm1njafjk9if"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A168">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-30T22:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_lo6qtqacmf7a1288m1sqgsp7cu">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A135"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d884d1de-cbc0-4c52-9a59-68c8221d10f0</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_do63jk2t8c3bjkfb119ojgkhs7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_25vm2ep5j0l8c597mg4kg6qpcc">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A124"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">da470be9-6215-416d-89a8-f901eed12bba</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_2nf8rdt20vg19cqt0uspr6a8uu"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A165">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_3cd5iprdbvg77rss8k43o4851b">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A58"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">352ef590-9837-4f8d-b4df-0bc32873baa3</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_pmcttnkeqh8qmq240rsl8gchgb"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A169">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Caf?en</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A170">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_dugt2qdv0li2ok5ngi4v1kglh9">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A171"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_vlm1f09idhm0qgsc50vupsuudv">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A172"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0f487cd0-679d-4807-a368-0c4d08a70085</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1l8g939dc83fl00mm9f8egd4p4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A122">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A173">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-04T00:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A152">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Lok 222</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_2stem5l7inhujj7apekn1dbe3o">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A174"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a5b8a442-a68d-44ab-a3a4-4322960e66f3</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_v6mkjh5vogvat0q6sb138njku"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A175">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-03T20:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_m7eoh9f5o3ssv0ih601cqigtle">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A176"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5a1e6d12-31c0-423e-b735-0d7e0bc6d927</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1k02seb63n18p0udtt612e0vf0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A166">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-26T16:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A177">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-21T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A98">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-02T11:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A178">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-13T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A179">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9o7kk87kur5vuoq2grmc27un79">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A180"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A123">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Kammermusiksalen</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_n67dv0pqsfrkg3jd2sacpg2ad6">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A162"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kmoghhq9ogflqq7t6qk2snprpd">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A168"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a1d27639-4395-4a89-bf77-7da5afef52fe</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_6nl8goflbi9j1b5fhnrlhcbr4r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_55qvppp6stdps5k7cnhl5uup3f">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A175"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9cfcf31b-06ee-4271-816f-1387132a1b83</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_dugt2qdv0li2ok5ngi4v1kglh9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A181">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A67">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Symfonisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A153">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-29T16:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A35">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-23T17:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A182">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-30T12:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A100">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-29T20:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A118">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-10T20:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A183">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-20T13:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A70">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-24T20:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A184">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Balkongalleriet</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_2nf8rdt20vg19cqt0uspr6a8uu">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A181"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_uv2sve23aqn7klli2k40h67s2a">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A184"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_psode7v4hpr6v6545akksl82j6">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A147"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a23c862c-cc74-428a-8f37-a819420d4936</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_8kqsq2h4p0fj1ti1uoh72o0pku"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_taufvr8dogin2fqtljafiuqv9">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A140"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">63a9cfff-bfcd-4ae6-84e3-a032ecfd770b</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_mqmntcf8m4jovlse2niehn3r2a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tki84tdq7e2k7am0im902r34n5">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A132"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1l8g939dc83fl00mm9f8egd4p4">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A119"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kb56cuvg4d8c05imqkk3ls2jnf">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A131"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b1c1094e-3a84-43e0-a64a-acae62a8a453</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_en6cn9isvcici6h7avsurm4t5c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A163">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Kammermusiksalen</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hkn7paq3si6ddde05kk46mm48a">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A57"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bca5f777-e170-45e2-8e14-0570a01b2725</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_8qfn1v815ldnu3s0qgnr9d8hj3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A39">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-31T15:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A102">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Caf?en</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_c1tnh48vi4kmlqfajidmsk31ah">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A83"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c300762f-53b0-4939-8c47-8aebedf42043</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_mu7cefcg3b52sg1n284s0fnfo1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A185">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-01T18:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A186">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Caf?en</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A121">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Interval"/>
+    <j.3:end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-06T19:30:00</j.3:end>
+    <j.3:start rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-06T19:30:00</j.3:start>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A187">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Kammermusiksalen</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A174">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-21T20:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_dneunngjbpdpsnnd1u045rlal5">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A79"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A188">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Kammermusiksalen</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9pqmm51h6171hnbj0lpi0522q6">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A188"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ekcb4mr4u4uoj0u682uoe0lm6s">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A189"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_obb3t3nqhel7p6s7cfac3jo6cm">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A190"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_76aer6dhgev7e0d9enea6r3nkf">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A186"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_42j1ql6lqf16179rpgq4nbqrmb">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A173"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8e538c9a-9163-487a-a0e8-be5ecfd5bd0d</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_c33of3d1pct3eqn651e5c4lh1b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A191">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Kammermusiksalen</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_29goijph66londljiaqch4jtv3">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A177"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ffe22a17-97e4-4331-9d88-89b8859b16a6</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_uslcl8sj3c2iprn6aaqofk6drf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3bbqkp7k35nqsbsc3ri4orjs3t">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A161"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A176">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-11T12:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_r955cor54lojlqvb65v3oopl0r">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A167"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3e133569-3780-487b-99b2-922904190a90</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_fs9739b7234pada1ovuear3l8e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_c92den661vv0qcfre4ohs8ltt8">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A156"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A189">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Caf?en</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_en6cn9isvcici6h7avsurm4t5c">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A158"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1j6epq41n4gje73r415a9d54ub">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A136"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_hch2r3arb5s5ojd3452sb1n6ku">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A125"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_372nr2lh09eljd1d5ch4neukls">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A150"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33f0319c-fd32-4224-822f-956dbf1b49f3</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_obb3t3nqhel7p6s7cfac3jo6cm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kle23lmptb3280u65s7tdu65r0">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A53"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">75506dde-38e5-4c16-b3bb-4ccdb38a70c7</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_d0f5922au6952u6dtn3ljudcfd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_4o6sjrgsq0crn2smc76nbn4i3">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A45"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22bb845d-6219-4411-8ce1-078a52cba4c2</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9pqmm51h6171hnbj0lpi0522q6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_71ri7bkh2d4q45gggh598ffu4o">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_68bg2cqdcgjk02hgk0a50bhquh">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A21"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b9729b43-dd23-4dfe-aaf7-25f33257ef37</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_r77aki1kd2pbc7kvf6duqkrjrs"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A192">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_kh8jgu0mel6clcmlucgphqliso">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A171">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Rytmisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A32">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Caf?en</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_gep70o5fsv4rrsejca9oql71cd">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A193"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">787f9547-a7eb-4ff8-b3a4-fe4f8eb88587</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tki84tdq7e2k7am0im902r34n5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uqp58p3elh3kjis9j5v0els1ig">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A194"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9544f9d5-9ae1-42e0-a5be-b448d9b9042d</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_cstgrmva9cjhruqu64tr5or033"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A190">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Symfonisk Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_o9v8m32g3uik4k7sdvc48nvcgt">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A169"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_cm8u7fblk0p4mruo9c5e6l9jdi">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A178"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51f54b6c-2543-4cc9-b3ef-f4038629c083</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_q2k01neucja28ued1c4f39t0j8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_rvkgrhf7pdk4psve3q1dffnlde">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A183"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3f6b30ea-109b-442d-b15a-bd52382ae983</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_46llf9lg7dl797sji44ndbf7cc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kqhc2pinrv631l1ph74tvi2hfe">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A185"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">853dd043-42fa-46a4-9bb5-968544cd760e</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_79jiluh06td1gr1eq5laumutrf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A172">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-28T20:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A195">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Musikhuset Aarhus</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1flmfkunv5vnr93i7muncv0e4e">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A155"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_2ondqu11ou7nprcnv6jp8mlcmo">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A157"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b89a1693-1288-46fa-96ab-c17d9c4fe6af</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_n3m2uug4tiqbv439f4f015l8mn"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A194">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-30T16:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_sq6ihi9e5ulhc0gtnahhif6v5v">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A160"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eeb68338-618e-4249-a332-820c3d535af3</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3v73d7tn3qec145dnkma7ifmnh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ak29pgnpjls8ett4q9bt6e2bil">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_9ta98f7iurtivn4v5u0q94h7tt">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A36"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aff8f130-3945-4d04-8885-05adfe217c87</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9jog53br0epov848dh4qg1gb8n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_nr6pgm1pjkosa00ona7q118un1">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A54"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A109">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-11T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_j54n4pio1njakh87iufrsgjtn6">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A82"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tdcvok8d3knb7nrt7b4179q0k">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A77"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_br9vkchn8j650r3labc8jgnhbc">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A13"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5d9214a4-d8fe-48ba-a816-62359610b627</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_5ovrips3m0gln3iscvufcgo875"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_cqbm97slk7p4stno5j8qq3pr89">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_6rrkqhuduspfopjegbsvpvm8ng">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A42"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A110">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:30:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_2kh6si4jjim7tf91kku69jloiv">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A182"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e7dcbca8-3cae-400b-a9a2-493b92bc8f9c</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_o9v8m32g3uik4k7sdvc48nvcgt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_66jkt6v5cpf4m394kh62og4irj">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A179"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A196">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Caf?en</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tpkaqnmnq2jfg86htq4595kmqm">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A170"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_slllpqckbsul250sfuqrg9qo31">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A195"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_emv0o0blbeqopprlk869u0bpp">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A192"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9d16k2489h751nm8qkr8am1eb5">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A191"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_q3n4fp74useraocqvkl2as458r">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A187"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A137">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-20T20:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_gahhbs6v0o4mkfvembr29tauck">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A197"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A112">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Kammermusiksalen</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A198">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Foyer Syd</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A180">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Caf?en</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A193">
+    <rdf:type rdf:resource="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
+    <j.3:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-25T17:00:00</j.3:at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_jqeb0mll7gt20fc41l67m2ku20">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A198"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A87">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Caf?en</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_cstgrmva9cjhruqu64tr5or033">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A196"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_jgol1omlslcit9tc4oj57vq9g5">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A62"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d2441a3c-50f6-4512-99aa-0b82c18c5d6d</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_vii9i233omjv6hb3kh8vv9o0rh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_nhbcjdhg3albhse80lqd3tsoud">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A111"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A197">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Store Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A88">
+    <rdf:type rdf:resource="http://www.insight-centre.org/citytraffic#Node"/>
+    <j.0:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.1519158</j.0:hasLatitude>
+    <j.0:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.19887</j.0:hasLongitude>
+    <j.0:hasNodeName>Lille Sal</j.0:hasNodeName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_dm80lihdln051j2d1adhtdafrm">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/FeatureOfInterest"/>
+    <j.0:hasFirstNode rdf:nodeID="A114"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_qjcdpqdcptqggp3cj3un8n3m2v">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A91"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6809966c-00aa-4b65-8cd2-21c3fcc24d99</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_lm52aelfu2s27piqvlu6nid8lf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_mojlie98deg3oksdgd2s5fhe47">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A97"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02c3e2ad-9b6c-4805-aeb7-323fd71ee0da</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_71ri7bkh2d4q45gggh598ffu4o"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_terkncn9evv30igivtu4njm91r">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A143"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d3d96d3e-6eb1-4e94-9c02-3b6daaac1826</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_gahhbs6v0o4mkfvembr29tauck"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_a1uoek3dbb7juk4kkn97cen1tm">
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
+    <rdf:type rdf:resource="http://purl.oclc.org/NET/sao/Point"/>
+    <j.2:hasUnitOfMeasurement rdf:resource="http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData"/>
+    <j.2:time rdf:nodeID="A159"/>
+    <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6a425f1e-b9f9-48ee-af97-149c2fca1c91</j.2:value>
+    <j.4:featureOfInterest rdf:resource="http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_cavl4jme7c0bbq2lhb54ilpvf4"/>
+  </rdf:Description>
+</rdf:RDF>

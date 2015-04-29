@@ -1,0 +1,2585 @@
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_8qfn1v815ldnu3s0qgnr9d8hj3>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_n3m2uug4tiqbv439f4f015l8mn>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h8e6e512ld6nd9ni3lj40rq05c>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-06-21T12:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "2baf1c1f-3b6f-446d-8bcc-f6810f721560"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1vbe5kfokqctat35i9pf6ja4ht> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ovecpduk7468kis19poagir901>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_c33of3d1pct3eqn651e5c4lh1b>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Musikhuset Aarhus"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1k02seb63n18p0udtt612e0vf0>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9uehc3sr2pvpq3mt99fc74aqgd>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_m8o7re7djqhlk9nsau9b5tt0dp>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_mlhim3k8kgqd0e5d4f8c46ikpr>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-11T15:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "a9455266-b1d4-4059-805d-5ed4149ed8f5"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_89806hfk8tm3b0ikc4kmha8v0p> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3k42ohsl7m1psuiv7kq9nj753i>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Rytmisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hqbffl188kbv9gl9dtpv7l91kt>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-04-10T18:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "e8e06b3d-5fad-4cd3-8676-3b8ecf748e69"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_q3n4fp74useraocqvkl2as458r> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_aqsjvfsen6nee1hg3baqo1mnuu>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2015-01-16T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "df8f20ac-8ed8-4176-97f8-5eec09c8b420"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_v4i16r00ebdrd60ngp884a7fdf> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uavkcb0mk5gotm1pqn9qicp126>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "8ab9983e-629b-42f5-82f6-99069d45a03a"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_degc0e0an4db02ddn8nlp5pfi0> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_degc0e0an4db02ddn8nlp5pfi0>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Musikhuset Aarhus"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_45upffrauupgm1chg5v0anftfp>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-11-23T15:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "96f27620-efad-462c-b2aa-5d3ceae9af99"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ak29pgnpjls8ett4q9bt6e2bil> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_mu7cefcg3b52sg1n284s0fnfo1>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_7jsi6n3dincckcb0d8mjbc834u>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-04-23T17:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "24cd3c9a-50c4-480b-9fb6-ad7800e7e817"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_7sg0fau72m0536pvfirg79rnn5> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kf8qlmlri73ks18islf6jso60h>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-08-31T15:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "18a954af-61c2-42e9-9ce0-1e82fb3cac2f"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_cqbm97slk7p4stno5j8qq3pr89> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_k28nge120jv0o1q36pt28g9tf7>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-03T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "2abd5fe0-448a-4c99-b033-b8db01d79a22"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_slllpqckbsul250sfuqrg9qo31> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_q2k01neucja28ued1c4f39t0j8>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Lille Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_snals3fvvg7dsa3r1usk6as2pd>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-04-26T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "ef4aaddf-976c-4866-abd4-fedf3a506492"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_m8o7re7djqhlk9nsau9b5tt0dp> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_honfkcklsgolkt54dvcsl2vrri>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_8812rfv11pb5tjqd4tqqnmgfce>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-06-25T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "cf502c27-014d-4be7-af36-8433de2cde3b"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_n67dv0pqsfrkg3jd2sacpg2ad6> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_oktoqf0ckv54tp0ia73obrna4s>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-09-06T10:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "5f1bc0ae-2928-4f63-a063-4bb5a2c441aa"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_a5uu0d2938p14buru47ie0bolp> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_cavl4jme7c0bbq2lhb54ilpvf4>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Lille Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tspqn9rbn74h8h8kd3uria4oli>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_8pkoqdeda3i10m7safaavmpnpi>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-08T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "0f48fc3e-a28d-4e28-9764-77ead024aced"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3bbqkp7k35nqsbsc3ri4orjs3t> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_46llf9lg7dl797sji44ndbf7cc>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_fbd5cqd2kmgv6cm075so8eu91g>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-23T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "1a02e83d-b0e7-4460-972e-5545fa796112"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9uehc3sr2pvpq3mt99fc74aqgd> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_hiu9heulh03ipad9utctklg8ob>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_7et1ojpg0fof146rtalhvia0qt>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2015-05-17T15:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "1d2538ce-f9c0-44ec-9174-720866df2447"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_hch2r3arb5s5ojd3452sb1n6ku> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uppj3pgrqhn8qc1dj52tssj3s5>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-08-17T13:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "b0b7a40f-7a33-4fbb-956a-85d00312fcf1"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_76aer6dhgev7e0d9enea6r3nkf> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_bla3n3l58m4elghtlpj1hj240o>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-04-16T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "967b2c72-86c6-4499-9876-d3c41f51e5bb"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9jgjkm4mv4q7jc7c33928feh7j> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_g2lfuhg2r8lgtnhelpn62l1flk>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_5v2mu77mun0gcairf28h97k9gb>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-02T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "2fcb947c-2b79-4643-931b-49a6a2c45a1b"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_dneunngjbpdpsnnd1u045rlal5> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_d0f5922au6952u6dtn3ljudcfd>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_7vv849s5e9f1o2kevq0q3tndb9>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_b1mf4och0595nidcsnlp5lik5r>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-04-24T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "6726f27c-e879-45c8-9e3a-a92c55d19e29"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9mipji6tsejvsoffdjud0hjtn6> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_5ovrips3m0gln3iscvufcgo875>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_7sg0fau72m0536pvfirg79rnn5>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_r77aki1kd2pbc7kvf6duqkrjrs>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Lille Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_jbdm35p9rvrfpaejtgufitmb5h>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-29T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "ef07b2cb-25ba-4dfa-ba91-28d6ac170d94"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tspqn9rbn74h8h8kd3uria4oli> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9jgjkm4mv4q7jc7c33928feh7j>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_g36ta8uu07hr8a7fu9eq27nq9m>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-01T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "93038e1e-fcf0-402d-a3c4-e029ee727f58"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_nt4rr0hf5fiq5k2sm756kst9bs> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h65nnvas79rv8dkvh4grd1sbns>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-09-11T10:15:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "3769bd14-3efc-4bdb-83bf-587069169160"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_horiq654au5a8gdl9bqpj07mcb> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_iq3lpqm6l4dm95sm2t7q4sd385>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-08-30T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "6ca38cb6-78b7-44ad-924a-c507516731a4"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_7vv849s5e9f1o2kevq0q3tndb9> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_jvmm866qhosrbofm1njafjk9if>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ev41kuqfcu0j781ffda4u3ii00>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-08-19T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "37b54c09-c3ed-4645-b776-acbc8e9ec156"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_jqeb0mll7gt20fc41l67m2ku20> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_2b8ehb6k2ujecs35oq74h4ehaa>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3pi2aqgmjptuegbjmb3koh9dnb>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Lille Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uct8j70r84u9540dnch2un93b5>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2015-02-28T15:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "ca2220b4-2bb1-4f1e-94fe-cb896aa92e04"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_honfkcklsgolkt54dvcsl2vrri> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ahbdc3vnug01kv22lv9f80162e>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_do63jk2t8c3bjkfb119ojgkhs7>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Lille Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9mipji6tsejvsoffdjud0hjtn6>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Lille Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hi9gb5kkfc7rir7uda5tg02uqi>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-06-02T11:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "1cb638c1-d644-4fce-82b0-fd7bfc099db2"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_u7cssi4btd7h8upso4lu8mq741> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_r5q7os4i1js064kht52gaqppm9>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-11-29T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "7fde2d6d-1741-4bd4-9517-fab171a74b3d"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_hiu9heulh03ipad9utctklg8ob> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_t6fd2a6hl3h4cit1l6hn7bmk83>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_5adc77s9pcg7a8ogds6e7hkgje>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_vfjg78h0vtn2kotiklj7vtknnu>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2015-02-11T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "c95b1798-82d2-43eb-b8e4-e3dc9c7e3335"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tpkaqnmnq2jfg86htq4595kmqm> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_i9b7ps6mq27nm9oiqgkrjrpddf>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-30T16:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "7fa9db56-6a90-4011-b6a2-8186a3c8e3c2"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_5ushtb2bjvt82kbnth33v62ht4> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_e593g3msjtlp4f4f4402qtd7dh>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-06-11T13:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "5c24e47e-2b6c-45f5-87ef-3c08537599ee"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3pi2aqgmjptuegbjmb3koh9dnb> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ugpfatb2oqqco8c1b2musili50>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-12-11T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "bbd66176-6583-4fd0-b1a1-f6569cdd7766"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ptojg6hmiahjg575l6qok9h2g6> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_u26sd6j1ip8c29g9aidov145mj>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-04-25T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "58faa323-53ac-4927-a299-7d291b1ad8be"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_rgl48reikh5v14vsdcbj2j4j6m> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_fs9739b7234pada1ovuear3l8e>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_qhscmob3uftig8v7iv2bjd2vm7>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-04-17T13:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "5a55c902-7ce1-43e6-ba34-1cb8d73d72be"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_h5p331nt29i7bgv4dsrplc5hfp> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_r74vldd0vsah9hd4lc7gesvdhn>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_7hn9ggrgmfcj4m4bgkuickgsvo>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-04-26T14:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "eeaf4c01-3386-47e3-b8bb-25071bc98af5"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9o7kk87kur5vuoq2grmc27un79> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_l0834nd12c1sl4eb2f4r70fq6l>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Rytmisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_gg2o614q7h78jo776783c34f3i>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_jd4hal155pova10b5d08sekt3>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2015-08-22T15:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "f073ab2c-0bfc-42d2-bbbb-b50660332a0a"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_emv0o0blbeqopprlk869u0bpp> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_oenhesb881ejnpg8m02i8u65vm>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-09-03T10:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "cb4a7aea-a4d3-4990-b9ac-0c6daf7ca176"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_uv2sve23aqn7klli2k40h67s2a> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_fn8jjbmlpfhii19hcchb8mpv5r>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-10-10T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "61dfbc23-35fa-4cf3-8d0c-e64ec42ac89e"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3k42ohsl7m1psuiv7kq9nj753i> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus>
+      a       <http://purl.oclc.org/NET/sao/streamEvent> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Interval> ;
+                <http://purl.org/NET/c4dm/timeline.owl#end>
+                        "2014-05-06T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                <http://purl.org/NET/c4dm/timeline.owl#start>
+                        "2014-05-06T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.org/NET/provenance.owl#used>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ginj64i10hk76g6rsol7s6om1o> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_9ta98f7iurtivn4v5u0q94h7tt> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_v6uemv3i9mgut50s0rdvo7fghn> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h65nnvas79rv8dkvh4grd1sbns> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_thv29632p0isoaafdpatsav3u7> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_qr73nfd27ctjm1a85mufg24ih5> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_iq3lpqm6l4dm95sm2t7q4sd385> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h8e6e512ld6nd9ni3lj40rq05c> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_8pkoqdeda3i10m7safaavmpnpi> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ev41kuqfcu0j781ffda4u3ii00> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_lo6qtqacmf7a1288m1sqgsp7cu> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_25vm2ep5j0l8c597mg4kg6qpcc> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_3cd5iprdbvg77rss8k43o4851b> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_fbd5cqd2kmgv6cm075so8eu91g> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uct8j70r84u9540dnch2un93b5> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h4igcf4mhqjfmlh1m51jpo74q2> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_vlm1f09idhm0qgsc50vupsuudv> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_br9vkchn8j650r3labc8jgnhbc> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_7et1ojpg0fof146rtalhvia0qt> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_a1fek8kp5mk8k7pbc9j2ubbr8h> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_42j1ql6lqf16179rpgq4nbqrmb> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uppj3pgrqhn8qc1dj52tssj3s5> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_2stem5l7inhujj7apekn1dbe3o> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kg13ifd6hhr81foqpnvnkoggqe> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_bla3n3l58m4elghtlpj1hj240o> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_29goijph66londljiaqch4jtv3> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_gahp22l4lk3sjhp3hne6hoenq5> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_r955cor54lojlqvb65v3oopl0r> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_5v2mu77mun0gcairf28h97k9gb> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_m7eoh9f5o3ssv0ih601cqigtle> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_2kh6si4jjim7tf91kku69jloiv> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_p8fc0idofdqjit1i8tvto40ab> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_mlhim3k8kgqd0e5d4f8c46ikpr> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_q0bhfmhv797r1sud5dsp1lgj8o> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_b1mf4och0595nidcsnlp5lik5r> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hi9gb5kkfc7rir7uda5tg02uqi> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_372nr2lh09eljd1d5ch4neukls> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hqbffl188kbv9gl9dtpv7l91kt> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ds60pfg0p28ia02lgnli2jcjcr> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_r5q7os4i1js064kht52gaqppm9> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_aqsjvfsen6nee1hg3baqo1mnuu> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kle23lmptb3280u65s7tdu65r0> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uavkcb0mk5gotm1pqn9qicp126> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_4o6sjrgsq0crn2smc76nbn4i3> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_m2rni55mi1eadjvlppelftval9> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_g172en00k6rl6siqklg8vjbu0o> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kmoghhq9ogflqq7t6qk2snprpd> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_55qvppp6stdps5k7cnhl5uup3f> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_68bg2cqdcgjk02hgk0a50bhquh> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_45upffrauupgm1chg5v0anftfp> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_i4uv775c78f19o4368mo586hq2> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_vfjg78h0vtn2kotiklj7vtknnu> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_gep70o5fsv4rrsejca9oql71cd> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_j8qklmccg6177cds0ajs94sg3n> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uqp58p3elh3kjis9j5v0els1ig> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_i9b7ps6mq27nm9oiqgkrjrpddf> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_cm8u7fblk0p4mruo9c5e6l9jdi> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_e593g3msjtlp4f4f4402qtd7dh> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_rvkgrhf7pdk4psve3q1dffnlde> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_s2f6nh41pfo6l0o0ghbn47v1b6> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_7jsi6n3dincckcb0d8mjbc834u> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kqhc2pinrv631l1ph74tvi2hfe> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ugpfatb2oqqco8c1b2musili50> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ipnee6umn5ba8cmrkg4ivu1ubc> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_u26sd6j1ip8c29g9aidov145mj> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ni07h7bltqpd52828ml9elpie2> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_43715au9a6lm3e9a2l1avdsl10> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_jbdm35p9rvrfpaejtgufitmb5h> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_vdriq63vpj17uqnja8uopc7p0p> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_fedahaags8hbjk7tpi780lut5> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kf8qlmlri73ks18islf6jso60h> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_k28nge120jv0o1q36pt28g9tf7> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_g36ta8uu07hr8a7fu9eq27nq9m> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_jgol1omlslcit9tc4oj57vq9g5> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hsriljskvrtt700f2doc2smudh> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_psode7v4hpr6v6545akksl82j6> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_qhscmob3uftig8v7iv2bjd2vm7> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_taufvr8dogin2fqtljafiuqv9> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_7hn9ggrgmfcj4m4bgkuickgsvo> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h3rh2ipgrfp857lqr6quic4acp> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_sh6qiu1l8ej0q2lgiukipe1kf3> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_snals3fvvg7dsa3r1usk6as2pd> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kb56cuvg4d8c05imqkk3ls2jnf> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_2ondqu11ou7nprcnv6jp8mlcmo> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hkn7paq3si6ddde05kk46mm48a> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_b0ntmkbfgor8ofn0hbi144t82l> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_c1tnh48vi4kmlqfajidmsk31ah> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_qjcdpqdcptqggp3cj3un8n3m2v> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_8812rfv11pb5tjqd4tqqnmgfce> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_sq6ihi9e5ulhc0gtnahhif6v5v> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_mojlie98deg3oksdgd2s5fhe47> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_jd4hal155pova10b5d08sekt3> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_oktoqf0ckv54tp0ia73obrna4s> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_drta43mu43nrmtb06nb0brap69> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_terkncn9evv30igivtu4njm91r> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_a1uoek3dbb7juk4kkn97cen1tm> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_oenhesb881ejnpg8m02i8u65vm> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_3b6acm2tkqqpgcp0j5l6fptm3p> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_fn8jjbmlpfhii19hcchb8mpv5r> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9jog53br0epov848dh4qg1gb8n>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_pmcttnkeqh8qmq240rsl8gchgb>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_h5p331nt29i7bgv4dsrplc5hfp>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h4igcf4mhqjfmlh1m51jpo74q2>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-10-05T15:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "0d46a3d3-8a11-46e4-bc44-8db3b51e63a4"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_l0834nd12c1sl4eb2f4r70fq6l> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_8kqsq2h4p0fj1ti1uoh72o0pku>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Lille Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kg13ifd6hhr81foqpnvnkoggqe>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-09-27T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "d5d071c5-23b9-49e8-acc2-e8c849c2da63"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_6rrkqhuduspfopjegbsvpvm8ng> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_q0bhfmhv797r1sud5dsp1lgj8o>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-09-20T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "7bd2c713-0d6b-42ef-8b31-64dd0d00fd7b"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ahbdc3vnug01kv22lv9f80162e> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_a5uu0d2938p14buru47ie0bolp>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Balkongalleriet"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_m2rni55mi1eadjvlppelftval9>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-10-04T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "8f75d718-11ae-4c3a-9b75-8b2cac21b3bb"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_dm80lihdln051j2d1adhtdafrm> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_g172en00k6rl6siqklg8vjbu0o>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2015-03-26T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "984e1381-0cbc-4ea0-a524-5ecd312926c4"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_td314nje3hcec0mikl59kjo7qq> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_i4uv775c78f19o4368mo586hq2>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-08-22T16:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "a002a68f-63c3-4310-a061-9b40f833a7de"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tdcvok8d3knb7nrt7b4179q0k> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_nt4rr0hf5fiq5k2sm756kst9bs>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1vbe5kfokqctat35i9pf6ja4ht>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_j8qklmccg6177cds0ajs94sg3n>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-16T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "50eb3cbc-b016-42b0-80ba-e8e2a606b932"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_lr416cbe4q1sm3s1dpk2qp7mlm> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_s2f6nh41pfo6l0o0ghbn47v1b6>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2015-02-05T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "ce1d06f5-8cd9-490c-8ed3-03e7cccba6dd"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_66jkt6v5cpf4m394kh62og4irj> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_vdriq63vpj17uqnja8uopc7p0p>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-08-16T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "d2bcd5c0-4c28-44eb-b0da-669c16b1a931"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1flmfkunv5vnr93i7muncv0e4e> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_79jiluh06td1gr1eq5laumutrf>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_lm52aelfu2s27piqvlu6nid8lf>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Musikhuset Aarhus"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_sh6qiu1l8ej0q2lgiukipe1kf3>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-09-05T17:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "62798ad9-c2b1-4f7b-910b-c3279a007d1f"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_c92den661vv0qcfre4ohs8ltt8> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h3rh2ipgrfp857lqr6quic4acp>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2015-04-10T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "6632c347-4b23-4bef-9b67-2f3aaae2d542"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_8lt7stfuogmdg6sl9h4ssg16jc> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_b0ntmkbfgor8ofn0hbi144t82l>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-10-24T16:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "77bcd3cc-3197-49ba-8895-b299cd14e83e"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_2b8ehb6k2ujecs35oq74h4ehaa> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_6nl8goflbi9j1b5fhnrlhcbr4r>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Lok 222"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_3b6acm2tkqqpgcp0j5l6fptm3p>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-08-29T16:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "960f341f-05bf-4d3d-8459-b10121b48f72"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_t6fd2a6hl3h4cit1l6hn7bmk83> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ginj64i10hk76g6rsol7s6om1o>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-20T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "10fc350b-2877-4040-b25f-2fd86dd02026"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9d16k2489h751nm8qkr8am1eb5> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_rgl48reikh5v14vsdcbj2j4j6m>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_5ushtb2bjvt82kbnth33v62ht4>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_v4i16r00ebdrd60ngp884a7fdf>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_mqmntcf8m4jovlse2niehn3r2a>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_a1fek8kp5mk8k7pbc9j2ubbr8h>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-08-30T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "6ff1ea2c-7c61-4ee9-b461-351e02c565b4"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_kh8jgu0mel6clcmlucgphqliso> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_gahp22l4lk3sjhp3hne6hoenq5>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-04-11T16:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "45dbea4b-416d-48c3-b4cc-615b15082baa"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_nhbcjdhg3albhse80lqd3tsoud> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1bpv9l3r0f5pfd10reoaqiggel>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Rytmisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_p8fc0idofdqjit1i8tvto40ab>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-30T15:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "bc088c3b-8544-489f-9607-12f760a4da07"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_5adc77s9pcg7a8ogds6e7hkgje> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_lr416cbe4q1sm3s1dpk2qp7mlm>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ds60pfg0p28ia02lgnli2jcjcr>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2015-05-13T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "a80ff314-d128-4709-bd46-ff9571312bef"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_r74vldd0vsah9hd4lc7gesvdhn> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_89806hfk8tm3b0ikc4kmha8v0p>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_vii9i233omjv6hb3kh8vv9o0rh>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_td314nje3hcec0mikl59kjo7qq>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_8lt7stfuogmdg6sl9h4ssg16jc>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ipnee6umn5ba8cmrkg4ivu1ubc>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-04-19T13:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "26b310b2-ef28-45a1-8ed9-762acc046351"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ekcb4mr4u4uoj0u682uoe0lm6s> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ptojg6hmiahjg575l6qok9h2g6>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ni07h7bltqpd52828ml9elpie2>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-04-27T15:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "efd974b4-daeb-468b-a937-bb74402cee4e"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_gg2o614q7h78jo776783c34f3i> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_43715au9a6lm3e9a2l1avdsl10>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2015-01-18T14:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "fc345d6a-b7d4-4bc9-a270-cbbf58922ff7"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_nr6pgm1pjkosa00ona7q118un1> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_fedahaags8hbjk7tpi780lut5>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-06-06T10:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "4de926d9-8e77-47de-a41f-252c0023e1f4"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ovecpduk7468kis19poagir901> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_horiq654au5a8gdl9bqpj07mcb>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Foyer Syd"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hsriljskvrtt700f2doc2smudh>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-09-04T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "1c3f5ecf-1f0b-422a-af1b-3009db8b60b5"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1bpv9l3r0f5pfd10reoaqiggel> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_uslcl8sj3c2iprn6aaqofk6drf>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_v6mkjh5vogvat0q6sb138njku>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_drta43mu43nrmtb06nb0brap69>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-09-26T16:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "bb46d327-3b56-4086-923b-7003c0d9bd99"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_j54n4pio1njakh87iufrsgjtn6> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_v6uemv3i9mgut50s0rdvo7fghn>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2015-01-25T15:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "4aee04ea-ac65-48ec-8344-7c559e1725df"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_g2lfuhg2r8lgtnhelpn62l1flk> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3v73d7tn3qec145dnkma7ifmnh>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_u7cssi4btd7h8upso4lu8mq741>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_thv29632p0isoaafdpatsav3u7>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2015-08-26T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "1a0ae0de-2290-47af-a269-4363c22e0e0c"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1j6epq41n4gje73r415a9d54ub> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_qr73nfd27ctjm1a85mufg24ih5>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-06-04T17:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "cd880a85-d329-4e93-b2fd-3b9aeeb7b209"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_jvmm866qhosrbofm1njafjk9if> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_lo6qtqacmf7a1288m1sqgsp7cu>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-06T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "5e48e9ce-9666-4c07-b048-22f68e430de2"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_do63jk2t8c3bjkfb119ojgkhs7> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_25vm2ep5j0l8c597mg4kg6qpcc>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-11-12T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "c260f61f-b7d1-41b6-a129-414d45f393fc"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_2nf8rdt20vg19cqt0uspr6a8uu> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_3cd5iprdbvg77rss8k43o4851b>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-30T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "bb61f903-1f4e-4dfa-9ae3-9d8adb7417c1"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_pmcttnkeqh8qmq240rsl8gchgb> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_dugt2qdv0li2ok5ngi4v1kglh9>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Rytmisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_vlm1f09idhm0qgsc50vupsuudv>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-04-28T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "dccdbed5-b65a-4d45-8277-281d240f37ac"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1l8g939dc83fl00mm9f8egd4p4> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_2stem5l7inhujj7apekn1dbe3o>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-11-21T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "f5fb1d16-ab7f-4ebf-b03e-06cab3aa084b"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_v6mkjh5vogvat0q6sb138njku> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_m7eoh9f5o3ssv0ih601cqigtle>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-11T12:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "a8cd1460-72a5-4a9d-a80c-4a0be022014e"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1k02seb63n18p0udtt612e0vf0> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9o7kk87kur5vuoq2grmc27un79>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_n67dv0pqsfrkg3jd2sacpg2ad6>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kmoghhq9ogflqq7t6qk2snprpd>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-10-30T22:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "f6dd4002-e729-4f41-8791-5f5f4a29a5fe"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_6nl8goflbi9j1b5fhnrlhcbr4r> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_55qvppp6stdps5k7cnhl5uup3f>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-10-03T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "8d9d9a20-db92-4fbe-8908-e3d19b2167db"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_dugt2qdv0li2ok5ngi4v1kglh9> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_2nf8rdt20vg19cqt0uspr6a8uu>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_uv2sve23aqn7klli2k40h67s2a>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Balkongalleriet"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_psode7v4hpr6v6545akksl82j6>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-04-26T15:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "da7bc5a8-e6c2-4c9e-8c79-15d90004c6b3"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_8kqsq2h4p0fj1ti1uoh72o0pku> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_taufvr8dogin2fqtljafiuqv9>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-04-26T15:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "e0c23f24-f1cd-466a-a8cc-587f1fea3fef"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_mqmntcf8m4jovlse2niehn3r2a> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tki84tdq7e2k7am0im902r34n5>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Rytmisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1l8g939dc83fl00mm9f8egd4p4>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kb56cuvg4d8c05imqkk3ls2jnf>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-13T16:15:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "e1a8b5d6-6ee5-4317-aa89-42d65c3b495e"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_en6cn9isvcici6h7avsurm4t5c> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hkn7paq3si6ddde05kk46mm48a>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-11-01T11:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "202df82f-cc8d-498c-92bf-bf0b28af1169"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_8qfn1v815ldnu3s0qgnr9d8hj3> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_c1tnh48vi4kmlqfajidmsk31ah>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-11-28T16:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "5c043904-ff22-4170-b5fb-bf63656e78c9"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_mu7cefcg3b52sg1n284s0fnfo1> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_dneunngjbpdpsnnd1u045rlal5>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9pqmm51h6171hnbj0lpi0522q6>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ekcb4mr4u4uoj0u682uoe0lm6s>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_obb3t3nqhel7p6s7cfac3jo6cm>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_76aer6dhgev7e0d9enea6r3nkf>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_42j1ql6lqf16179rpgq4nbqrmb>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-04T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "ce31326c-913b-49e1-aaae-9e90fd8898c3"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_c33of3d1pct3eqn651e5c4lh1b> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_29goijph66londljiaqch4jtv3>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-21T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "23d6f177-594c-47ae-9d29-d98d6d26551a"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_uslcl8sj3c2iprn6aaqofk6drf> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3bbqkp7k35nqsbsc3ri4orjs3t>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Lok 222"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_r955cor54lojlqvb65v3oopl0r>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-12T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "1cd5cb03-fca4-413c-ba99-6d4d57eb80d7"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_fs9739b7234pada1ovuear3l8e> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_c92den661vv0qcfre4ohs8ltt8>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_en6cn9isvcici6h7avsurm4t5c>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Rytmisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1j6epq41n4gje73r415a9d54ub>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_hch2r3arb5s5ojd3452sb1n6ku>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_372nr2lh09eljd1d5ch4neukls>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-10-09T17:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "e94e9a7a-5fac-4608-bf85-534447816eb4"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_obb3t3nqhel7p6s7cfac3jo6cm> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kle23lmptb3280u65s7tdu65r0>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-11-06T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "bf5b1736-37d2-41ae-8068-6869b476b4cc"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_d0f5922au6952u6dtn3ljudcfd> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_4o6sjrgsq0crn2smc76nbn4i3>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-04-23T19:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "05417a61-8fec-486c-831f-e4a9d2fa7774"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9pqmm51h6171hnbj0lpi0522q6> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_71ri7bkh2d4q45gggh598ffu4o>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_68bg2cqdcgjk02hgk0a50bhquh>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-12-06T13:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "a3426890-2656-47e5-ada2-c1586881af16"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_r77aki1kd2pbc7kvf6duqkrjrs> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_kh8jgu0mel6clcmlucgphqliso>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_gep70o5fsv4rrsejca9oql71cd>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-10-25T17:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "631eb146-7eb7-436c-abcf-94634dd12ad1"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tki84tdq7e2k7am0im902r34n5> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uqp58p3elh3kjis9j5v0els1ig>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-30T16:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "60fcb71e-3eaa-44e6-b030-0f5df0161b7e"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_cstgrmva9cjhruqu64tr5or033> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_o9v8m32g3uik4k7sdvc48nvcgt>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_cm8u7fblk0p4mruo9c5e6l9jdi>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-04-13T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "121dafee-ff16-4bf9-94b9-98fd8309d645"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_q2k01neucja28ued1c4f39t0j8> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_rvkgrhf7pdk4psve3q1dffnlde>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-04-20T13:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "738eec2c-061d-4158-abdf-53db5fbf3818"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_46llf9lg7dl797sji44ndbf7cc> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kqhc2pinrv631l1ph74tvi2hfe>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-01T18:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "a3de02b5-6612-42df-9462-11128d096898"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_79jiluh06td1gr1eq5laumutrf> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1flmfkunv5vnr93i7muncv0e4e>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Filursalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_2ondqu11ou7nprcnv6jp8mlcmo>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-16T13:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "2dc1dd90-f61f-450d-91a2-39c8238a8229"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_n3m2uug4tiqbv439f4f015l8mn> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_sq6ihi9e5ulhc0gtnahhif6v5v>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2015-03-22T15:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "99bc5717-dd76-49d6-99e8-1d4e1d244c26"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3v73d7tn3qec145dnkma7ifmnh> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ak29pgnpjls8ett4q9bt6e2bil>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_9ta98f7iurtivn4v5u0q94h7tt>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-08-31T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "5051bb65-a0a5-4786-b02e-b7cde4af9b2f"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9jog53br0epov848dh4qg1gb8n> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_nr6pgm1pjkosa00ona7q118un1>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_j54n4pio1njakh87iufrsgjtn6>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tdcvok8d3knb7nrt7b4179q0k>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_br9vkchn8j650r3labc8jgnhbc>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-04-24T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "cb1b5861-6f41-4ba3-a64c-e160f75a848f"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_5ovrips3m0gln3iscvufcgo875> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_cqbm97slk7p4stno5j8qq3pr89>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_6rrkqhuduspfopjegbsvpvm8ng>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_2kh6si4jjim7tf91kku69jloiv>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-11-30T12:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "535e9ab1-713e-41c4-b8c1-9d0a8228af2e"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_o9v8m32g3uik4k7sdvc48nvcgt> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_66jkt6v5cpf4m394kh62og4irj>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tpkaqnmnq2jfg86htq4595kmqm>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_slllpqckbsul250sfuqrg9qo31>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Musikhuset Aarhus"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_emv0o0blbeqopprlk869u0bpp>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9d16k2489h751nm8qkr8am1eb5>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_q3n4fp74useraocqvkl2as458r>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_gahhbs6v0o4mkfvembr29tauck>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_jqeb0mll7gt20fc41l67m2ku20>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Foyer Syd"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_cstgrmva9cjhruqu64tr5or033>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_jgol1omlslcit9tc4oj57vq9g5>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2015-02-27T19:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "bfbcd1a1-9c5e-4427-b6cb-bfa2b8967508"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_vii9i233omjv6hb3kh8vv9o0rh> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_nhbcjdhg3albhse80lqd3tsoud>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Musikhuset Aarhus"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_dm80lihdln051j2d1adhtdafrm>
+      a       <http://purl.oclc.org/NET/sao/FeatureOfInterest> ;
+      <http://www.insight-centre.org/citytraffic#hasFirstNode>
+              [ a       <http://www.insight-centre.org/citytraffic#Node> ;
+                <http://www.insight-centre.org/citytraffic#hasLatitude>
+                        "56.1519158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasLongitude>
+                        "10.19887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+                <http://www.insight-centre.org/citytraffic#hasNodeName>
+                        "Lille Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_qjcdpqdcptqggp3cj3un8n3m2v>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-06-03T10:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "5d65161a-3aa4-4acc-a90e-c98cf7409a00"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_lm52aelfu2s27piqvlu6nid8lf> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_mojlie98deg3oksdgd2s5fhe47>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-05-22T21:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "698c0f58-d66f-4dd9-b066-00508cb532a1"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_71ri7bkh2d4q45gggh598ffu4o> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_terkncn9evv30igivtu4njm91r>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2015-05-10T15:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "0e85e889-da21-47a0-a981-ef6a09e4f577"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_gahhbs6v0o4mkfvembr29tauck> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_a1uoek3dbb7juk4kkn97cen1tm>
+      a       <http://purl.oclc.org/NET/ssnx/ssn#Observation> , <http://purl.oclc.org/NET/sao/Point> ;
+      <http://purl.oclc.org/NET/sao/hasUnitOfMeasurement>
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      <http://purl.oclc.org/NET/sao/time>
+              [ a       <http://purl.org/NET/c4dm/timeline.owl#Instant> ;
+                <http://purl.org/NET/c4dm/timeline.owl#at>
+                        "2014-04-25T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+              ] ;
+      <http://purl.oclc.org/NET/sao/value>
+              "5a85f0a1-68a4-4e80-a532-9cdc6de82797"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest>
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_cavl4jme7c0bbq2lhb54ilpvf4> .
