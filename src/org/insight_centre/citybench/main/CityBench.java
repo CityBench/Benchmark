@@ -392,6 +392,8 @@ public class CityBench {
 				this.startedStreams.add(uri);
 				CQELSSensorStream css;
 				EventDeclaration ed = er.getEds().get(uri);
+				if (ed == null)
+					throw new Exception("ED not found for: " + uri);
 				if (ed.getEventType().contains("traffic")) {
 					css = new CQELSAarhusTrafficStream(cqelsContext, uri, path, ed, start, end);
 				} else if (ed.getEventType().contains("pollution")) {

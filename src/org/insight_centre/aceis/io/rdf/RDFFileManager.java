@@ -6,6 +6,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -1016,6 +1017,9 @@ public class RDFFileManager {
 			context = new ExecContext(cqelsHome, true);
 		context.loadDefaultDataset(datasetDirectory + serviceDesc);
 		context.loadDataset(cesPrefix, ontologyDirectory + "ces.n3");
+		context.loadDataset("culturalevents", datasetDirectory + "AarhusCulturalEvents.n3");
+		context.loadDataset("libraryevents", datasetDirectory + "AarhusLibraryEvents.n3");
+		// context.l
 		// context.loadDataset(ssnPrefix, ontologyDirectory + "ssn.owl");
 		// context.loadDataset(ctPrefix, ontologyDirectory + "city.n3");
 		// context.loadDataset(owlsPrefix, ontologyDirectory + "Service.owl");
@@ -1024,6 +1028,9 @@ public class RDFFileManager {
 		// context.loadDataset(owlsPrefix, ontologyDirectory + "Profile.owl");
 
 		dataset = context.getDataset().toDataset();
+		// dataset.
+		// while (dataset.listNames().hasNext())
+		// System.out.println(dataset.listNames().next());
 		return context;
 	}
 
