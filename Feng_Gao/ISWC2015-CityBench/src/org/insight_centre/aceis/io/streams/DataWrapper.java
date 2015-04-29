@@ -63,9 +63,14 @@ public class DataWrapper {
 					0.0, null, null, streamData.get("TIMESTAMP"));
 			String obId = "AarhusTrafficObservation-" + streamData.get("_id");
 			Double distance = Double.parseDouble(((TrafficReportService) ed).getDistance() + "");
-			data.setEstimatedTime(distance / data.getAverageSpeed());
-			data.setCongestionLevel(data.getVehicle_count() / distance);
-
+			if (data.getAverageSpeed() != 0)
+				data.setEstimatedTime(distance / data.getAverageSpeed());
+			else
+				data.setEstimatedTime(-1.0);
+			if (distance != 0)
+				data.setCongestionLevel(data.getVehicle_count() / distance);
+			else
+				data.setCongestionLevel(-1.0);
 			data.setObId(obId);
 			;
 			// this.currentObservation = data;
@@ -229,12 +234,17 @@ public class DataWrapper {
 
 		Resource coordinates = m.createResource();
 		coordinates.addLiteral(m.createProperty(RDFFileManager.ctPrefix + "hasLatitude"), lat);
-		coordinates.addLiteral(m.createProperty(RDFFileManager.ctPrefix + "hasLongtitude"), lon);
+		coordinates.addLiteral(m.createProperty(RDFFileManager.ctPrefix + "hasLongitude"), lon);
 
 		// observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "featureOfInterest"), user);
 		observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedProperty"),
 				m.createResource(ed.getPayloads().get(0).split("\\|")[2]));
 		observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedBy"), serviceID);
+		// fake fixed foi
+		// observation
+		// .addProperty(
+		// m.createProperty(RDFFileManager.ssnPrefix + "featureOfInterest"),
+		// m.createResource("http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_do63jk2t8c3bjkfb119ojgkhs7"));
 
 		observation.addProperty(m.createProperty(RDFFileManager.saoPrefix + "hasValue"), coordinates);
 		// System.out.println("transformed: " + m.listStatements().toList().size());s

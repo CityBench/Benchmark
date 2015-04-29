@@ -30,7 +30,7 @@
               ] .
 :parkingproperty-8
       a       ct:ParkingVacancy ;
-      ssn:isPropertyOf :Foi-parking-8 .
+      ssn:isPropertyOf :FoI-parking-8 .
 
 :arhusParkingDataKALKVAERKSVEJ-Profile
       a       ces:EventProfile ;
@@ -55,7 +55,7 @@
               ] .
 :parkingproperty-7
       a       ct:ParkingVacancy ;
-      ssn:isPropertyOf :Foi-parking-7 .
+      ssn:isPropertyOf :FoI-parking-7 .
 
 :arhusParkingDataMAGASIN-Profile
       a       ces:EventProfile ;
@@ -81,7 +81,7 @@
               ] .
 :parkingproperty-6
       a       ct:ParkingVacancy ;
-      ssn:isPropertyOf :Foi-parking-6 .
+      ssn:isPropertyOf :FoI-parking-6 .
 
 :arhusParkingDataSALLING-Profile
       a       ces:EventProfile ;
@@ -108,7 +108,7 @@
               ] .
 :parkingproperty-5
       a       ct:ParkingVacancy ;
-      ssn:isPropertyOf :Foi-parking-5 .
+      ssn:isPropertyOf :FoI-parking-5 .
 
 :arhusParkingDataSCANDCENTER-Profile
       a       ces:EventProfile ;
@@ -134,7 +134,7 @@
               ] .
 :parkingproperty-4
       a       ct:ParkingVacancy ;
-      ssn:isPropertyOf :Foi-parking-4 .
+      ssn:isPropertyOf :FoI-parking-4 .
 
 :arhusParkingDataSKOLEBAKKEN-Profile
       a       ces:EventProfile ;
@@ -160,7 +160,7 @@
               ] .
 :parkingproperty-3
       a       ct:ParkingVacancy ;
-      ssn:isPropertyOf :Foi-parking-3 .
+      ssn:isPropertyOf :FoI-parking-3 .
 
 :arhusParkingDataBUSGADEHUSET-Profile
       a       ces:EventProfile ;
@@ -186,7 +186,7 @@
               ] .
 :parkingproperty-2
       a       ct:ParkingVacancy ;
-      ssn:isPropertyOf :Foi-parking-2 .
+      ssn:isPropertyOf :FoI-parking-2 .
 
 :arhusParkingDataNORREPORT-Profile
       a       ces:EventProfile ;
@@ -212,7 +212,7 @@
               ] .
 :parkingproperty-1
       a       ct:ParkingVacancy ;
-      ssn:isPropertyOf :Foi-parking-1 .
+      ssn:isPropertyOf :FoI-parking-1 .
 
 :arhusParkingDataBRUUNS-Profile
       a       ces:EventProfile ;

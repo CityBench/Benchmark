@@ -6,7 +6,18 @@ import javax.swing.JFrame;
 
 import java.awt.*;
 import java.awt.event.*;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
 import javax.swing.*;
+
+import org.insight_centre.aceis.io.rdf.RDFFileManager;
+
+import com.hp.hpl.jena.rdf.model.Model;
+import com.hp.hpl.jena.rdf.model.ResIterator;
+import com.hp.hpl.jena.util.FileManager;
+import com.hp.hpl.jena.vocabulary.RDF;
 
 /* FrameDemo.java requires no other files. */
 public class FrameDemo {
@@ -27,13 +38,15 @@ public class FrameDemo {
 		frame.setVisible(true);
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		// Schedule a job for the event-dispatching thread:
 		// creating and showing this application's GUI.
-		javax.swing.SwingUtilities.invokeLater(new Runnable() {
-			public void run() {
-				createAndShowGUI();
-			}
-		});
+		Model m = FileManager.get().loadModel("dataset/aarhusLibraryEvents.n3");
+		ResIterator it = m.listSubjectsWithProperty(RDF.type, m.createResource("http://purl.oclc.org/NET/sao/Point"));
+		while (it.hasNext()) {
+			it.next().addProperty(RDF.type, m.createResource(RDFFileManager.ssnPrefix + "Observation"));
+		}
+		File f = new File("dataset/library_events.n3");
+		m.write(new FileWriter(f), "N3");
 	}
 }
