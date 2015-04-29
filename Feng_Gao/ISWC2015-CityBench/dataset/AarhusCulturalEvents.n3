@@ -1,0 +1,2098 @@
+@prefix ns1:     <http://purl.oclc.org/NET/ssnx/ssn#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov:    <http://purl.org/NET/provenance.owl#> .
+@prefix sao:     <http://purl.oclc.org/NET/sao/> .
+@prefix tl:      <http://purl.org/NET/c4dm/timeline.owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix unit0:   <http://purl.oclc.org/NET/muo/citypulse/unit/events> .
+@prefix xml:     <http://www.w3.org/XML/1998/namespace> .
+@prefix ct:      <http://www.insight-centre.org/citytraffic#> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_8qfn1v815ldnu3s0qgnr9d8hj3>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_n3m2uug4tiqbv439f4f015l8mn>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h8e6e512ld6nd9ni3lj40rq05c>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-06-21T12:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: L?rdagskoncert - gratis Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33743/47556/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1vbe5kfokqctat35i9pf6ja4ht> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ovecpduk7468kis19poagir901>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_c33of3d1pct3eqn651e5c4lh1b>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Musikhuset Aarhus"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1k02seb63n18p0udtt612e0vf0>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9uehc3sr2pvpq3mt99fc74aqgd>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_m8o7re7djqhlk9nsau9b5tt0dp>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_mlhim3k8kgqd0e5d4f8c46ikpr>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-11T15:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Den mystiske sag om hunden i natten Price: 210.00 - 290.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/32762/45151/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_89806hfk8tm3b0ikc4kmha8v0p> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3k42ohsl7m1psuiv7kq9nj753i>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Rytmisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hqbffl188kbv9gl9dtpv7l91kt>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-04-10T18:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: ASO intro Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/32163/47303/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_q3n4fp74useraocqvkl2as458r> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_aqsjvfsen6nee1hg3baqo1mnuu>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2015-01-16T20:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: The Great Guiseppe Verdi Night Price: 445.00 - 495.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33528/47197/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_v4i16r00ebdrd60ngp884a7fdf> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uavkcb0mk5gotm1pqn9qicp126>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-01T00:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: SPOT Festival 2014 Price: Billet URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33768/47630/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_degc0e0an4db02ddn8nlp5pfi0> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_degc0e0an4db02ddn8nlp5pfi0>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Musikhuset Aarhus"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_45upffrauupgm1chg5v0anftfp>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-11-23T15:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: KAMMERKONCERT Price: 85.00 - 115.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/29048/46774/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ak29pgnpjls8ett4q9bt6e2bil> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_mu7cefcg3b52sg1n284s0fnfo1>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_7jsi6n3dincckcb0d8mjbc834u>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-04-23T17:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Morten Ladehoff, orgel Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33561/47228/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_7sg0fau72m0536pvfirg79rnn5> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kf8qlmlri73ks18islf6jso60h>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-08-31T15:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Festuge Classic 2014 Price: 225.00 - 395.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33366/46893/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_cqbm97slk7p4stno5j8qq3pr89> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_k28nge120jv0o1q36pt28g9tf7>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-03T00:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: SPOT Festival 2014 Price: Billet URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33768/47633/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_slllpqckbsul250sfuqrg9qo31> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_q2k01neucja28ued1c4f39t0j8>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Lille Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_snals3fvvg7dsa3r1usk6as2pd>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-04-26T20:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Pigen Med Paraplyerne Price: 190.00 - 370.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/32532/44535/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_m8o7re7djqhlk9nsau9b5tt0dp> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_honfkcklsgolkt54dvcsl2vrri>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_8812rfv11pb5tjqd4tqqnmgfce>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-06-25T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Sommerkoncert - Gratis Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33745/47558/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_n67dv0pqsfrkg3jd2sacpg2ad6> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_oktoqf0ckv54tp0ia73obrna4s>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-09-06T10:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Hist & Her - Sanseudstilling Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/34821/51458/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_a5uu0d2938p14buru47ie0bolp> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_cavl4jme7c0bbq2lhb54ilpvf4>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Lille Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tspqn9rbn74h8h8kd3uria4oli>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_8pkoqdeda3i10m7safaavmpnpi>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-08T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Violinaften Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/32877/47911/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3bbqkp7k35nqsbsc3ri4orjs3t> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_46llf9lg7dl797sji44ndbf7cc>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_fbd5cqd2kmgv6cm075so8eu91g>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-23T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Violinaften Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/32877/47912/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9uehc3sr2pvpq3mt99fc74aqgd> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_hiu9heulh03ipad9utctklg8ob>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_7et1ojpg0fof146rtalhvia0qt>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2015-05-17T15:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: DIRTY DANCING THE MUSICAL Price: 135.00 - 815.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/34116/48707/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_hch2r3arb5s5ojd3452sb1n6ku> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uppj3pgrqhn8qc1dj52tssj3s5>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-08-17T13:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Trio Aurora Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/34765/49888/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_76aer6dhgev7e0d9enea6r3nkf> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_bla3n3l58m4elghtlpj1hj240o>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-04-16T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Scandinavian Saxophone Festival-Times Again Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/29210/46785/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9jgjkm4mv4q7jc7c33928feh7j> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_g2lfuhg2r8lgtnhelpn62l1flk>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_5v2mu77mun0gcairf28h97k9gb>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-02T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Eine Alpensinfonie Price: 130.00 - 295.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/29098/37692/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_dneunngjbpdpsnnd1u045rlal5> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_d0f5922au6952u6dtn3ljudcfd>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_7vv849s5e9f1o2kevq0q3tndb9>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_b1mf4och0595nidcsnlp5lik5r>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-04-24T20:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Ida Gard Price: 170.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/32157/43717/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9mipji6tsejvsoffdjud0hjtn6> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_5ovrips3m0gln3iscvufcgo875>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_7sg0fau72m0536pvfirg79rnn5>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_r77aki1kd2pbc7kvf6duqkrjrs>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Lille Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_jbdm35p9rvrfpaejtgufitmb5h>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-29T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Sofie Spanget Rasmussen - pr?debut, cello Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33866/47925/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tspqn9rbn74h8h8kd3uria4oli> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9jgjkm4mv4q7jc7c33928feh7j>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_g36ta8uu07hr8a7fu9eq27nq9m>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-01T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Eine Alpensinfonie Price: 130.00 - 295.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/29098/37691/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_nt4rr0hf5fiq5k2sm756kst9bs> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h65nnvas79rv8dkvh4grd1sbns>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-09-11T10:15:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: De sm? synger sammen Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/34825/51464/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_horiq654au5a8gdl9bqpj07mcb> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_iq3lpqm6l4dm95sm2t7q4sd385>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-08-30T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Festuge Classic 2014 Price: 225.00 - 395.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33366/46892/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_7vv849s5e9f1o2kevq0q3tndb9> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_jvmm866qhosrbofm1njafjk9if>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ev41kuqfcu0j781ffda4u3ii00>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-08-19T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Ruder Konges Kn?gte Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/34768/49891/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_jqeb0mll7gt20fc41l67m2ku20> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_2b8ehb6k2ujecs35oq74h4ehaa>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3pi2aqgmjptuegbjmb3koh9dnb>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Lille Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uct8j70r84u9540dnch2un93b5>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2015-02-28T15:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Skatte?en Price: 170.00 - 370.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33823/47862/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_honfkcklsgolkt54dvcsl2vrri> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ahbdc3vnug01kv22lv9f80162e>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_do63jk2t8c3bjkfb119ojgkhs7>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Lille Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9mipji6tsejvsoffdjud0hjtn6>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Lille Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hi9gb5kkfc7rir7uda5tg02uqi>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-06-02T11:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Klassiske eksamenskoncerter Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/29964/48704/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_u7cssi4btd7h8upso4lu8mq741> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_r5q7os4i1js064kht52gaqppm9>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-11-29T20:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Poul Krebs Price: 295.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33574/47299/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_hiu9heulh03ipad9utctklg8ob> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_t6fd2a6hl3h4cit1l6hn7bmk83>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_5adc77s9pcg7a8ogds6e7hkgje>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_vfjg78h0vtn2kotiklj7vtknnu>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2015-02-11T20:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Svanes?en Price: 445.00 - 495.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33538/47193/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tpkaqnmnq2jfg86htq4595kmqm> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_i9b7ps6mq27nm9oiqgkrjrpddf>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-30T16:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: 8000 Comedy Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33252/47546/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_5ushtb2bjvt82kbnth33v62ht4> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_e593g3msjtlp4f4f4402qtd7dh>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-06-11T13:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Klassiske eksamenskoncerter Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/29964/48720/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3pi2aqgmjptuegbjmb3koh9dnb> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ugpfatb2oqqco8c1b2musili50>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-12-11T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Dansk naturpoesi og Tjajkovskijs femte Price: 130.00 - 260.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33640/46656/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ptojg6hmiahjg575l6qok9h2g6> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_u26sd6j1ip8c29g9aidov145mj>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-04-25T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Fl?jteaften Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/15270/47229/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_rgl48reikh5v14vsdcbj2j4j6m> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_fs9739b7234pada1ovuear3l8e>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_qhscmob3uftig8v7iv2bjd2vm7>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-04-17T13:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: H.P. Lange Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/29289/45099/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_h5p331nt29i7bgv4dsrplc5hfp> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_r74vldd0vsah9hd4lc7gesvdhn>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_7hn9ggrgmfcj4m4bgkuickgsvo>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-04-26T14:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Syng i Den Bl? Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/17303/43733/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9o7kk87kur5vuoq2grmc27un79> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_l0834nd12c1sl4eb2f4r70fq6l>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Rytmisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_gg2o614q7h78jo776783c34f3i>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_jd4hal155pova10b5d08sekt3>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2015-08-22T15:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Jenufa Price: 335.00 - 675.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33506/47142/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_emv0o0blbeqopprlk869u0bpp> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_oenhesb881ejnpg8m02i8u65vm>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-09-03T10:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Hist & Her - Sanseudstilling Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/34821/51455/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_uv2sve23aqn7klli2k40h67s2a> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_fn8jjbmlpfhii19hcchb8mpv5r>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-10-10T20:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Poul Halberg og Friends Price: 250.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33732/47543/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3k42ohsl7m1psuiv7kq9nj753i> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus>
+      a       sao:streamEvent ;
+      sao:time
+              [ a       tl:Interval ;
+                tl:end  "2014-05-06T19:30:00"^^xsd:dateTime ;
+                tl:start "2014-05-06T19:30:00"^^xsd:dateTime
+              ] ;
+      prov:used <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ginj64i10hk76g6rsol7s6om1o> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_9ta98f7iurtivn4v5u0q94h7tt> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_v6uemv3i9mgut50s0rdvo7fghn> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h65nnvas79rv8dkvh4grd1sbns> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_thv29632p0isoaafdpatsav3u7> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_qr73nfd27ctjm1a85mufg24ih5> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_iq3lpqm6l4dm95sm2t7q4sd385> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h8e6e512ld6nd9ni3lj40rq05c> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_8pkoqdeda3i10m7safaavmpnpi> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ev41kuqfcu0j781ffda4u3ii00> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_lo6qtqacmf7a1288m1sqgsp7cu> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_25vm2ep5j0l8c597mg4kg6qpcc> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_3cd5iprdbvg77rss8k43o4851b> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_fbd5cqd2kmgv6cm075so8eu91g> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uct8j70r84u9540dnch2un93b5> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h4igcf4mhqjfmlh1m51jpo74q2> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_vlm1f09idhm0qgsc50vupsuudv> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_br9vkchn8j650r3labc8jgnhbc> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_7et1ojpg0fof146rtalhvia0qt> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_a1fek8kp5mk8k7pbc9j2ubbr8h> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_42j1ql6lqf16179rpgq4nbqrmb> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uppj3pgrqhn8qc1dj52tssj3s5> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_2stem5l7inhujj7apekn1dbe3o> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kg13ifd6hhr81foqpnvnkoggqe> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_bla3n3l58m4elghtlpj1hj240o> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_29goijph66londljiaqch4jtv3> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_gahp22l4lk3sjhp3hne6hoenq5> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_r955cor54lojlqvb65v3oopl0r> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_5v2mu77mun0gcairf28h97k9gb> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_m7eoh9f5o3ssv0ih601cqigtle> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_2kh6si4jjim7tf91kku69jloiv> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_p8fc0idofdqjit1i8tvto40ab> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_mlhim3k8kgqd0e5d4f8c46ikpr> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_q0bhfmhv797r1sud5dsp1lgj8o> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_b1mf4och0595nidcsnlp5lik5r> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hi9gb5kkfc7rir7uda5tg02uqi> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_372nr2lh09eljd1d5ch4neukls> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hqbffl188kbv9gl9dtpv7l91kt> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ds60pfg0p28ia02lgnli2jcjcr> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_r5q7os4i1js064kht52gaqppm9> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_aqsjvfsen6nee1hg3baqo1mnuu> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kle23lmptb3280u65s7tdu65r0> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uavkcb0mk5gotm1pqn9qicp126> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_4o6sjrgsq0crn2smc76nbn4i3> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_m2rni55mi1eadjvlppelftval9> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_g172en00k6rl6siqklg8vjbu0o> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kmoghhq9ogflqq7t6qk2snprpd> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_55qvppp6stdps5k7cnhl5uup3f> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_68bg2cqdcgjk02hgk0a50bhquh> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_45upffrauupgm1chg5v0anftfp> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_i4uv775c78f19o4368mo586hq2> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_vfjg78h0vtn2kotiklj7vtknnu> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_gep70o5fsv4rrsejca9oql71cd> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_j8qklmccg6177cds0ajs94sg3n> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uqp58p3elh3kjis9j5v0els1ig> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_i9b7ps6mq27nm9oiqgkrjrpddf> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_cm8u7fblk0p4mruo9c5e6l9jdi> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_e593g3msjtlp4f4f4402qtd7dh> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_rvkgrhf7pdk4psve3q1dffnlde> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_s2f6nh41pfo6l0o0ghbn47v1b6> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_7jsi6n3dincckcb0d8mjbc834u> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kqhc2pinrv631l1ph74tvi2hfe> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ugpfatb2oqqco8c1b2musili50> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ipnee6umn5ba8cmrkg4ivu1ubc> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_u26sd6j1ip8c29g9aidov145mj> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ni07h7bltqpd52828ml9elpie2> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_43715au9a6lm3e9a2l1avdsl10> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_jbdm35p9rvrfpaejtgufitmb5h> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_vdriq63vpj17uqnja8uopc7p0p> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_fedahaags8hbjk7tpi780lut5> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kf8qlmlri73ks18islf6jso60h> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_k28nge120jv0o1q36pt28g9tf7> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_g36ta8uu07hr8a7fu9eq27nq9m> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_jgol1omlslcit9tc4oj57vq9g5> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hsriljskvrtt700f2doc2smudh> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_psode7v4hpr6v6545akksl82j6> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_qhscmob3uftig8v7iv2bjd2vm7> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_taufvr8dogin2fqtljafiuqv9> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_7hn9ggrgmfcj4m4bgkuickgsvo> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h3rh2ipgrfp857lqr6quic4acp> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_sh6qiu1l8ej0q2lgiukipe1kf3> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_snals3fvvg7dsa3r1usk6as2pd> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kb56cuvg4d8c05imqkk3ls2jnf> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_2ondqu11ou7nprcnv6jp8mlcmo> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hkn7paq3si6ddde05kk46mm48a> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_b0ntmkbfgor8ofn0hbi144t82l> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_c1tnh48vi4kmlqfajidmsk31ah> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_qjcdpqdcptqggp3cj3un8n3m2v> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_8812rfv11pb5tjqd4tqqnmgfce> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_sq6ihi9e5ulhc0gtnahhif6v5v> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_mojlie98deg3oksdgd2s5fhe47> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_jd4hal155pova10b5d08sekt3> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_oktoqf0ckv54tp0ia73obrna4s> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_drta43mu43nrmtb06nb0brap69> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_terkncn9evv30igivtu4njm91r> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_a1uoek3dbb7juk4kkn97cen1tm> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_oenhesb881ejnpg8m02i8u65vm> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_3b6acm2tkqqpgcp0j5l6fptm3p> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_fn8jjbmlpfhii19hcchb8mpv5r> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9jog53br0epov848dh4qg1gb8n>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_pmcttnkeqh8qmq240rsl8gchgb>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_h5p331nt29i7bgv4dsrplc5hfp>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h4igcf4mhqjfmlh1m51jpo74q2>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-10-05T15:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Claire Martin Price: 110.00 - 160.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33354/46877/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_l0834nd12c1sl4eb2f4r70fq6l> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_8kqsq2h4p0fj1ti1uoh72o0pku>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Lille Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kg13ifd6hhr81foqpnvnkoggqe>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-09-27T20:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Chippendales Price: 220.00 - 470.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/31975/43365/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_6rrkqhuduspfopjegbsvpvm8ng> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_q0bhfmhv797r1sud5dsp1lgj8o>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-09-20T20:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Allan Olsen Solo Price: 280.00 - 320.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33822/47860/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ahbdc3vnug01kv22lv9f80162e> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_a5uu0d2938p14buru47ie0bolp>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Balkongalleriet"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_m2rni55mi1eadjvlppelftval9>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-10-04T20:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Peter Viskinde Band Price: 250.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33591/47336/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_dm80lihdln051j2d1adhtdafrm> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_g172en00k6rl6siqklg8vjbu0o>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2015-03-26T20:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: The Real Group Price: 267.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33896/47971/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_td314nje3hcec0mikl59kjo7qq> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_i4uv775c78f19o4368mo586hq2>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-08-22T16:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: 8000 Comedy Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33252/47481/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tdcvok8d3knb7nrt7b4179q0k> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_nt4rr0hf5fiq5k2sm756kst9bs>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1vbe5kfokqctat35i9pf6ja4ht>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_j8qklmccg6177cds0ajs94sg3n>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-16T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Slagt?jskoncert Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/17306/47952/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_lr416cbe4q1sm3s1dpk2qp7mlm> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_s2f6nh41pfo6l0o0ghbn47v1b6>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2015-02-05T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Cosi fan tutte Price: 205.00 - 505.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33499/47134/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_66jkt6v5cpf4m394kh62og4irj> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_vdriq63vpj17uqnja8uopc7p0p>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-08-16T20:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Rimmer og M?rk redder verden Price: 160.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/34889/51709/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1flmfkunv5vnr93i7muncv0e4e> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_79jiluh06td1gr1eq5laumutrf>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_lm52aelfu2s27piqvlu6nid8lf>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Musikhuset Aarhus"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_sh6qiu1l8ej0q2lgiukipe1kf3>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-09-05T17:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Tam Tam i Musikhuset Price: 275.00 - 485.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/31198/41660/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_c92den661vv0qcfre4ohs8ltt8> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_h3rh2ipgrfp857lqr6quic4acp>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2015-04-10T20:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Trimmet i 3-kanten Price: 348.00 - 448.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33089/45804/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_8lt7stfuogmdg6sl9h4ssg16jc> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_b0ntmkbfgor8ofn0hbi144t82l>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-10-24T16:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: 8000 Comedy Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33252/47813/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_2b8ehb6k2ujecs35oq74h4ehaa> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_6nl8goflbi9j1b5fhnrlhcbr4r>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Lok 222"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_3b6acm2tkqqpgcp0j5l6fptm3p>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-08-29T16:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: 8000 Comedy Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33252/47482/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_t6fd2a6hl3h4cit1l6hn7bmk83> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ginj64i10hk76g6rsol7s6om1o>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-20T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Impressions of P?rth & N?rg?rd Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33863/47920/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9d16k2489h751nm8qkr8am1eb5> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_rgl48reikh5v14vsdcbj2j4j6m>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_5ushtb2bjvt82kbnth33v62ht4>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_v4i16r00ebdrd60ngp884a7fdf>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_mqmntcf8m4jovlse2niehn3r2a>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_a1fek8kp5mk8k7pbc9j2ubbr8h>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-08-30T20:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Tam Tam i Musikhuset Price: 275.00 - 485.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/31198/41651/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_kh8jgu0mel6clcmlucgphqliso> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_gahp22l4lk3sjhp3hne6hoenq5>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-04-11T16:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Ukendt Aarhus fotoudstilling Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33509/47148/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_nhbcjdhg3albhse80lqd3tsoud> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1bpv9l3r0f5pfd10reoaqiggel>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Rytmisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_p8fc0idofdqjit1i8tvto40ab>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-30T15:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: AM-cafe Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/27013/47929/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_5adc77s9pcg7a8ogds6e7hkgje> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_lr416cbe4q1sm3s1dpk2qp7mlm>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ds60pfg0p28ia02lgnli2jcjcr>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2015-05-13T20:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: DIRTY DANCING THE MUSICAL Price: 135.00 - 815.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/34116/48706/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_r74vldd0vsah9hd4lc7gesvdhn> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_89806hfk8tm3b0ikc4kmha8v0p>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_vii9i233omjv6hb3kh8vv9o0rh>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_td314nje3hcec0mikl59kjo7qq>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_8lt7stfuogmdg6sl9h4ssg16jc>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ipnee6umn5ba8cmrkg4ivu1ubc>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-04-19T13:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Rasmus Skov Borring, soloklaver Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/32351/44031/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ekcb4mr4u4uoj0u682uoe0lm6s> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ptojg6hmiahjg575l6qok9h2g6>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_ni07h7bltqpd52828ml9elpie2>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-04-27T15:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Klarinetmatin? Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/31126/47231/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_gg2o614q7h78jo776783c34f3i> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_43715au9a6lm3e9a2l1avdsl10>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2015-01-18T14:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: BaroqueAROS Price: 85.00 - 115.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33804/47836/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_nr6pgm1pjkosa00ona7q118un1> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_fedahaags8hbjk7tpi780lut5>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-06-06T10:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Klassiske eksamenskoncerter Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/29964/48709/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ovecpduk7468kis19poagir901> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_horiq654au5a8gdl9bqpj07mcb>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Foyer Syd"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hsriljskvrtt700f2doc2smudh>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-09-04T20:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Blood Sweat Drum +  Bass Price: 80.00 - 110.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/34229/48821/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1bpv9l3r0f5pfd10reoaqiggel> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_uslcl8sj3c2iprn6aaqofk6drf>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_v6mkjh5vogvat0q6sb138njku>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_drta43mu43nrmtb06nb0brap69>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-09-26T16:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: 8000 Comedy Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33252/47812/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_j54n4pio1njakh87iufrsgjtn6> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_v6uemv3i9mgut50s0rdvo7fghn>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2015-01-25T15:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: KAMMERKONCERT Price: 85.00 - 115.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/29048/46775/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_g2lfuhg2r8lgtnhelpn62l1flk> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3v73d7tn3qec145dnkma7ifmnh>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_u7cssi4btd7h8upso4lu8mq741>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_thv29632p0isoaafdpatsav3u7>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2015-08-26T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Jenufa Price: 335.00 - 675.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33506/47143/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1j6epq41n4gje73r415a9d54ub> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_qr73nfd27ctjm1a85mufg24ih5>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-06-04T17:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Orgelkoncert Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/15268/47918/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_jvmm866qhosrbofm1njafjk9if> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_lo6qtqacmf7a1288m1sqgsp7cu>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-06T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Martin Fr?st og Den Danske Kvartet Price: 320.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/31278/41800/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_do63jk2t8c3bjkfb119ojgkhs7> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_25vm2ep5j0l8c597mg4kg6qpcc>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-11-12T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: La boheme Price: 205.00 - 505.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33498/47127/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_2nf8rdt20vg19cqt0uspr6a8uu> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_3cd5iprdbvg77rss8k43o4851b>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-30T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Violinaften Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/32877/47913/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_pmcttnkeqh8qmq240rsl8gchgb> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_dugt2qdv0li2ok5ngi4v1kglh9>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Rytmisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_vlm1f09idhm0qgsc50vupsuudv>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-04-28T20:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Rytmisk Koncertcaf? Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/17168/47232/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1l8g939dc83fl00mm9f8egd4p4> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_2stem5l7inhujj7apekn1dbe3o>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-11-21T20:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Orginal Price: 315.00 - 340.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/32503/44498/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_v6mkjh5vogvat0q6sb138njku> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_m7eoh9f5o3ssv0ih601cqigtle>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-11T12:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: ?MSK elevkoncert Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/20085/45095/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1k02seb63n18p0udtt612e0vf0> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9o7kk87kur5vuoq2grmc27un79>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_n67dv0pqsfrkg3jd2sacpg2ad6>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kmoghhq9ogflqq7t6qk2snprpd>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-10-30T22:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Orgelsalon Price: 115.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33748/47562/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_6nl8goflbi9j1b5fhnrlhcbr4r> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_55qvppp6stdps5k7cnhl5uup3f>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-10-03T20:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: The Last Waltz Price: 250.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/32801/45208/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_dugt2qdv0li2ok5ngi4v1kglh9> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_2nf8rdt20vg19cqt0uspr6a8uu>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_uv2sve23aqn7klli2k40h67s2a>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Balkongalleriet"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_psode7v4hpr6v6545akksl82j6>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-04-26T15:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: CD release/ koncert - Henrik Bendstrup, cello Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33562/47230/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_8kqsq2h4p0fj1ti1uoh72o0pku> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_taufvr8dogin2fqtljafiuqv9>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-04-26T15:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Pigen Med Paraplyerne Price: 190.00 - 370.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/32532/44533/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_mqmntcf8m4jovlse2niehn3r2a> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tki84tdq7e2k7am0im902r34n5>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Rytmisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1l8g939dc83fl00mm9f8egd4p4>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kb56cuvg4d8c05imqkk3ls2jnf>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-13T16:15:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Better than you think - Anders Haglund Price: 450.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33447/47015/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_en6cn9isvcici6h7avsurm4t5c> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_hkn7paq3si6ddde05kk46mm48a>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-11-01T11:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Familiekoncert - gratis Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33746/47559/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_8qfn1v815ldnu3s0qgnr9d8hj3> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_c1tnh48vi4kmlqfajidmsk31ah>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-11-28T16:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: 8000 Comedy Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33252/47814/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_mu7cefcg3b52sg1n284s0fnfo1> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_dneunngjbpdpsnnd1u045rlal5>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9pqmm51h6171hnbj0lpi0522q6>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ekcb4mr4u4uoj0u682uoe0lm6s>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_obb3t3nqhel7p6s7cfac3jo6cm>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_76aer6dhgev7e0d9enea6r3nkf>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_42j1ql6lqf16179rpgq4nbqrmb>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-04T00:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: SPOT Festival 2014 Price: Billet URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33768/47634/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_c33of3d1pct3eqn651e5c4lh1b> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_29goijph66londljiaqch4jtv3>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-21T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Guitaraften Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/22787/47921/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_uslcl8sj3c2iprn6aaqofk6drf> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3bbqkp7k35nqsbsc3ri4orjs3t>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Lok 222"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_r955cor54lojlqvb65v3oopl0r>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-12T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Slagt?jskoncert Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/17306/47416/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_fs9739b7234pada1ovuear3l8e> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_c92den661vv0qcfre4ohs8ltt8>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_en6cn9isvcici6h7avsurm4t5c>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Rytmisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1j6epq41n4gje73r415a9d54ub>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_hch2r3arb5s5ojd3452sb1n6ku>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_372nr2lh09eljd1d5ch4neukls>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-10-09T17:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Familiekoncert - gratis Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33747/47560/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_obb3t3nqhel7p6s7cfac3jo6cm> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kle23lmptb3280u65s7tdu65r0>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-11-06T20:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Erasmus Montanus Price: 240.00 - 370.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/32269/43922/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_d0f5922au6952u6dtn3ljudcfd> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_4o6sjrgsq0crn2smc76nbn4i3>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-04-23T19:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Duokoncert Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/19447/44960/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9pqmm51h6171hnbj0lpi0522q6> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_71ri7bkh2d4q45gggh598ffu4o>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_68bg2cqdcgjk02hgk0a50bhquh>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-12-06T13:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Jul med Alberte Price: 140.00 - 220.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33901/47976/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_r77aki1kd2pbc7kvf6duqkrjrs> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_kh8jgu0mel6clcmlucgphqliso>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_gep70o5fsv4rrsejca9oql71cd>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-10-25T17:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Thomas Warberg - EKSTRA SHOW Price: 260.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/32738/51467/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tki84tdq7e2k7am0im902r34n5> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_uqp58p3elh3kjis9j5v0els1ig>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-30T16:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: 8000 Comedy Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33252/47810/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_cstgrmva9cjhruqu64tr5or033> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_o9v8m32g3uik4k7sdvc48nvcgt>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_cm8u7fblk0p4mruo9c5e6l9jdi>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-04-13T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Chamber Music Society of Lincoln Center Price: 320.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/31277/41799/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_q2k01neucja28ued1c4f39t0j8> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_rvkgrhf7pdk4psve3q1dffnlde>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-04-20T13:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Mikkel R?nnow & Anna Vaupel Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/32834/45248/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_46llf9lg7dl797sji44ndbf7cc> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_kqhc2pinrv631l1ph74tvi2hfe>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-01T18:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: ASO intro Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/32163/47304/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_79jiluh06td1gr1eq5laumutrf> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_1flmfkunv5vnr93i7muncv0e4e>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Filursalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_2ondqu11ou7nprcnv6jp8mlcmo>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-16T13:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Rune Maahn Christensen, soloklaver Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/32740/48011/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_n3m2uug4tiqbv439f4f015l8mn> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_sq6ihi9e5ulhc0gtnahhif6v5v>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2015-03-22T15:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: KAMMERKONCERT Price: 85.00 - 115.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/29048/46776/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_3v73d7tn3qec145dnkma7ifmnh> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_ak29pgnpjls8ett4q9bt6e2bil>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_9ta98f7iurtivn4v5u0q94h7tt>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-08-31T20:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Tam Tam i Musikhuset Price: 275.00 - 485.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/31198/41655/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9jog53br0epov848dh4qg1gb8n> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_nr6pgm1pjkosa00ona7q118un1>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_j54n4pio1njakh87iufrsgjtn6>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tdcvok8d3knb7nrt7b4179q0k>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_br9vkchn8j650r3labc8jgnhbc>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-04-24T20:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Sanne Salomonsen Hjem 2014 Price: 295.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/31483/42105/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_5ovrips3m0gln3iscvufcgo875> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_cqbm97slk7p4stno5j8qq3pr89>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Symfonisk Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_6rrkqhuduspfopjegbsvpvm8ng>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_2kh6si4jjim7tf91kku69jloiv>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-11-30T12:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Historien om Johnny Cash Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/34077/48542/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_o9v8m32g3uik4k7sdvc48nvcgt> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_66jkt6v5cpf4m394kh62og4irj>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_tpkaqnmnq2jfg86htq4595kmqm>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_slllpqckbsul250sfuqrg9qo31>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Musikhuset Aarhus"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_emv0o0blbeqopprlk869u0bpp>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_9d16k2489h751nm8qkr8am1eb5>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_q3n4fp74useraocqvkl2as458r>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Kammermusiksalen"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_gahhbs6v0o4mkfvembr29tauck>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Store Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_jqeb0mll7gt20fc41l67m2ku20>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Foyer Syd"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_cstgrmva9cjhruqu64tr5or033>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Caf?en"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_jgol1omlslcit9tc4oj57vq9g5>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2015-02-27T19:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Skatte?en Price: 170.00 - 370.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/33823/47861/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_vii9i233omjv6hb3kh8vv9o0rh> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_nhbcjdhg3albhse80lqd3tsoud>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Musikhuset Aarhus"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_dm80lihdln051j2d1adhtdafrm>
+      a       sao:FeatureOfInterest ;
+      ct:hasFirstNode
+              [ a       ct:Node ;
+                ct:hasLatitude 56.1519158 ;
+                ct:hasLongitude 10.19887 ;
+                ct:hasNodeName "Lille Sal"
+              ] .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_qjcdpqdcptqggp3cj3un8n3m2v>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-06-03T10:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Klassiske eksamenskoncerter Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/29964/48705/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_lm52aelfu2s27piqvlu6nid8lf> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_mojlie98deg3oksdgd2s5fhe47>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-05-22T21:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Bigband-koncert Price: Gratis URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/30976/47922/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_71ri7bkh2d4q45gggh598ffu4o> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_terkncn9evv30igivtu4njm91r>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2015-05-10T15:00:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: DIRTY DANCING THE MUSICAL Price: 135.00 - 815.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/34116/48702/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_gahhbs6v0o4mkfvembr29tauck> .
+
+<http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#observations_point_a1uoek3dbb7juk4kkn97cen1tm>
+      a       ns1:Observation , sao:Point ;
+      sao:hasUnitOfMeasurement
+              <http://purl.oclc.org/NET/muo/citypulse/unit/eventseventData> ;
+      sao:time
+              [ a       tl:Instant ;
+                tl:at   "2014-04-25T19:30:00"^^xsd:dateTime
+              ] ;
+      sao:value "Title: Jane & Shane og John Sheahan Price: 250.00 DKK URL: http://www.billetlugen.dk/referer/?r=266abe1b7fab4562a5c2531d0ae62171&p=/koeb/billetter/31803/42979/" ;
+      ns1:featureOfInterest
+              <http://iot.ee.surrey.ac.uk/citypulse/datasets/aarhusculturalevents/culturalEvents_aarhus#context_cavl4jme7c0bbq2lhb54ilpvf4> .
