@@ -32,7 +32,7 @@ public class CQELSResultListener implements ContinuousListener {
 	}
 
 	@Override
-	public synchronized void update(Mapping mapping) {
+	public void update(Mapping mapping) {
 		String result = "";
 		try {
 			Map<String, Long> latencies = new HashMap<String, Long>();
@@ -52,7 +52,7 @@ public class CQELSResultListener implements ContinuousListener {
 				result += " " + varStr;
 
 			}
-			logger.info("CQELS result arrived: " + result);
+			// logger.info("CQELS result arrived: " + result);
 			if (!capturedResults.contains(result)) {
 				capturedResults.add(result);
 				CityBench.pm.addResults(getUri(), latencies, 1);

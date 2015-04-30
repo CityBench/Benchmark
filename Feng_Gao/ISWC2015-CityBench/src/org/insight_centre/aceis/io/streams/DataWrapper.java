@@ -52,7 +52,7 @@ public class DataWrapper {
 		}
 	}
 
-	public static SensorObservation getAarhusTrafficObservation(CsvReader streamData, EventDeclaration ed) {
+	public synchronized static SensorObservation getAarhusTrafficObservation(CsvReader streamData, EventDeclaration ed) {
 		try {
 			// CsvReader streamData = (CsvReader) objData;
 			AarhusTrafficObservation data;
@@ -119,7 +119,7 @@ public class DataWrapper {
 
 	}
 
-	public static SensorObservation getAarhusPollutionObservation(CsvReader streamData, EventDeclaration ed) {
+	public synchronized static SensorObservation getAarhusPollutionObservation(CsvReader streamData, EventDeclaration ed) {
 
 		try {
 			// CsvReader streamData = (CsvReader) data;
@@ -251,7 +251,7 @@ public class DataWrapper {
 		return m.listStatements().toList();
 	}
 
-	public static SensorObservation getAarhusParkingObservation(CsvReader streamData, EventDeclaration ed) {
+	public synchronized static SensorObservation getAarhusParkingObservation(CsvReader streamData, EventDeclaration ed) {
 		try {
 			// CsvReader streamData = (CsvReader) data;
 			int vehicleCnt = Integer.parseInt(streamData.get("vehiclecount")), id = Integer.parseInt(streamData
@@ -266,7 +266,10 @@ public class DataWrapper {
 			logger.debug(ed.getServiceId() + ": streaming record @" + apo.getObTimeStamp());
 
 			return apo;
-		} catch (NumberFormatException | IOException | ParseException e) {
+		} catch (NumberFormatException | IOException e) {
+			e.printStackTrace();
+		} catch (ParseException e) {
+			logger.error("ed parse error: " + ed.getServiceId());
 			e.printStackTrace();
 		}
 		return null;

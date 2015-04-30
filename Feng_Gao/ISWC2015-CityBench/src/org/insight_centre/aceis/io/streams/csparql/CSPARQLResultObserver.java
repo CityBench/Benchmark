@@ -32,7 +32,7 @@ public class CSPARQLResultObserver extends RDFStreamFormatter {
 		// TODO Auto-generated constructor stub
 	}
 
-	public synchronized void update(final GenericObservable<RDFTable> observed, final RDFTable q) {
+	public void update(final GenericObservable<RDFTable> observed, final RDFTable q) {
 		List<String> names = new ArrayList(q.getNames());
 		List<Integer> indexes = new ArrayList<Integer>();
 		Map<String, Long> latencies = new HashMap<String, Long>();
@@ -44,7 +44,7 @@ public class CSPARQLResultObserver extends RDFStreamFormatter {
 		int cnt = 0;
 		for (final RDFTuple t : q) {
 			String result = t.toString().replaceAll("\t", " ").trim();
-			logger.info(this.getIRI() + " Results: " + result);
+			// logger.info(this.getIRI() + " Results: " + result);
 			if (capturedResults.contains(result)) {
 				continue;
 			}
