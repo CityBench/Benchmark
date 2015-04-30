@@ -71,7 +71,7 @@ public class PerformanceMonitor implements Runnable {
 			try {
 				if (this.currentTime != 0 && (System.currentTimeMillis() - this.currentTime) >= 60000) {
 					minuteCnt += 1;
-					if (duration != 0 && (System.currentTimeMillis() - this.globalInitTime) > (30000 * duration)) {
+					if (duration != 0 && (System.currentTimeMillis() - this.globalInitTime) > (60000 + duration)) {
 						this.cw.flush();
 						this.cw.close();
 						logger.info("Stopping after " + duration + " ms.");
@@ -107,9 +107,7 @@ public class PerformanceMonitor implements Runnable {
 						}
 					}
 				}
-				System.gc();
-				Runtime rt = Runtime.getRuntime();
-				double usedMB = (rt.totalMemory() - rt.freeMemory()) / 1024.0 / 1024.0;
+
 				Map<String, Double> currentLatency = new HashMap<String, Double>();
 				for (String qid : this.qList) {
 					double latency = 0.0;
@@ -122,43 +120,45 @@ public class PerformanceMonitor implements Runnable {
 				// Map<String,Long> currentResults=new HashMap<String>
 
 				// ConcurrentHashMap<String, SensorObservation> obMapBytes = CityBench.obMap;
-				double obMapBytes = 0.0;
-				try {
-					ByteArrayOutputStream baos = new ByteArrayOutputStream();
-					ObjectOutputStream oos = new ObjectOutputStream(baos);
-					oos.writeObject(CityBench.obMap);
-					oos.close();
-					obMapBytes = (0.0 + baos.size());
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-				long listerObIdListBytes = 0;
-				for (Object listener : CityBench.registeredQueries.values()) {
-
-					if (listener instanceof CQELSResultListener) {
-						for (String obid : ((CQELSResultListener) listener).capturedObIds)
-							listerObIdListBytes += obid.getBytes().length;
-					} else {
-						for (String obid : ((CSPARQLResultObserver) listener).capturedObIds)
-							listerObIdListBytes += obid.getBytes().length;
-					}
-				}
-				long listenerResultListBytes = 0;
-				for (Object listener : CityBench.registeredQueries.values()) {
-
-					if (listener instanceof CQELSResultListener) {
-						for (String result : ((CQELSResultListener) listener).capturedResults)
-							listenerResultListBytes += result.getBytes().length;
-					} else {
-						for (String result : ((CSPARQLResultObserver) listener).capturedResults)
-							listenerResultListBytes += result.getBytes().length;
-					}
-				}
-
-				double overhead = (obMapBytes + listerObIdListBytes + listenerResultListBytes) / 1024.0 / 1024.0;
-				this.memoryList.add(usedMB - overhead);
+				// double obMapBytes = 0.0;
+				// try {
+				// ByteArrayOutputStream baos = new ByteArrayOutputStream();
+				// ObjectOutputStream oos = new ObjectOutputStream(baos);
+				// oos.writeObject(CityBench.obMap);
+				// oos.close();
+				// obMapBytes = (0.0 + baos.size());
+				// } catch (Exception e) {
+				// e.printStackTrace();
+				// }
+				// long listerObIdListBytes = 0;
+				// for (Object listener : CityBench.registeredQueries.values()) {
+				//
+				// if (listener instanceof CQELSResultListener) {
+				// for (String obid : ((CQELSResultListener) listener).capturedObIds)
+				// listerObIdListBytes += obid.getBytes().length;
+				// } else {
+				// for (String obid : ((CSPARQLResultObserver) listener).capturedObIds)
+				// listerObIdListBytes += obid.getBytes().length;
+				// }
+				// }
+				// long listenerResultListBytes = 0;
+				// for (Object listener : CityBench.registeredQueries.values()) {
+				//
+				// if (listener instanceof CQELSResultListener) {
+				// for (String result : ((CQELSResultListener) listener).capturedResults)
+				// listenerResultListBytes += result.getBytes().length;
+				// } else {
+				// for (String result : ((CSPARQLResultObserver) listener).capturedResults)
+				// listenerResultListBytes += result.getBytes().length;
+				// }
+				// }
+				System.gc();
+				Runtime rt = Runtime.getRuntime();
+				double usedMB = (rt.totalMemory() - rt.freeMemory()) / 1024.0 / 1024.0;
+				// double overhead = (obMapBytes + listerObIdListBytes + listenerResultListBytes) / 1024.0 / 1024.0;
+				this.memoryList.add(usedMB);
 				logger.info("Current performance: L - " + currentLatency + ", Cnt: " + this.resultCntMap + ", Mem - "
-						+ usedMB + ", monitoring overhead - " + overhead);
+						+ usedMB);// + ", monitoring overhead - " + overhead);
 				Thread.sleep(5000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block

@@ -108,7 +108,7 @@ public class CityBench {
 	// }
 
 	private double rate = 1.0; // stream rate factor
-	public static Map<String, Object> registeredQueries = new HashMap<String, Object>();
+	public static ConcurrentHashMap<String, Object> registeredQueries = new ConcurrentHashMap<String, Object>();
 	private String resultName;
 	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
 	private Date start, end;
@@ -268,9 +268,10 @@ public class CityBench {
 
 	private void initCQELS() throws Exception {
 		cqelsContext = tempContext;
-		this.startCQELSStreams();
+
 		for (int i = 0; i < this.queryDuplicates; i++)
 			this.registerCQELSQueries();
+		this.startCQELSStreams();
 	}
 
 	private void initCSPARQL() throws IOException {
@@ -340,17 +341,17 @@ public class CityBench {
 		for (Entry en : this.queryMap.entrySet()) {
 			String qid = en.getKey() + "-" + UUID.randomUUID();
 			String query = en.getValue() + "";
-			this.registerCQELSQuery(qid, query);
+			registerCQELSQuery(qid, query);
 		}
 	}
 
 	private void registerCQELSQuery(String qid, String query) {
-		if (!this.registeredQueries.keySet().contains(qid)) {
+		if (!registeredQueries.keySet().contains(qid)) {
 			CQELSResultListener crl = new CQELSResultListener(qid);
 			logger.info("Registering result observer: " + crl.getUri());
 			ContinuousSelect cs = cqelsContext.registerSelect(query);
 			cs.register(crl);
-			this.registeredQueries.put(qid, crl);
+			registeredQueries.put(qid, crl);
 		}
 
 	}
@@ -359,12 +360,12 @@ public class CityBench {
 		for (Entry en : this.queryMap.entrySet()) {
 			String qid = en.getKey() + "-" + UUID.randomUUID();
 			String query = en.getValue() + "";
-			this.registerCSPARQLQuery(qid, query);
+			registerCSPARQLQuery(qid, query);
 		}
 	}
 
 	private void registerCSPARQLQuery(String qid, String query) throws ParseException {
-		if (!this.registeredQueries.keySet().contains(qid)) {
+		if (!registeredQueries.keySet().contains(qid)) {
 			CsparqlQueryResultProxy cqrp = csparqlEngine.registerQuery(query);
 			CSPARQLResultObserver cro = new CSPARQLResultObserver(qid);
 			logger.info("Registering result observer: " + cro.getIRI());
@@ -372,7 +373,7 @@ public class CityBench {
 
 			// RDFStreamFormatter cro = new RDFStreamFormatter(streamURI);
 			cqrp.addObserver(cro);
-			this.registeredQueries.put(qid, cro);
+			registeredQueries.put(qid, cro);
 		}
 	}
 
