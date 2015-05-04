@@ -19,10 +19,12 @@ import java.util.UUID;
 import org.deri.cqels.engine.ExecContext;
 import org.deri.cqels.engine.RDFStream;
 import org.insight_centre.aceis.eventmodel.EventDeclaration;
+import org.insight_centre.aceis.eventmodel.TrafficReportService;
 import org.insight_centre.aceis.io.rdf.RDFFileManager;
 import org.insight_centre.aceis.io.streams.DataWrapper;
 import org.insight_centre.aceis.observations.AarhusTrafficObservation;
 import org.insight_centre.aceis.observations.SensorObservation;
+import org.insight_centre.citybench.main.CityBench;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -155,22 +157,84 @@ public class CQELSAarhusTrafficStream extends CQELSSensorStream implements Runna
 
 	@Override
 	protected SensorObservation createObservation(Object objData) {
-		SensorObservation so = DataWrapper.getAarhusTrafficObservation((CsvReader) objData, ed);
-		DataWrapper.waitForInterval(currentObservation, so, startDate, getRate());
-		this.currentObservation = so;
-		return so;
+		// SensorObservation so = DataWrapper.getAarhusTrafficObservation((CsvReader) objData, ed);
+		// DataWrapper.waitForInterval(currentObservation, so, startDate, getRate());
+		// this.currentObservation = so;
+		// return so;
+		// return so;
+		try {
+			// CsvReader streamData = (CsvReader) objData;
+			AarhusTrafficObservation data;
+			// if (!this.txtFile.contains("mean"))
+			data = new AarhusTrafficObservation(Double.parseDouble(streamData.get("REPORT_ID")),
+					Double.parseDouble(streamData.get("avgSpeed")), Double.parseDouble(streamData.get("vehicleCount")),
+					Double.parseDouble(streamData.get("avgMeasuredTime")), 0, 0, null, null, 0.0, 0.0, null, null, 0.0,
+					0.0, null, null, streamData.get("TIMESTAMP"));
+			String obId = "AarhusTrafficObservation-" + streamData.get("_id");
+			Double distance = Double.parseDouble(((TrafficReportService) ed).getDistance() + "");
+			if (data.getAverageSpeed() != 0)
+				data.setEstimatedTime(distance / data.getAverageSpeed());
+			else
+				data.setEstimatedTime(-1.0);
+			if (distance != 0)
+				data.setCongestionLevel(data.getVehicle_count() / distance);
+			else
+				data.setCongestionLevel(-1.0);
+			data.setObId(obId);
+			DataWrapper.waitForInterval(this.currentObservation, data, this.startDate, getRate());
+			this.currentObservation = data;
+			return data;
+		} catch (NumberFormatException | IOException e) {
+			e.printStackTrace();
+		}
+		return null;
 	}
 
 	@Override
 	protected List<Statement> getStatements(SensorObservation data) throws NumberFormatException, IOException {
-		return DataWrapper.getAarhusTrafficStatements((AarhusTrafficObservation) data, ed);
+		// return DataWrapper.getAarhusTrafficStatements((AarhusTrafficObservation) data, ed);
+		Model m = ModelFactory.createDefaultModel();
+		if (ed != null)
+			for (String pStr : ed.getPayloads()) {
+				// if (s.contains("EstimatedTime")) {
+				// Resource observedProperty = m.createResource(s);
+				data = (AarhusTrafficObservation) data;
+				String obId = data.getObId();
+				Resource observation = m.createResource(RDFFileManager.defaultPrefix + obId + UUID.randomUUID());
+				CityBench.obMap.put(observation.toString(), data);
+				// data.setObId(observation.toString());
+				// System.out.println("OB: " + observation.toString());
+				observation.addProperty(RDF.type, m.createResource(RDFFileManager.ssnPrefix + "Observation"));
+
+				Resource serviceID = m.createResource(ed.getServiceId());
+				observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedBy"), serviceID);
+				observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedProperty"),
+						m.createResource(pStr.split("\\|")[2]));
+				Property hasValue = m.createProperty(RDFFileManager.saoPrefix + "hasValue");
+				// System.out.println("Annotating: " + observedProperty.toString());
+				if (pStr.contains("AvgSpeed"))
+					observation.addLiteral(hasValue, ((AarhusTrafficObservation) data).getAverageSpeed());
+				else if (pStr.contains("VehicleCount")) {
+					double value = ((AarhusTrafficObservation) data).getVehicle_count();
+					observation.addLiteral(hasValue, value);
+				} else if (pStr.contains("MeasuredTime"))
+					observation.addLiteral(hasValue, ((AarhusTrafficObservation) data).getAvgMeasuredTime());
+				else if (pStr.contains("EstimatedTime"))
+					observation.addLiteral(hasValue, ((AarhusTrafficObservation) data).getEstimatedTime());
+				else if (pStr.contains("CongestionLevel"))
+					observation.addLiteral(hasValue, ((AarhusTrafficObservation) data).getCongestionLevel());
+				// break;
+				// }
+			}
+		return m.listStatements().toList();
 	}
 
 	public void run() {
 		logger.info("Starting sensor stream: " + this.getURI() + " " + this.startDate + ", " + this.endDate);
 		try {
 			// Reads csv document for traffic metadata
-
+			boolean completed = false;
+			int cnt = 0;
 			while (streamData.readRecord() && !stop) {
 				Date obTime = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss").parse(streamData.get("TIMESTAMP"));
 				logger.debug("Reading data: " + streamData.toString());
@@ -183,9 +247,25 @@ public class CQELSAarhusTrafficStream extends CQELSSensorStream implements Runna
 				AarhusTrafficObservation data = (AarhusTrafficObservation) this.createObservation(streamData);
 				List<Statement> stmts = this.getStatements(data);
 				long messageByte = 0;
+				cnt += 1;
+				// uncomment for testing the completeness, i.e., restrict the observations produced
+				// if (cnt >= 2)
+				// completed = true;
+				try {
+					if (completed) {
+						logger.info("My mission completed: " + this.getURI());
+						Thread.sleep(sleep);
+						continue;
+					}
+
+				} catch (InterruptedException e) {
+
+					e.printStackTrace();
+
+				}
 				for (Statement st : stmts) {
 					stream(st.getSubject().asNode(), st.getPredicate().asNode(), st.getObject().asNode());
-					logger.debug(this.getURI() + " Streaming: " + st.toString());
+					// logger.info(this.getURI() + " Streaming: " + st.toString());
 					messageByte += st.toString().getBytes().length;
 				}
 				this.messageCnt += 1;

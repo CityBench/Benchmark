@@ -1,10 +1,12 @@
 package org.insight_centre.aceis.io.streams.cqels;
 
 import java.io.IOException;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.UUID;
 
 import org.deri.cqels.engine.ExecContext;
 import org.insight_centre.aceis.eventmodel.EventDeclaration;
@@ -13,11 +15,17 @@ import org.insight_centre.aceis.io.streams.DataWrapper;
 import org.insight_centre.aceis.observations.AarhusParkingObservation;
 import org.insight_centre.aceis.observations.PollutionObservation;
 import org.insight_centre.aceis.observations.SensorObservation;
+import org.insight_centre.citybench.main.CityBench;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.csvreader.CsvReader;
+import com.hp.hpl.jena.rdf.model.Model;
+import com.hp.hpl.jena.rdf.model.ModelFactory;
+import com.hp.hpl.jena.rdf.model.Property;
+import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.rdf.model.Statement;
+import com.hp.hpl.jena.vocabulary.RDF;
 
 public class CQELSAarhusParkingStream extends CQELSSensorStream {
 
@@ -119,15 +127,53 @@ public class CQELSAarhusParkingStream extends CQELSSensorStream {
 
 	@Override
 	protected List<Statement> getStatements(SensorObservation so) {
-		return DataWrapper.getAarhusParkingStatements(so, ed);
+		Model m = ModelFactory.createDefaultModel();
+		Resource observation = m.createResource(RDFFileManager.defaultPrefix + so.getObId() + UUID.randomUUID());
+		CityBench.obMap.put(observation.toString(), so);
+		observation.addProperty(RDF.type, m.createResource(RDFFileManager.ssnPrefix + "Observation"));
+		// observation.addProperty(RDF.type,
+		// m.createResource(RDFFileManager.saoPrefix + "StreamData"));
+		Resource serviceID = m.createResource(ed.getServiceId());
+		observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedBy"), serviceID);
+		// Resource property = m.createResource(s.split("\\|")[2]);
+		// property.addProperty(RDF.type, m.createResource(s.split("\\|")[0]));
+		observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedProperty"),
+				m.createResource(ed.getPayloads().get(0).split("\\|")[2]));
+		Property hasValue = m.createProperty(RDFFileManager.saoPrefix + "hasValue");
+		// Literal l;
+		// System.out.println("Annotating: " + observedProperty.toString());
+		// if (observedProperty.contains("AvgSpeed"))
+		observation.addLiteral(hasValue, ((AarhusParkingObservation) so).getVacancies());
+		// observation.addLiteral(m.createProperty(RDFFileManager.ssnPrefix + "featureOfInterest"),
+		// ((AarhusParkingObservation) so).getGarageCode());
+		return m.listStatements().toList();
 	}
 
 	@Override
 	protected SensorObservation createObservation(Object data) {
-		SensorObservation apo = DataWrapper.getAarhusParkingObservation((CsvReader) data, ed);
-		DataWrapper.waitForInterval(this.currentObservation, apo, this.startDate, getRate());
-		this.currentObservation = apo;
-		return apo;
+		try {
+			// CsvReader streamData = (CsvReader) data;
+			int vehicleCnt = Integer.parseInt(streamData.get("vehiclecount")), id = Integer.parseInt(streamData
+					.get("_id")), total_spaces = Integer.parseInt(streamData.get("totalspaces"));
+			String garagecode = streamData.get("garagecode");
+			Date obTime = sdf.parse(streamData.get("updatetime"));
+			AarhusParkingObservation apo = new AarhusParkingObservation(total_spaces - vehicleCnt, garagecode, "", 0.0,
+					0.0);
+			apo.setObTimeStamp(obTime);
+			// logger.info("Annotating obTime: " + obTime + " in ms: " + obTime.getTime());
+			apo.setObId("AarhusParkingObservation-" + id);
+			logger.debug(ed.getServiceId() + ": streaming record @" + apo.getObTimeStamp());
+			DataWrapper.waitForInterval(this.currentObservation, apo, this.startDate, getRate());
+			this.currentObservation = apo;
+			return apo;
+		} catch (NumberFormatException | IOException e) {
+			e.printStackTrace();
+		} catch (ParseException e) {
+			logger.error("ed parse error: " + ed.getServiceId());
+			e.printStackTrace();
+		}
+		return null;
+
 	}
 
 }

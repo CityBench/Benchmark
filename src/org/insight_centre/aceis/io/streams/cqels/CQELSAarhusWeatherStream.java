@@ -15,6 +15,7 @@ import org.insight_centre.aceis.io.streams.DataWrapper;
 import org.insight_centre.aceis.observations.PollutionObservation;
 import org.insight_centre.aceis.observations.SensorObservation;
 import org.insight_centre.aceis.observations.WeatherObservation;
+import org.insight_centre.citybench.main.CityBench;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -107,16 +108,50 @@ public class CQELSAarhusWeatherStream extends CQELSSensorStream implements Runna
 
 	@Override
 	protected List<Statement> getStatements(SensorObservation wo) throws NumberFormatException, IOException {
-
-		return DataWrapper.getAarhusWeatherStatements(wo, ed);
+		Model m = ModelFactory.createDefaultModel();
+		if (ed != null)
+			for (String s : ed.getPayloads()) {
+				Resource observation = m
+						.createResource(RDFFileManager.defaultPrefix + wo.getObId() + UUID.randomUUID());
+				// wo.setObId(observation.toString());
+				CityBench.obMap.put(observation.toString(), wo);
+				observation.addProperty(RDF.type, m.createResource(RDFFileManager.ssnPrefix + "Observation"));
+				Resource serviceID = m.createResource(ed.getServiceId());
+				observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedBy"), serviceID);
+				observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedProperty"),
+						m.createResource(s.split("\\|")[2]));
+				Property hasValue = m.createProperty(RDFFileManager.saoPrefix + "hasValue");
+				if (s.contains("Temperature"))
+					observation.addLiteral(hasValue, ((WeatherObservation) wo).getTemperature());
+				else if (s.toString().contains("Humidity"))
+					observation.addLiteral(hasValue, ((WeatherObservation) wo).getHumidity());
+				else if (s.toString().contains("WindSpeed"))
+					observation.addLiteral(hasValue, ((WeatherObservation) wo).getWindSpeed());
+			}
+		return m.listStatements().toList();
 	}
 
 	@Override
 	protected SensorObservation createObservation(Object data) {
-		SensorObservation wo = DataWrapper.getAarhusWeatherObservation((CsvReader) data, ed);
-		DataWrapper.waitForInterval(currentObservation, wo, startDate, getRate());
-		this.currentObservation = wo;
-		return wo;
+		try {
+			// CsvReader streamData = (CsvReader) data;
+			int hum = Integer.parseInt(streamData.get("hum"));
+			double tempm = Double.parseDouble(streamData.get("tempm"));
+			double wspdm = Double.parseDouble(streamData.get("wspdm"));
+			Date obTime = sdf.parse(streamData.get("TIMESTAMP"));
+			WeatherObservation wo = new WeatherObservation(tempm, hum, wspdm, obTime);
+			logger.debug(ed.getServiceId() + ": streaming record @" + wo.getObTimeStamp());
+			wo.setObId("AarhusWeatherObservation-" + (int) Math.random() * 1000);
+			// this.currentObservation = wo;
+			DataWrapper.waitForInterval(currentObservation, wo, startDate, getRate());
+			this.currentObservation = wo;
+			return wo;
+		} catch (NumberFormatException | IOException | ParseException e) {
+			e.printStackTrace();
+		}
+		return null;
+
+		// return wo;
 
 	}
 

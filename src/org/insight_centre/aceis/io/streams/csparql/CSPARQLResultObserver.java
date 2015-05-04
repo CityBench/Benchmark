@@ -58,6 +58,9 @@ public class CSPARQLResultObserver extends RDFStreamFormatter {
 					logger.error("NULL ob Id detected.");
 				if (!capturedObIds.contains(obid)) {
 					capturedObIds.add(obid);
+					// uncomment for testing the completeness, i.e., showing how many observations are captured
+					// logger.info("CQELS result arrived " + capturedResults.size() + ", obs size: "
+					// + capturedObIds.size() + ", result: " + result);
 					try {
 						SensorObservation so = CityBench.obMap.get(obid);
 						if (so == null)

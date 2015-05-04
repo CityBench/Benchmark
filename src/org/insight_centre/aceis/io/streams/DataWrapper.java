@@ -52,7 +52,7 @@ public class DataWrapper {
 		}
 	}
 
-	public synchronized static SensorObservation getAarhusTrafficObservation(CsvReader streamData, EventDeclaration ed) {
+	public static SensorObservation getAarhusTrafficObservation(CsvReader streamData, EventDeclaration ed) {
 		try {
 			// CsvReader streamData = (CsvReader) objData;
 			AarhusTrafficObservation data;

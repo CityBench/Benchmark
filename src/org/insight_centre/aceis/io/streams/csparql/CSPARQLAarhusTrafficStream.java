@@ -27,6 +27,7 @@ import org.insight_centre.aceis.io.streams.DataWrapper;
 import org.insight_centre.aceis.io.streams.cqels.CQELSAarhusPollutionStream;
 import org.insight_centre.aceis.observations.AarhusTrafficObservation;
 import org.insight_centre.aceis.observations.SensorObservation;
+import org.insight_centre.citybench.main.CityBench;
 //import org.insight_centre.aceis.utils.test.Simulator2.QosSimulationMode;
 //import org.insight_centre.aceis.utils.test.jwsTest.JWSTest;
 //import org.insight_centre.aceis.utils.test.jwsTest.JWSUtils;
@@ -199,10 +200,36 @@ public class CSPARQLAarhusTrafficStream extends CSPARQLSensorStream implements R
 
 	@Override
 	protected SensorObservation createObservation(Object objData) {
-		SensorObservation so = DataWrapper.getAarhusTrafficObservation((CsvReader) objData, ed);
-		DataWrapper.waitForInterval(currentObservation, so, startDate, getRate());
-		this.currentObservation = so;
-		return so;
+		// SensorObservation so = DataWrapper.getAarhusTrafficObservation((CsvReader) objData, ed);
+		// DataWrapper.waitForInterval(currentObservation, so, startDate, getRate());
+		// this.currentObservation = so;
+		// return so;
+		try {
+			// CsvReader streamData = (CsvReader) objData;
+			AarhusTrafficObservation data;
+			// if (!this.txtFile.contains("mean"))
+			data = new AarhusTrafficObservation(Double.parseDouble(streamData.get("REPORT_ID")),
+					Double.parseDouble(streamData.get("avgSpeed")), Double.parseDouble(streamData.get("vehicleCount")),
+					Double.parseDouble(streamData.get("avgMeasuredTime")), 0, 0, null, null, 0.0, 0.0, null, null, 0.0,
+					0.0, null, null, streamData.get("TIMESTAMP"));
+			String obId = "AarhusTrafficObservation-" + streamData.get("_id");
+			Double distance = Double.parseDouble(((TrafficReportService) ed).getDistance() + "");
+			if (data.getAverageSpeed() != 0)
+				data.setEstimatedTime(distance / data.getAverageSpeed());
+			else
+				data.setEstimatedTime(-1.0);
+			if (distance != 0)
+				data.setCongestionLevel(data.getVehicle_count() / distance);
+			else
+				data.setCongestionLevel(-1.0);
+			data.setObId(obId);
+			DataWrapper.waitForInterval(currentObservation, data, startDate, getRate());
+			this.currentObservation = data;
+			return data;
+		} catch (NumberFormatException | IOException e) {
+			e.printStackTrace();
+		}
+		return null;
 	}
 
 	public Date getEndDate() {
@@ -219,7 +246,40 @@ public class CSPARQLAarhusTrafficStream extends CSPARQLSensorStream implements R
 
 	@Override
 	protected List<Statement> getStatements(SensorObservation data) throws NumberFormatException, IOException {
-		return DataWrapper.getAarhusTrafficStatements((AarhusTrafficObservation) data, ed);
+		// return DataWrapper.getAarhusTrafficStatements((AarhusTrafficObservation) data, ed);
+		Model m = ModelFactory.createDefaultModel();
+		if (ed != null)
+			for (String pStr : ed.getPayloads()) {
+				// if (s.contains("EstimatedTime")) {
+				// Resource observedProperty = m.createResource(s);
+				String obId = data.getObId();
+				Resource observation = m.createResource(RDFFileManager.defaultPrefix + obId + UUID.randomUUID());
+				CityBench.obMap.put(observation.toString(), data);
+				// data.setObId(observation.toString());
+				// System.out.println("OB: " + observation.toString());
+				observation.addProperty(RDF.type, m.createResource(RDFFileManager.ssnPrefix + "Observation"));
+
+				Resource serviceID = m.createResource(ed.getServiceId());
+				observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedBy"), serviceID);
+				observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedProperty"),
+						m.createResource(pStr.split("\\|")[2]));
+				Property hasValue = m.createProperty(RDFFileManager.saoPrefix + "hasValue");
+				// System.out.println("Annotating: " + observedProperty.toString());
+				if (pStr.contains("AvgSpeed"))
+					observation.addLiteral(hasValue, ((AarhusTrafficObservation) data).getAverageSpeed());
+				else if (pStr.contains("VehicleCount")) {
+					double value = ((AarhusTrafficObservation) data).getVehicle_count();
+					observation.addLiteral(hasValue, value);
+				} else if (pStr.contains("MeasuredTime"))
+					observation.addLiteral(hasValue, ((AarhusTrafficObservation) data).getAvgMeasuredTime());
+				else if (pStr.contains("EstimatedTime"))
+					observation.addLiteral(hasValue, ((AarhusTrafficObservation) data).getEstimatedTime());
+				else if (pStr.contains("CongestionLevel"))
+					observation.addLiteral(hasValue, ((AarhusTrafficObservation) data).getCongestionLevel());
+				// break;
+				// }
+			}
+		return m.listStatements().toList();
 	}
 
 	public boolean isForJWSTest() {
@@ -232,9 +292,9 @@ public class CSPARQLAarhusTrafficStream extends CSPARQLSensorStream implements R
 		// logger.info("EventDeclaration: " + this.ed);
 		try {
 			// Reads csv document for traffic metadata
-
+			boolean completed = false;
 			while (streamData.readRecord() && !stop) {
-				cnt += 1;
+
 				Date obTime;
 
 				if (!this.txtFile.contains("mean"))
@@ -251,6 +311,20 @@ public class CSPARQLAarhusTrafficStream extends CSPARQLSensorStream implements R
 				}
 
 				AarhusTrafficObservation data = (AarhusTrafficObservation) this.createObservation(streamData);
+				cnt += 1;
+				if (cnt >= 1000)
+					try {
+						if (!completed) {
+							logger.info("My mission completed: " + this.getIRI());
+							completed = true;
+						}
+						Thread.sleep(sleep);
+						continue;
+					} catch (InterruptedException e) {
+
+						e.printStackTrace();
+
+					}
 				List<Statement> stmts = this.getStatements(data);
 				long messageByte = 0;
 				for (Statement st : stmts) {

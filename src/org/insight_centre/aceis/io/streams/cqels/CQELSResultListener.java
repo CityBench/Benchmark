@@ -2,6 +2,7 @@ package org.insight_centre.aceis.io.streams.cqels;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -48,14 +49,18 @@ public class CQELSResultListener implements ContinuousListener {
 						latencies.put(varStr, (System.currentTimeMillis() - initTime));
 					}
 				}
-				// logger.info("var name: " + varName + ", value: " + varStr);
 				result += " " + varStr;
 
 			}
 			// logger.info("CQELS result arrived: " + result);
 			if (!capturedResults.contains(result)) {
 				capturedResults.add(result);
+				// uncomment for testing the completeness, i.e., showing how many observations are captured
+				// logger.info("CQELS result arrived " + capturedResults.size() + ", obs size: " + capturedObIds.size()
+				// + ", result: " + result);
 				CityBench.pm.addResults(getUri(), latencies, 1);
+			} else {
+				logger.debug("CQELS result discarded: " + result);
 			}
 
 		} catch (Exception e) {
