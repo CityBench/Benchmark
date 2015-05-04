@@ -24,11 +24,13 @@ CityBench is a java-based benchmarking toolset for RSP engines, currently CQELS 
 3. Use "java -jar" command to execute the CityBench.jar
 
 ##Configuration file
-* dataset = dataset/<your_sensor_repository_file>  // tell CityBench where to look for static background knowledge.
-* ontology = <your_ontology_folder> // tell CityBench where to look for ontologies used.
-* streams = <your_streams_folder> // tell CityBench where to look for raw data to simulate sensor streams.
-* cqels_query = <your_cqels_queries_folder> // tell CityBench where to look for cqels queries.
-* csparql_query = <your_csparql_queries_folder> // tell CityBench where to look for csparql queries.
+* dataset = dataset/[your_sensor_repository_file]  // tell CityBench where to look for static background knowledge.
+* ontology = [your_ontology_folder] // tell CityBench where to look for ontologies used.
+* streams = [your_streams_folder] // tell CityBench where to look for raw data to simulate sensor streams.
+* cqels_query = [your_cqels_queries_folder] // tell CityBench where to look for cqels queries.
+* csparql_query = [your_csparql_queries_folder] // tell CityBench where to look for csparql queries.
+
+// All paths are relative path to the project root
 
 // Normally if you use the downloaded resources as they are, you would not need to change the default content in the configuration file. The exception is the dataset property: you might want to change the default sensor repositories and use a different repository file (e.g., dataset/simrepo-5-10.n3) in order to test the performance of the cqels engine with different KB sizes loaded
 
