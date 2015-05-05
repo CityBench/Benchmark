@@ -3,7 +3,7 @@ select ?obId1
 
 where {
 
- stream <http://www.insight-centre.org/dataset/SampleEventService#AarhusWeatherData0> [range 6000ms slide 1s] 
+ stream <http://www.insight-centre.org/dataset/SampleEventService#AarhusWeatherData0> [range 3s ] 
 {?obId1 a ?ob.
 ?obId1 <http://purl.oclc.org/NET/ssnx/ssn#observedProperty> ?p1.
 ?obId1 <http://purl.oclc.org/NET/sao/hasValue> ?v1.

@@ -8,7 +8,7 @@ where {
 ?p1   a <http://www.insight-centre.org/citytraffic#CongestionLevel>.
 
 
-stream <http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData186979> [range 3000ms slide 1s]
+stream <http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData186979> [range 3000ms]
 {?obId1 a ?ob.
 ?obId1 <http://purl.oclc.org/NET/ssnx/ssn#observedProperty> ?p1.
 ?obId1 <http://purl.oclc.org/NET/sao/hasValue> ?v1.

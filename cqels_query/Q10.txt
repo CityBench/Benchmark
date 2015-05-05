@@ -13,13 +13,13 @@ where {
 
 ### not supported in cqels
 ### BIND (?v1+?v2) as ?sumOfAPI
-stream <http://www.insight-centre.org/dataset/SampleEventService#AarhusPollutionData201399> [range 2s slide 1s] 
+stream <http://www.insight-centre.org/dataset/SampleEventService#AarhusPollutionData201399> [range 3s ] 
 {?obId1 a ?ob.
 ?obId1 <http://purl.oclc.org/NET/ssnx/ssn#observedProperty> ?p1.
 ?obId1 <http://purl.oclc.org/NET/sao/hasValue> ?v1.
 ?obId1 <http://purl.oclc.org/NET/ssnx/ssn#observedBy> <http://www.insight-centre.org/dataset/SampleEventService#AarhusPollutionData201399>.
 }
-stream <http://www.insight-centre.org/dataset/SampleEventService#AarhusPollutionData197626> [range 2s slide 1s] 
+stream <http://www.insight-centre.org/dataset/SampleEventService#AarhusPollutionData197626> [range 3s ] 
 {?obId2 a ?ob.
 ?obId2 <http://purl.oclc.org/NET/ssnx/ssn#observedProperty> ?p2.
 ?obId2 <http://purl.oclc.org/NET/sao/hasValue> ?v2.

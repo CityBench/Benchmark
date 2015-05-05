@@ -17,7 +17,7 @@ graph <culturalevents> {
  
 }
 
- stream <http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505> [range 3000ms slide 1s]
+ stream <http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505> [range 3000ms ]
 {?obId2 a ?ob.
 ?obId2 <http://purl.oclc.org/NET/ssnx/ssn#observedProperty> ?p2.
 ?obId2 <http://purl.oclc.org/NET/sao/hasValue> ?v2.
