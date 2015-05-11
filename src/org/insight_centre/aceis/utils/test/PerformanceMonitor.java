@@ -34,7 +34,7 @@ public class PerformanceMonitor implements Runnable {
 	private List<Double> memoryList = new ArrayList<Double>();;
 	private ConcurrentHashMap<String, Long> resultCntMap = new ConcurrentHashMap<String, Long>();
 	private CsvWriter cw;
-	private long resultInitTime = 0, currentTime = 0, globalInit = 0;
+	private long resultInitTime = 0, lastCheckPoint = 0, globalInit = 0;
 	private boolean stop = false;
 	private List<String> qList;
 	private static final Logger logger = LoggerFactory.getLogger(PerformanceMonitor.class);
@@ -66,7 +66,6 @@ public class PerformanceMonitor implements Runnable {
 		// cw.flush();
 		// cw.
 		this.globalInit = System.currentTimeMillis();
-		this.resultInitTime = System.currentTimeMillis();
 	}
 
 	public void run() {
@@ -74,43 +73,43 @@ public class PerformanceMonitor implements Runnable {
 		while (!stop) {
 			try {
 				if (((System.currentTimeMillis() - this.globalInit) > 1.5 * duration)
-						|| (duration != 0 && (System.currentTimeMillis() - this.resultInitTime) > (30000 + duration))) {
+						|| (duration != 0 && resultInitTime != 0 && (System.currentTimeMillis() - this.resultInitTime) > (30000 + duration))) {
 					this.cw.flush();
 					this.cw.close();
 					logger.info("Stopping after " + (System.currentTimeMillis() - this.globalInit) + " ms.");
 					this.cleanup();
 					logger.info("Experimment stopped.");
 					System.exit(0);
-				} else {
-					if (this.currentTime != 0 && (System.currentTimeMillis() - this.currentTime) >= 60000) {
-						minuteCnt += 1;
+				}
 
-						this.currentTime = System.currentTimeMillis();
-						cw.write(minuteCnt + "");
-						for (String qid : this.qList) {
-							double latency = 0.0;
-							for (long l : this.latencyMap.get(qid))
-								latency += l;
-							latency = (latency + 0.0) / (this.latencyMap.get(qid).size() + 0.0);
-							cw.write(latency + "");
+				if (this.lastCheckPoint != 0 && (System.currentTimeMillis() - this.lastCheckPoint) >= 60000) {
+					minuteCnt += 1;
 
-						}
-						// for (String qid : this.qList)
-						// cw.write((this.resultCntMap.get(qid) / (this.duplicates + 0.0)) + "");
-						double memory = 0.0;
-						for (double m : this.memoryList)
-							memory += m;
-						memory = memory / (this.memoryList.size() + 0.0);
-						cw.write(memory + "");
-						cw.endRecord();
-						cw.flush();
-						logger.info("Results logged.");
+					this.lastCheckPoint = System.currentTimeMillis();
+					cw.write(minuteCnt + "");
+					for (String qid : this.qList) {
+						double latency = 0.0;
+						for (long l : this.latencyMap.get(qid))
+							latency += l;
+						latency = (latency + 0.0) / (this.latencyMap.get(qid).size() + 0.0);
+						cw.write(latency + "");
 
-						// empty memory and latency lists
-						this.memoryList.clear();
-						for (Entry<String, List<Long>> en : this.latencyMap.entrySet()) {
-							en.getValue().clear();
-						}
+					}
+					// for (String qid : this.qList)
+					// cw.write((this.resultCntMap.get(qid) / (this.duplicates + 0.0)) + "");
+					double memory = 0.0;
+					for (double m : this.memoryList)
+						memory += m;
+					memory = memory / (this.memoryList.size() + 0.0);
+					cw.write(memory + "");
+					cw.endRecord();
+					cw.flush();
+					logger.info("Results logged.");
+
+					// empty memory and latency lists
+					this.memoryList.clear();
+					for (Entry<String, List<Long>> en : this.latencyMap.entrySet()) {
+						en.getValue().clear();
 					}
 				}
 
@@ -166,6 +165,7 @@ public class PerformanceMonitor implements Runnable {
 				logger.info("Current performance: L - " + currentLatency + ", Cnt: " + this.resultCntMap + ", Mem - "
 						+ usedMB);// + ", monitoring overhead - " + overhead);
 				Thread.sleep(5000);
+
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -205,7 +205,7 @@ public class PerformanceMonitor implements Runnable {
 	public synchronized void addResults(String qid, Map<String, Long> results, int cnt) {
 		if (this.resultInitTime == 0) {
 			this.resultInitTime = System.currentTimeMillis();
-			this.currentTime = System.currentTimeMillis();
+			this.lastCheckPoint = System.currentTimeMillis();
 		}
 		qid = qid.split("-")[0];
 		for (Entry en : results.entrySet()) {
