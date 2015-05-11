@@ -1,8 +1,10 @@
 package org.insight_centre.citybench.main;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -83,6 +85,9 @@ public class CityBench {
 			}
 			CityBench cb = new CityBench(prop, parameters);
 			cb.startTest();
+			// BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+			// System.out.print("Please press a key to stop the server.");
+			// reader.readLine();
 		} catch (IOException e) {
 			e.printStackTrace();
 			System.exit(0);
@@ -109,6 +114,7 @@ public class CityBench {
 
 	private double rate = 1.0; // stream rate factor
 	public static ConcurrentHashMap<String, Object> registeredQueries = new ConcurrentHashMap<String, Object>();
+	public static List startedStreamObjects = new ArrayList();
 	private String resultName;
 	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
 	private Date start, end;
@@ -189,9 +195,9 @@ public class CityBench {
 				+ this.rate + ", frequency - " + this.frequency + ", duration - " + this.duration + ", duplicates - "
 				+ this.queryDuplicates + ", start - " + this.start + ", end - " + this.end);
 
-		this.resultName = UUID.randomUUID() + " r=" + this.rate + ",f=" + this.frequency + ",d=" + this.duration
-				+ ",dup=" + this.queryDuplicates + ",e=" + this.engine + ",q=" + this.queries + ",start="
-				+ this.sdf.format(start) + ",end=" + this.sdf.format(end);// + parameters.toString();
+		this.resultName = UUID.randomUUID() + " r=" + this.rate + ",f=" + this.frequency + ",dup="
+				+ this.queryDuplicates + ",e=" + this.engine + ",q=" + this.queries;// +
+		// parameters.toString();
 		// initialize datasets
 		try {
 			tempContext = RDFFileManager.initializeCQELSContext(this.dataset, ReasonerRegistry.getRDFSReasoner());
@@ -410,6 +416,7 @@ public class CityBench {
 				css.setRate(this.rate);
 				css.setFreq(this.frequency);
 				new Thread(css).start();
+				startedStreamObjects.add(css);
 			}
 		}
 
@@ -447,6 +454,7 @@ public class CityBench {
 				css.setFreq(this.frequency);
 				csparqlEngine.registerStream(css);
 				new Thread(css).start();
+				startedStreamObjects.add(css);
 			}
 		}
 

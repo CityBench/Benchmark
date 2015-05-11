@@ -33,19 +33,20 @@ public class DataWrapper {
 	public static final SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
 
 	public static void waitForInterval(SensorObservation previous, SensorObservation current, Date init, double rate) {
-
-		long previousTime = 0;
-		if (previous != null)
-			previousTime = previous.getObTimeStamp().getTime();
-		else
-			previousTime = init.getTime();
-		// List<Statement> stmts = this.getStatements(po);
 		if (rate != 1.0) {
 			try {
+				long previousTime = 0;
+				if (previous != null)
+					previousTime = previous.getObTimeStamp().getTime();
+				else
+					previousTime = init.getTime();
+				// List<Statement> stmts = this.getStatements(po);
+
 				// logger.info("previous: " + previousTime + ", current: " + current.getObTimeStamp().getTime());
 				long ms = (long) ((current.getObTimeStamp().getTime() - previousTime));
 				// logger.info("waiting..." + ms / rate);
 				Thread.sleep((long) (ms / rate));
+				current.setSysTimestamp(new Date());
 			} catch (Exception e) {
 				e.printStackTrace();
 			}

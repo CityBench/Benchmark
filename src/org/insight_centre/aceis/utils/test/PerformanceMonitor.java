@@ -14,7 +14,9 @@ import java.util.Map.Entry;
 import java.util.concurrent.ConcurrentHashMap;
 
 import org.insight_centre.aceis.io.streams.cqels.CQELSResultListener;
+import org.insight_centre.aceis.io.streams.cqels.CQELSSensorStream;
 import org.insight_centre.aceis.io.streams.csparql.CSPARQLResultObserver;
+import org.insight_centre.aceis.io.streams.csparql.CSPARQLSensorStream;
 import org.insight_centre.aceis.observations.SensorObservation;
 import org.insight_centre.citybench.main.CityBench;
 import org.slf4j.Logger;
@@ -32,7 +34,7 @@ public class PerformanceMonitor implements Runnable {
 	private List<Double> memoryList = new ArrayList<Double>();;
 	private ConcurrentHashMap<String, Long> resultCntMap = new ConcurrentHashMap<String, Long>();
 	private CsvWriter cw;
-	private long globalInitTime = 0, currentTime = 0;
+	private long resultInitTime = 0, currentTime = 0, globalInit = 0;
 	private boolean stop = false;
 	private List<String> qList;
 	private static final Logger logger = LoggerFactory.getLogger(PerformanceMonitor.class);
@@ -54,31 +56,35 @@ public class PerformanceMonitor implements Runnable {
 		for (String qid : qList) {
 			latencyMap.put(qid, new ArrayList<Long>());
 			resultCntMap.put(qid, (long) 0);
-			cw.write("l-" + qid);
+			cw.write("latency-" + qid);
 		}
-		for (String qid : qList) {
-			cw.write("cnt-" + qid);
-		}
+		// for (String qid : qList) {
+		// cw.write("cnt-" + qid);
+		// }
 		cw.write("memory");
 		cw.endRecord();
 		// cw.flush();
 		// cw.
+		this.globalInit = System.currentTimeMillis();
+		this.resultInitTime = System.currentTimeMillis();
 	}
 
 	public void run() {
 		int minuteCnt = 0;
 		while (!stop) {
 			try {
-				if (this.currentTime != 0 && (System.currentTimeMillis() - this.currentTime) >= 60000) {
-					minuteCnt += 1;
-					if (duration != 0 && (System.currentTimeMillis() - this.globalInitTime) > (60000 + duration)) {
-						this.cw.flush();
-						this.cw.close();
-						logger.info("Stopping after " + duration + " ms.");
-						this.stop = true;
-						logger.info("System exit.");
-						System.exit(0);
-					} else {
+				if (((System.currentTimeMillis() - this.globalInit) > 1.5 * duration)
+						|| (duration != 0 && (System.currentTimeMillis() - this.resultInitTime) > (30000 + duration))) {
+					this.cw.flush();
+					this.cw.close();
+					logger.info("Stopping after " + (System.currentTimeMillis() - this.globalInit) + " ms.");
+					this.cleanup();
+					logger.info("Experimment stopped.");
+					System.exit(0);
+				} else {
+					if (this.currentTime != 0 && (System.currentTimeMillis() - this.currentTime) >= 60000) {
+						minuteCnt += 1;
+
 						this.currentTime = System.currentTimeMillis();
 						cw.write(minuteCnt + "");
 						for (String qid : this.qList) {
@@ -89,8 +95,8 @@ public class PerformanceMonitor implements Runnable {
 							cw.write(latency + "");
 
 						}
-						for (String qid : this.qList)
-							cw.write((this.resultCntMap.get(qid) / (this.duplicates + 0.0)) + "");
+						// for (String qid : this.qList)
+						// cw.write((this.resultCntMap.get(qid) / (this.duplicates + 0.0)) + "");
 						double memory = 0.0;
 						for (double m : this.memoryList)
 							memory += m;
@@ -168,11 +174,37 @@ public class PerformanceMonitor implements Runnable {
 				e.printStackTrace();
 			}
 		}
+		System.exit(0);
+	}
+
+	private void cleanup() {
+		if (CityBench.csparqlEngine != null) {
+			// CityBench.csparqlEngine.destroy();
+			for (Object css : CityBench.startedStreamObjects) {
+				((CSPARQLSensorStream) css).stop();
+			}
+		} else {
+			// CityBench.cqelsContext.engine().
+			for (Object css : CityBench.startedStreamObjects) {
+				((CQELSSensorStream) css).stop();
+			}
+		}
+		this.stop = true;
+		System.gc();
+
+	}
+
+	public boolean isStop() {
+		return stop;
+	}
+
+	public void setStop(boolean stop) {
+		this.stop = stop;
 	}
 
 	public synchronized void addResults(String qid, Map<String, Long> results, int cnt) {
-		if (this.globalInitTime == 0) {
-			this.globalInitTime = System.currentTimeMillis();
+		if (this.resultInitTime == 0) {
+			this.resultInitTime = System.currentTimeMillis();
 			this.currentTime = System.currentTimeMillis();
 		}
 		qid = qid.split("-")[0];
