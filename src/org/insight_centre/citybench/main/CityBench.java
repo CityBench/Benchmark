@@ -200,8 +200,11 @@ public class CityBench {
 		// parameters.toString();
 		// initialize datasets
 		try {
-			tempContext = RDFFileManager.initializeCQELSContext(this.dataset, ReasonerRegistry.getRDFSReasoner());
-			er = RDFFileManager.buildRepoFromFile(0);
+		if (this.engine == RSPEngine.cqels)
+				tempContext = RDFFileManager.initializeCQELSContext(this.dataset, ReasonerRegistry.getRDFSReasoner());
+			else {
+				RDFFileManager.initializeCSPARQLContext(this.dataset, ReasonerRegistry.getRDFSReasoner());
+			}	er = RDFFileManager.buildRepoFromFile(0);
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.exit(0);
